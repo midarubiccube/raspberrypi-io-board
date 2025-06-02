@@ -1,0 +1,9 @@
+/*.pretty
+/gerber
+/CM5symbol
+/CM5IO.3dshapes
+/*-backups
+*.pdf
+
+fp-*
+*bak
