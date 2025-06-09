@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 5.6,
-          "width": 5.6
+          "drill": 1.6002,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -69,7 +69,7 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
-        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_gap_out_of_range": "ignore",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
@@ -96,12 +96,12 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -189,7 +189,9 @@
         0.5,
         1.0,
         2.0,
-        3.0
+        2.5,
+        3.0,
+        4.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -621,7 +623,7 @@
       },
       {
         "netclass": "90R",
-        "pattern": "/USB/USB*"
+        "pattern": "/USB HUB/USB*"
       },
       {
         "netclass": "90R",
@@ -645,7 +647,7 @@
       },
       {
         "netclass": "90R",
-        "pattern": "/USB/SS_*"
+        "pattern": "/USB HUB/SS_*"
       },
       {
         "netclass": "90R",
@@ -662,6 +664,14 @@
       {
         "netclass": "50R",
         "pattern": "/Ethernet PHY/RXD*"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM5_GPIO/nPWR_LED"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/MCU/USB_*"
       }
     ]
   },
@@ -673,7 +683,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "../../../デスクトップ/mainboard4.dsn",
-      "step": "",
+      "step": "mainboard4.step",
       "svg": "",
       "vrml": ""
     },
@@ -930,6 +940,10 @@
       "ルート"
     ],
     [
+      "eab21d37-4422-449e-812a-90afc228ebcf",
+      "Power"
+    ],
+    [
       "5e5501ac-41c8-4cac-b3fc-c2c46c035d54",
       "CM5_HighSpeed"
     ],
@@ -942,28 +956,12 @@
       "CM5_PCIe"
     ],
     [
-      "eab21d37-4422-449e-812a-90afc228ebcf",
-      "Power"
-    ],
-    [
-      "70d148b4-b67b-41b1-be01-2eb00acb8ec3",
-      "MCU"
-    ],
-    [
-      "6416bab4-efd4-4cc0-95d7-68f4e661b691",
-      "CANFD1"
+      "8b7f7566-5318-467c-baab-209769ce6529",
+      "USB HUB"
     ],
     [
       "5db2a135-33ff-4812-ab9d-2394338dfef8",
       "USB2SATA"
-    ],
-    [
-      "edb81cb4-22a4-4ac0-9b4c-9e93cbd8a585",
-      "CANFD2"
-    ],
-    [
-      "8b7f7566-5318-467c-baab-209769ce6529",
-      "USB HUB"
     ],
     [
       "3546f414-4018-45c7-a00a-bf02d214bf7f",
@@ -972,6 +970,22 @@
     [
       "4fc6aed4-b6ec-46a7-b9d1-1f9060000df7",
       "Ethernet PHY"
+    ],
+    [
+      "70d148b4-b67b-41b1-be01-2eb00acb8ec3",
+      "MCU"
+    ],
+    [
+      "96c222f9-4b91-4480-a910-25e2ecb9014a",
+      "IMU"
+    ],
+    [
+      "6416bab4-efd4-4cc0-95d7-68f4e661b691",
+      "CANFD1"
+    ],
+    [
+      "edb81cb4-22a4-4ac0-9b4c-9e93cbd8a585",
+      "CANFD2"
     ]
   ],
   "text_variables": {}

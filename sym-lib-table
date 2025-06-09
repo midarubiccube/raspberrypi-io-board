@@ -4,6 +4,7 @@
   (lib (name "10029364")(type "KiCad")(uri "${KIPRJMOD}/CM5symbol/10029364-011TRLF.kicad_sym")(options "")(descr ""))
   (lib (name "JMS578")(type "KiCad")(uri "${KIPRJMOD}/JMS578.kicad_sym")(options "")(descr ""))
   (lib (name "TCKE800NL")(type "KiCad")(uri "${KIPRJMOD}/CM5symbol/TCKE800NL.kicad_sym")(options "")(descr ""))
-  (lib (name "USB5734")(type "KiCad")(uri "${KIPRJMOD}/CM5symbol/USB5734_MR.kicad_sym")(options "")(descr ""))
   (lib (name "RJMG201K21120FR")(type "KiCad")(uri "${KIPRJMOD}/CM5symbol/RJMG201K21120FR.kicad_sym")(options "")(descr ""))
+  (lib (name "BNO086")(type "KiCad")(uri "${KIPRJMOD}/CM5symbol/BNO086.kicad_sym")(options "")(descr ""))
+  (lib (name "USB5744")(type "KiCad")(uri "${KIPRJMOD}/CM5symbol/USB5744_2G.kicad_sym")(options "")(descr ""))
 )
