@@ -1,5 +1,5 @@
 # raspberrypi-io-board
-
+[回路図](https://github.com/midarubiccube/raspberrypi-io-board/blob/master/mainboard4.pdf)
 ## 基板画像
 ![基板](https://raw.githubusercontent.com/midarubiccube/raspberrypi-io-board/refs/heads/master/image/image.png)
 ![表](https://raw.githubusercontent.com/midarubiccube/raspberrypi-io-board/refs/heads/master/image/front.png)
