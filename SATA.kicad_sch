@@ -4277,16 +4277,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 46.99) (xy 180.34 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "358d97c5-565f-45ea-ab3f-1bd657550e43")
-	)
-	(wire
-		(pts
 			(xy 107.95 137.16) (xy 107.95 128.27)
 		)
 		(stroke
@@ -4327,7 +4317,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 59.69) (xy 180.34 59.69)
+			(xy 175.26 57.15) (xy 180.34 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4557,7 +4547,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 49.53) (xy 175.26 49.53)
+			(xy 180.34 46.99) (xy 175.26 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4754,16 +4744,6 @@
 			(type default)
 		)
 		(uuid "a6456208-ed9b-4ac2-8d06-1563407692a7")
-	)
-	(wire
-		(pts
-			(xy 180.34 57.15) (xy 180.34 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6aee816-07bf-4f2c-b8ef-1f6af2699692")
 	)
 	(wire
 		(pts
@@ -5387,7 +5367,7 @@
 		(uuid "9108da85-0722-41f9-ac47-39f0c7d610e5")
 	)
 	(label "SATA_RXN"
-		(at 175.26 59.69 180)
+		(at 175.26 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5453,7 +5433,7 @@
 		(uuid "a5357c8a-c58b-40fe-9269-40bec846f809")
 	)
 	(label "SATA_TXP"
-		(at 175.26 49.53 180)
+		(at 175.26 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6462,7 +6442,7 @@
 		(dnp no)
 		(uuid "34d0ef9b-3980-41ff-b68a-84911611a80b")
 		(property "Reference" "C13"
-			(at 178.054 55.372 90)
+			(at 188.722 55.372 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6470,7 +6450,7 @@
 			)
 		)
 		(property "Value" "0.01uF"
-			(at 178.054 57.912 90)
+			(at 188.722 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9151,7 +9131,7 @@
 		(dnp no)
 		(uuid "e193ad24-6b16-4730-9e42-9b694ac21730")
 		(property "Reference" "C17"
-			(at 179.578 41.91 90)
+			(at 189.484 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,7 +9139,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 179.578 44.45 90)
+			(at 189.484 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9624,7 +9604,7 @@
 		(dnp no)
 		(uuid "f4aa488f-ed44-4c51-95c0-29e520778029")
 		(property "Reference" "C12"
-			(at 179.324 64.77 90)
+			(at 188.976 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,7 +9612,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 179.324 67.31 90)
+			(at 188.976 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)

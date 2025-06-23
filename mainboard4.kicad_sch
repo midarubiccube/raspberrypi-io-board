@@ -1485,7 +1485,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 110.49) (xy 149.86 110.49)
+			(xy 154.94 110.49) (xy 149.86 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1575,7 +1575,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 146.05) (xy 87.63 146.05)
+			(xy 81.28 142.24) (xy 87.63 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1585,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 143.51) (xy 156.21 143.51)
+			(xy 161.29 143.51) (xy 154.94 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1805,7 +1805,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 151.13) (xy 87.63 151.13)
+			(xy 81.28 148.59) (xy 87.63 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2075,7 +2075,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 110.49) (xy 156.21 143.51)
+			(xy 154.94 110.49) (xy 154.94 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2565,7 +2565,7 @@
 		(uuid "21d8b4d9-38c1-4365-ac46-a2b3844f9066")
 	)
 	(label "1.2V"
-		(at 87.63 151.13 180)
+		(at 87.63 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3243,7 +3243,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 87.63 146.05 0)
+		(at 87.63 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3252,7 +3252,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae3c31b8-2109-426e-b540-f1d39ba26630")
 		(property "Reference" "#PWR0105"
-			(at 87.63 149.86 0)
+			(at 87.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3261,7 +3261,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 87.63 140.97 0)
+			(at 87.63 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3269,7 +3269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 146.05 0)
+			(at 87.63 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +3278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 146.05 0)
+			(at 87.63 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3287,7 +3287,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 87.63 146.05 0)
+			(at 87.63 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,8 +5083,8 @@
 		)
 	)
 	(sheet
-		(at 227.33 82.55)
-		(size 24.13 27.94)
+		(at 227.33 95.25)
+		(size 24.13 15.24)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -5094,7 +5094,7 @@
 		)
 		(uuid "96c222f9-4b91-4480-a910-25e2ecb9014a")
 		(property "Sheetname" "IMU"
-			(at 227.33 81.8384 0)
+			(at 227.33 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,7 +5103,7 @@
 			)
 		)
 		(property "Sheetfile" "imu.kicad_sch"
-			(at 231.902 80.518 0)
+			(at 231.902 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +5259,7 @@
 			(uuid "79480bc9-ac50-424e-8299-7a05c8a1a9eb")
 		)
 		(pin "3.3V" output
-			(at 81.28 146.05 0)
+			(at 81.28 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,7 +5269,7 @@
 			(uuid "496b23fb-900c-42a2-a8ff-26c51accf119")
 		)
 		(pin "1.2V" output
-			(at 81.28 151.13 0)
+			(at 81.28 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)

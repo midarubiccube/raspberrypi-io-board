@@ -1,0 +1,88 @@
+Reference	Value	Datasheet	Footprint	Qty	DNP
+C3,C5,C6,C12,C14,C17,C45,C46,C47,C48,C49,C50,C51,C52,C53,C54,C59,C61,C64,C65,C66,C67,C68,C69,C70,C71,C75,C77,C78,C79,C80,C81,C82,C83,C84,C85,C87,C89,C90,C91,C92,C93,C94,C95,C96,C97,C98,C99,C100,C101,C102,C105,C106,C107,C108,C109,C110,C111,C112,C113,C118,C119,C120,C121,C122,C123,C124,C125,C126,C128,C129,C131,C132,C134,C137,C138,C139,C140,C142,C143,C144,C145	0.1uF	~	Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder	82	
+C4,C37,C38,C39,C41,C42,C114,C115,C116,C117,C127,C130	10u	https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf	Capacitor_SMD:C_0805_2012Metric	12	
+C7,C8,C57,C58,C72,C73,C74,C76,C86,C88	15pF	~	Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder	10	
+C11,C26	100n	https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf	Capacitor_SMD:C_0402_1005Metric	2	
+C13	0.01uF	https://akizukidenshi.com/catalog/g/g116112/	Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder	1	
+C15	0.1μF	https://akizukidenshi.com/catalog/g/g113377/	Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder	1	
+C16,C27	100uF		Capacitor_Tantalum_SMD:CP_EIA-7343-30_AVX-N_Pad2.25x2.55mm_HandSolder	2	
+C18,C19,C20,C21,C28,C29,C30,C31	22uF	~	Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder	8	
+C22,C32	0.1uF	~	Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder	2	
+C23,C25,C33,C35	10μF	~	Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder	4	
+C24,C34	0.01uF	https://akizukidenshi.com/catalog/g/g116112/	Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder	2	
+C36,C44	1μF	~	Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder	2	
+C40	1μF	~	Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	1	
+C43	100uF		Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D	1	
+C55,C56,C60	100n	~	Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder	3	
+C62	1u	~	Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder	1	
+C63	470p	~	Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder	1	
+C103,C104	10uF	~	Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder	2	
+C133	22pF	~	Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder	1	
+C135,C136,C141	100n	https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf	Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder	3	
+D1,D9	LED Green	http://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf	LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder	2	
+D2	LED Red	http://optoelectronics.liteon.com/upload/download/DS22-2000-210/LTST-S270KRKT.pdf	LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder	1	
+D3,D4,D5,D6,D8,D10,D11	LED	~	LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder	7	
+D7	WS2812B	https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf	LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm	1	
+D12	D	~	CM5IO:US2H_TOS	1	
+D13	D	~	CM5IO:SOD-963   CST2C_TOS	1	
+FB1,FB2,FB3,FB4,FB5	FerriteBead	~	Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder	5	
+J1,J2	Conn_01x04_Pin	~	CM5IO:pocketheader4	2	
+J3	Bus_M.2_Socket_B	http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=154	CM5IO:M.2 M Key socket	1	
+J4	JST_SHBM04B-SRSS-TB		Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical	1	
+J5	THD-20-R	https://www.toby.co.uk/uploads/publications/1673.pdf	Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical	1	
+J6	Conn_02x07_Odd_Even	~	CM5IO:connector	1	
+J7	Bus_M.2_Socket_E	https://web.archive.org/web/20200613074028/http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150	CM5IO:M.2 E Key socket	1	
+J8	Barrel_Jack	https://www.toby.co.uk/uploads/publications/842.pdf	CM5IO:BarrelJack_Horizontal	1	
+J9	RJMG201K21120FR		CM5IO:AMPHENOL_RJMG201K21120FR	1	
+J10	690-019-298-412	https://www.tme.eu/Document/f15dffbcfad8545e17826f72d36911c8/206A-SEAN-R03.pdf	CM5IO:EDAC 690-019-298-412	1	
+J11,J12	USB3_A	~	CM5IO:MTCONN_UBAF30-D2011	2	
+J13	USB_C_Receptacle_USB2.0_16P	https://akizukidenshi.com/catalog/g/g114356/	Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A	1	
+J14	Micro_SD_Card_Det	https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1	CM5IO:DM3ATSFPEJM542	1	
+L1	6.8	~	CM5IO:INDPM7066X300N	1	
+L2	6.8uH	~	CM5IO:INDPM7066X300N	1	
+L3	4.7uH	~	Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder	1	
+L4	2.2uH	https://akizukidenshi.com/catalog/g/g114976/	Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder	1	
+M1,M2,M3,M4	M.2 Solder Nut			4	
+M5	M.2 Screw			1	
+Module1	ComputeModule5-CM5	https://www.digikey.jp/ja/products/detail/amphenol-cs-fci/10164227-1001A1RLF/16908921	CM5IO:Raspberry-Pi-5-Compute-Module	1	
+Q1,Q2	TCKE800NL	https://akizukidenshi.com/catalog/g/g116580/	CM5IO:TCKE800NL	2	
+R1,R2,R38,R39,R40,R41,R50,R51,R52,R63	1k	-- ミックスされた値 --	Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	10	
+R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R31,R32,R33,R45,R48	10K	~	Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	15	
+R13,R20,R36,R47,R64,R69	10kΩ	~	Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	6	
+R14	31.6kΩ	~	Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	1	
+R15,R16,R21,R22,R65,R67	100kΩ		Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	6	
+R17,R25	36kΩ	~	Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	2	
+R18,R19	470R	https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf	Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	2	
+R23,R28,R49	1kΩ	https://akizukidenshi.com/catalog/g/g114122/	Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	3	
+R24	47kΩ	https://akizukidenshi.com/catalog/g/g129458/	Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	1	
+R26,R27,R68	5.1kΩ	~	Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	3	
+R29,R30	120Ω		Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	2	
+R34,R43,R46	33Ω	~	Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	3	
+R35,R37,R42,R44,R54,R55,R56,R57	49.9Ω	~	Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	8	
+R53,R58,R59,R61,R70	12kΩ	~	Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	5	
+R60,R62	320kΩ	~	Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	2	
+R66	47KΩ	~	Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder	1	
+SW1	Right angle Tact button		Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS	1	
+SW2	SW_DIP_x04	https://akizukidenshi.com/catalog/g/g108929/	Button_Switch_SMD:SW_DIP_SPSTx04_Slide_KingTek_DSHP04TS_W7.62mm_P1.27mm	1	
+SW3	SW_Push	https://akizukidenshi.com/catalog/g/g106185/	Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2	1	
+TP1,TP2,TP3,TP4	TestPoint		TestPoint:TestPoint_Pad_2.0x2.0mm	4	
+U1	74LVC1G07SE-7	https://www.diodes.com/assets/Datasheets/74LVC1G07.pdfhttps://www.digikey.jp/ja/products/detail/diodes-incorporated/74LVC1G07SE-7/2356534	Package_TO_SOT_SMD:SOT-353_SC-70-5	1	
+U2	BNO086		CM5IO:BNO086	1	
+U3	RT9742GGJ5	https://www.richtek.com/assets/product_file/RT9742/DS9742-00.pdf	Package_TO_SOT_SMD:SOT-23-5	1	
+U4,U6	ASEK-32.768KHZ-L-R-T	https://abracon.com/Oscillators/ASEK.pdf	Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm	2	
+U5	AP64502QSP-13	https://www.diodes.com/assets/Datasheets/AP64502Q.pdf	CM5IO:SOIC127P600X163-9N	1	
+U7	AP64502	https://www.diodes.com/assets/Datasheets/AP64502Q.pdf	CM5IO:SOIC127P600X163-9N	1	
+U8	CH221K	https://akizukidenshi.com/catalog/g/g118022/	Package_TO_SOT_SMD:SOT-23-6	1	
+U9,U10	MCP2562-E-SN	http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf	Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	2	
+U11	STM32H723VGTx	https://www.st.com/resource/en/datasheet/stm32h723vg.pdf	Package_QFP:LQFP-100_14x14mm_P0.5mm	1	
+U12	LAN8742A	http://ww1.microchip.com/downloads/en/DeviceDoc/8742a.pdf	Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm	1	
+U13	JMS578		Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm	1	
+U14,U18	CAT250xxx	http://www.onsemi.com/PowerSolutions/product.do?id=CAT25040	Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	2	
+U15	USB5744_2G		CM5IO:VQFN56_2G_MCH	1	
+U16	LAN9512	http://ww1.microchip.com/downloads/en/DeviceDoc/00002304A.pdf	Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.3x7.3mm	1	
+U17	AP3445LW6-7	https://www.digikey.jp/ja/products/detail/diodes-incorporated/AP3445LW6-7/9843276	Package_TO_SOT_SMD:SOT-23-6_Handsoldering	1	
+U19	RT9742SNGV	https://www.richtek.com/assets/product_file/RT9742/DS9742-10.pdf	Package_TO_SOT_SMD:TSOT-23_HandSoldering	1	
+Y1	32.768khz	~	Crystal:Crystal_SMD_MicroCrystal_CC5V-T1A-2Pin_4.1x1.5mm	1	
+Y2	16Mhz	~	Crystal:Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering	1	
+Y3,Y4,Y6	25Mhz	~	Crystal:Crystal_SMD_SeikoEpson_FA128-4Pin_2.0x1.6mm	3	
+Y5	30Mhz	~	Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm	1	

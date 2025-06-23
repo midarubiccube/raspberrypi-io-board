@@ -5,10 +5,7 @@
 	(uuid "3457afc5-3e4f-4220-81d1-b079f653a722")
 	(paper "A4")
 	(title_block
-		(title "Compute Module 5 IO Board - CM5 - Highspeed")
 		(rev "1")
-		(company "Copyright © 2024 Raspberry Pi Ltd.")
-		(comment 1 "www.raspberrypi.com")
 	)
 	(lib_symbols
 		(symbol "CM5IO:ComputeModule5-CM5"
