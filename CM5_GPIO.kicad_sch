@@ -10118,7 +10118,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 118.11) (xy 39.37 118.11)
+			(xy 25.4 118.11) (xy 39.37 118.11)
 		)
 		(stroke
 			(width 0)
@@ -11102,6 +11102,17 @@
 		)
 		(uuid "1046b8f3-2952-4d5e-9f5f-b7dcf2c8febc")
 	)
+	(label "+3.3v"
+		(at 25.4 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "121fe471-0da7-4484-8780-7ceabf8009a5")
+	)
 	(label "ETH_LEDG"
 		(at 104.14 41.91 0)
 		(fields_autoplaced yes)
@@ -11497,17 +11508,6 @@
 			(justify right bottom)
 		)
 		(uuid "44560957-4608-4517-be09-9a0b8f359abb")
-	)
-	(label "GPIO_VREF"
-		(at 25.4 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "46d408fa-dd49-4762-9c6e-4858cc3099bc")
 	)
 	(label "SD_PWR"
 		(at 139.7 44.45 0)
@@ -16030,72 +16030,6 @@
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/92b565bf-b0e5-4fdf-876c-4b44381d5705"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 20.32 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3854d5d-da76-43cd-a69f-5c410c0fa317")
-		(property "Reference" "#PWR083"
-			(at 20.32 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 20.32 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 20.32 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd717bc0-2333-494f-9984-f332bb090c73")
-		)
-		(instances
-			(project "mainboard4"
-				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/92b565bf-b0e5-4fdf-876c-4b44381d5705"
-					(reference "#PWR083")
 					(unit 1)
 				)
 			)
