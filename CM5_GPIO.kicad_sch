@@ -11014,9 +11014,9 @@
 		)
 		(uuid "e4a9ddd8-7ada-440b-a9de-a5d7da8f72b2")
 	)
-	(text "CM5Lite SDCARD I/F"
+	(text "SDCARD"
 		(exclude_from_sim no)
-		(at 139.7 30.48 0)
+		(at 136.906 28.956 0)
 		(effects
 			(font
 				(size 2.007 2.007)
@@ -13459,7 +13459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dda3560")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 142.621 47.0916 0)
 			(effects
 				(font
@@ -13567,7 +13567,7 @@
 		(instances
 			(project "CM5IO"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/92b565bf-b0e5-4fdf-876c-4b44381d5705"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -14975,7 +14975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d45bfa9-fbdc-42ee-b0c2-a4d4653f46dd")
-		(property "Reference" "C135"
+		(property "Reference" "C125"
 			(at 197.231 102.9716 0)
 			(effects
 				(font
@@ -15083,7 +15083,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/92b565bf-b0e5-4fdf-876c-4b44381d5705"
-					(reference "C135")
+					(reference "C125")
 					(unit 1)
 				)
 			)

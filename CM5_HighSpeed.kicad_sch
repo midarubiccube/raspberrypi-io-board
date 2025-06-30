@@ -3760,23 +3760,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -6.35 26.67 0)
+			(property "Reference" "J10"
+				(at 5.08 26.67 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "HDMI_A_1.4"
-				(at 10.16 26.67 0)
+			(property "Value" "690-019-298-412"
+				(at -2.54 -31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "CM5IO:EDAC 690-019-298-412"
 				(at 0.635 0 0)
 				(effects
 					(font
@@ -3785,7 +3787,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://en.wikipedia.org/wiki/HDMI"
+			(property "Datasheet" "https://www.tme.eu/Document/f15dffbcfad8545e17826f72d36911c8/206A-SEAN-R03.pdf"
 				(at 0.635 0 0)
 				(effects
 					(font
@@ -3794,7 +3796,61 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "HDMI 1.4+ type A connector"
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field4" "Farnell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" "2614936"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field6" "690-019-298-412"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field7" "EDAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Description" "HDMI Connector, Right Angle, 19 Contacts, Receptacle, Surface Mount, Surface Mount Right Angle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field8" "UCON00802"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3822,43 +3878,6 @@
 				)
 			)
 			(symbol "HDMI_A_1.4_0_0"
-				(polyline
-					(pts
-						(xy 8.128 16.51) (xy 8.128 18.034)
-					)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 16.51) (xy 0 18.034) (xy 0 17.272) (xy 1.905 17.272) (xy 1.905 18.034) (xy 1.905 16.51)
-					)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.667 18.034) (xy 4.318 18.034) (xy 4.572 17.78) (xy 4.572 16.764) (xy 4.318 16.51) (xy 2.667 16.51)
-						(xy 2.667 17.272)
-					)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
 					(at 7.62 -27.94 90)
 					(length 2.54)
@@ -3937,19 +3956,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 16.51) (xy 5.334 18.034) (xy 6.35 18.034) (xy 6.35 16.51) (xy 6.35 18.034) (xy 7.112 18.034)
-						(xy 7.366 17.78) (xy 7.366 16.51)
-					)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(polyline
@@ -6553,6 +6559,18 @@
 		)
 		(uuid "fdda0d01-b8e4-4efb-a3af-bbb2eaa42a6d")
 	)
+	(rectangle
+		(start 166.37 44.45)
+		(end 261.62 156.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 17ad21d2-1c6a-4736-bb70-3ca88ada35d8)
+	)
 	(text "Stacked USB connectors"
 		(exclude_from_sim no)
 		(at 231.648 128.524 0)
@@ -6563,6 +6581,16 @@
 			(justify right bottom)
 		)
 		(uuid "5a481fdc-186a-43c4-9b5c-4db5d29bb0e2")
+	)
+	(text "Display"
+		(exclude_from_sim no)
+		(at 175.768 51.308 0)
+		(effects
+			(font
+				(size 2.007 2.007)
+			)
+		)
+		(uuid "6ec5f44f-3455-4d2c-9b92-41716e7324ca")
 	)
 	(label "HDMI1_D1_N"
 		(at 40.64 109.22 0)
@@ -7929,7 +7957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005da83896")
-		(property "Reference" "C141"
+		(property "Reference" "C131"
 			(at 236.601 137.2616 0)
 			(effects
 				(font
@@ -8037,7 +8065,7 @@
 		(instances
 			(project "CM5IO"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5e5501ac-41c8-4cac-b3fc-c2c46c035d54"
-					(reference "C141")
+					(reference "C131")
 					(unit 1)
 				)
 			)
@@ -8058,7 +8086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005daa0732")
-		(property "Reference" "C136"
+		(property "Reference" "C126"
 			(at 203.581 137.2616 0)
 			(effects
 				(font
@@ -8166,7 +8194,7 @@
 		(instances
 			(project "CM5IO"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5e5501ac-41c8-4cac-b3fc-c2c46c035d54"
-					(reference "C136")
+					(reference "C126")
 					(unit 1)
 				)
 			)
@@ -8187,7 +8215,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dad5ba8")
-		(property "Reference" "U19"
+		(property "Reference" "U20"
 			(at 219.71 127.889 0)
 			(effects
 				(font
@@ -8296,7 +8324,7 @@
 		(instances
 			(project "CM5IO"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5e5501ac-41c8-4cac-b3fc-c2c46c035d54"
-					(reference "U19")
+					(reference "U20")
 					(unit 1)
 				)
 			)

@@ -2435,7 +2435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f4cad1b-d562-4161-bbbb-4de8429d0877")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 188.976 108.712 0)
 			(effects
 				(font
@@ -2489,7 +2489,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/96c222f9-4b91-4480-a910-25e2ecb9014a"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2782,7 +2782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "297051a8-2fff-4eb5-b878-2c910a16faa5")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 205.74 62.2299 0)
 			(effects
 				(font
@@ -2836,7 +2836,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/96c222f9-4b91-4480-a910-25e2ecb9014a"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3602,7 +3602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8931d9f1-ee65-4ed4-b9e3-6568afbd6f0a")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 167.386 108.966 0)
 			(effects
 				(font
@@ -3656,7 +3656,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/96c222f9-4b91-4480-a910-25e2ecb9014a"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4529,7 +4529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3088e96-8226-4917-826a-240a3323b8de")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 193.04 62.2299 0)
 			(effects
 				(font
@@ -4583,7 +4583,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/96c222f9-4b91-4480-a910-25e2ecb9014a"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4599,7 +4599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f51c22c8-7cdd-455b-8615-db7f9b8b1978")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 165.1 87.63 90)
 			(effects
 				(font
@@ -4651,7 +4651,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/96c222f9-4b91-4480-a910-25e2ecb9014a"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)

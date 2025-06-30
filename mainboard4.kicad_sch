@@ -1028,6 +1028,126 @@
 				)
 			)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -2650,7 +2770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0935a8ac-53b0-4b3d-891f-0d508d82d82e")
-		(property "Reference" "C125"
+		(property "Reference" "C115"
 			(at 87.63 105.918 90)
 			(effects
 				(font
@@ -2702,7 +2822,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
-					(reference "C125")
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -2717,7 +2837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a8d3cf4-f043-4887-a349-6de07eed180c")
-		(property "Reference" "C109"
+		(property "Reference" "C99"
 			(at 119.126 42.164 0)
 			(effects
 				(font
@@ -2769,7 +2889,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
-					(reference "C109")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -2784,7 +2904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "145558c5-1b29-4bb0-877b-303126e809c8")
-		(property "Reference" "C126"
+		(property "Reference" "C116"
 			(at 87.63 87.884 90)
 			(effects
 				(font
@@ -2836,7 +2956,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
-					(reference "C126")
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -2851,7 +2971,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b584fc4-60ef-457b-bb3c-a41085017b3b")
-		(property "Reference" "C65"
+		(property "Reference" "C55"
 			(at 195.58 155.448 90)
 			(effects
 				(font
@@ -2903,7 +3023,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
-					(reference "C65")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -2983,7 +3103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "335beb8f-e6cb-4f96-a5c2-8fc85ef1b59f")
-		(property "Reference" "C66"
+		(property "Reference" "C56"
 			(at 195.58 124.206 90)
 			(effects
 				(font
@@ -3035,7 +3155,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
-					(reference "C66")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -3050,7 +3170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37afed3a-912d-4bce-bac5-5942a500009b")
-		(property "Reference" "C107"
+		(property "Reference" "C97"
 			(at 143.51 47.752 0)
 			(effects
 				(font
@@ -3102,7 +3222,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
-					(reference "C107")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -3117,7 +3237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38166da9-5a68-4adb-8c2c-90924cb09127")
-		(property "Reference" "C110"
+		(property "Reference" "C100"
 			(at 104.14 48.26 0)
 			(effects
 				(font
@@ -3169,7 +3289,73 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
-					(reference "C110")
+					(reference "C100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 43.18 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "607cbce0-0130-43c3-ac6d-e3e8af19e086")
+		(property "Reference" "#PWR038"
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 43.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 43.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e2f0268-5960-44b8-9ec3-2d64c45c494c")
+		)
+		(instances
+			(project "mainboard4"
+				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3544,7 +3730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e72ea47e-47c9-4123-b193-32b4754a12af")
-		(property "Reference" "C64"
+		(property "Reference" "C54"
 			(at 190.754 139.446 90)
 			(effects
 				(font
@@ -3596,7 +3782,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
-					(reference "C64")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -3611,7 +3797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3488b86-44e2-4ddd-a260-8c6068adfdcb")
-		(property "Reference" "C108"
+		(property "Reference" "C98"
 			(at 130.81 52.07 0)
 			(effects
 				(font
@@ -3663,7 +3849,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
-					(reference "C108")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -3678,7 +3864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc8a67b8-63fe-4a2e-873f-3e3ec8bf9192")
-		(property "Reference" "C67"
+		(property "Reference" "C57"
 			(at 200.66 140.462 90)
 			(effects
 				(font
@@ -3730,7 +3916,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
-					(reference "C67")
+					(reference "C57")
 					(unit 1)
 				)
 			)
