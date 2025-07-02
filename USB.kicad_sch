@@ -5079,7 +5079,6 @@
 	)
 	(label "USB3-0-RX_N"
 		(at 120.65 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5090,7 +5089,6 @@
 	)
 	(label "USB3-1-RX_N"
 		(at 177.8 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5101,7 +5099,6 @@
 	)
 	(label "VBUS"
 		(at 184.15 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5112,7 +5109,6 @@
 	)
 	(label "USB3-3-D_P"
 		(at 241.3 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5123,7 +5119,6 @@
 	)
 	(label "USB3-1-TX_N"
 		(at 120.65 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5134,7 +5129,6 @@
 	)
 	(label "USB3-0-RX_N"
 		(at 177.8 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5145,7 +5139,6 @@
 	)
 	(label "USB3-1-TX_N"
 		(at 160.02 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5156,7 +5149,6 @@
 	)
 	(label "USB3-2-D_N"
 		(at 49.53 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5167,7 +5159,6 @@
 	)
 	(label "USB3-1-TX_P"
 		(at 120.65 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5178,7 +5169,6 @@
 	)
 	(label "USB3-2-D_P"
 		(at 241.3 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5189,7 +5179,6 @@
 	)
 	(label "USB3-2-RX_N"
 		(at 241.3 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5200,7 +5189,6 @@
 	)
 	(label "USB3-2-RX_N"
 		(at 120.65 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5211,7 +5199,6 @@
 	)
 	(label "VBUS"
 		(at 247.65 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5222,7 +5209,6 @@
 	)
 	(label "3.3V"
 		(at 175.26 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5233,7 +5219,6 @@
 	)
 	(label "USB3-0-TX_P"
 		(at 120.65 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5244,7 +5229,6 @@
 	)
 	(label "USB3-0-RX_P"
 		(at 120.65 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5255,7 +5239,6 @@
 	)
 	(label "USB3-2-TX_N"
 		(at 120.65 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5266,7 +5249,6 @@
 	)
 	(label "USB3-1-D_P"
 		(at 49.53 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5277,7 +5259,6 @@
 	)
 	(label "USB3-3-D_N"
 		(at 241.3 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5288,7 +5269,6 @@
 	)
 	(label "VBUS"
 		(at 177.8 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5299,7 +5279,6 @@
 	)
 	(label "VBUS"
 		(at 95.25 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5310,7 +5289,6 @@
 	)
 	(label "USB3-1-RX_N"
 		(at 120.65 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5321,7 +5299,6 @@
 	)
 	(label "USB3-1-D_P"
 		(at 177.8 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5332,7 +5309,6 @@
 	)
 	(label "USB3-3-TX_P"
 		(at 224.79 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5343,7 +5319,6 @@
 	)
 	(label "USB3-1-TX_P"
 		(at 160.02 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5354,7 +5329,6 @@
 	)
 	(label "VBUS"
 		(at 246.38 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5365,7 +5339,6 @@
 	)
 	(label "USB3-3-TX_P"
 		(at 120.65 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5376,7 +5349,6 @@
 	)
 	(label "USB3-3-RX_P"
 		(at 120.65 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5387,7 +5359,6 @@
 	)
 	(label "USB3-1-D_N"
 		(at 49.53 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5398,7 +5369,6 @@
 	)
 	(label "USB3-3-RX_N"
 		(at 120.65 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5409,7 +5379,6 @@
 	)
 	(label "USB3-3-D_N"
 		(at 49.53 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5420,7 +5389,6 @@
 	)
 	(label "USB3-0-TX_P"
 		(at 163.83 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5431,7 +5399,6 @@
 	)
 	(label "USB3-1-RX_P"
 		(at 177.8 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5442,7 +5409,6 @@
 	)
 	(label "USB3-3-RX_P"
 		(at 241.3 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5453,7 +5419,6 @@
 	)
 	(label "USB3-2-RX_P"
 		(at 120.65 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5464,7 +5429,6 @@
 	)
 	(label "USB3-0-TX_N"
 		(at 163.83 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5475,7 +5439,6 @@
 	)
 	(label "USB3-3-TX_N"
 		(at 224.79 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5486,7 +5449,6 @@
 	)
 	(label "USB3-2-TX_P"
 		(at 120.65 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5497,7 +5459,6 @@
 	)
 	(label "USB3-0-D_N"
 		(at 49.53 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5508,7 +5469,6 @@
 	)
 	(label "USB3-1-D_N"
 		(at 177.8 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5519,7 +5479,6 @@
 	)
 	(label "USB3-3-TX_N"
 		(at 120.65 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5530,7 +5489,6 @@
 	)
 	(label "3.3V"
 		(at 120.65 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5541,7 +5499,6 @@
 	)
 	(label "USB3-1-RX_P"
 		(at 120.65 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5552,7 +5509,6 @@
 	)
 	(label "USB3-0-D_P"
 		(at 177.8 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5563,7 +5519,6 @@
 	)
 	(label "USB3-2-D_N"
 		(at 241.3 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5574,7 +5529,6 @@
 	)
 	(label "USB3-2-TX_P"
 		(at 226.06 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5585,7 +5539,6 @@
 	)
 	(label "USB3-0-RX_P"
 		(at 177.8 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5596,7 +5549,6 @@
 	)
 	(label "USB3-2-TX_N"
 		(at 226.06 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5607,7 +5559,6 @@
 	)
 	(label "3.3V"
 		(at 17.78 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5618,7 +5569,6 @@
 	)
 	(label "USB3-0-D_P"
 		(at 49.53 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5629,7 +5579,6 @@
 	)
 	(label "USB3-3-RX_N"
 		(at 241.3 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5640,7 +5589,6 @@
 	)
 	(label "USB3-2-RX_P"
 		(at 241.3 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5651,7 +5599,6 @@
 	)
 	(label "USB3-0-D_N"
 		(at 177.8 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5662,7 +5609,6 @@
 	)
 	(label "USB3-2-D_P"
 		(at 49.53 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5673,7 +5619,6 @@
 	)
 	(label "3.3V"
 		(at 44.45 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5684,7 +5629,6 @@
 	)
 	(label "USB3-0-TX_N"
 		(at 120.65 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5695,7 +5639,6 @@
 	)
 	(label "USB3-3-D_P"
 		(at 49.53 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5707,7 +5650,6 @@
 	(hierarchical_label "USB_DN"
 		(shape bidirectional)
 		(at 49.53 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5719,7 +5661,6 @@
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
 		(at 49.53 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5731,7 +5672,6 @@
 	(hierarchical_label "SS_RX_P"
 		(shape output)
 		(at 123.19 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5743,7 +5683,6 @@
 	(hierarchical_label "VBUS_EN"
 		(shape input)
 		(at 49.53 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5755,7 +5694,6 @@
 	(hierarchical_label "SS_TX_N"
 		(shape input)
 		(at 123.19 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5767,7 +5705,6 @@
 	(hierarchical_label "1.2V"
 		(shape input)
 		(at 191.77 152.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5779,7 +5716,6 @@
 	(hierarchical_label "SS_RX_N"
 		(shape output)
 		(at 123.19 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5791,7 +5727,6 @@
 	(hierarchical_label "SS_TX_P"
 		(shape input)
 		(at 123.19 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5803,7 +5738,6 @@
 	(hierarchical_label "1.2V"
 		(shape input)
 		(at 120.65 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

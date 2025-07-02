@@ -6594,7 +6594,6 @@
 	)
 	(label "HDMI1_D1_N"
 		(at 40.64 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6605,7 +6604,6 @@
 	)
 	(label "USB3-0-D_N"
 		(at 40.64 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6616,7 +6614,6 @@
 	)
 	(label "HDMI0_CK_N"
 		(at 194.31 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6627,7 +6624,6 @@
 	)
 	(label "HDMI1_CK_P"
 		(at 40.64 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6638,7 +6634,6 @@
 	)
 	(label "HDMI0_D2_N"
 		(at 194.31 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6649,7 +6644,6 @@
 	)
 	(label "HDMI0_D1_N"
 		(at 194.31 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6660,7 +6654,6 @@
 	)
 	(label "HDMI0_HOTPLUG"
 		(at 121.92 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6671,7 +6664,6 @@
 	)
 	(label "HDMI1_CEC"
 		(at 121.92 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6682,7 +6674,6 @@
 	)
 	(label "HDMI0_D0_P"
 		(at 194.31 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6693,7 +6684,6 @@
 	)
 	(label "DPHY0_C_P"
 		(at 121.92 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6704,7 +6694,6 @@
 	)
 	(label "DPHY0_D3_P"
 		(at 133.985 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6715,7 +6704,6 @@
 	)
 	(label "DPHY0_C_N"
 		(at 121.92 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6726,7 +6714,6 @@
 	)
 	(label "DPHY1_C_P"
 		(at 121.92 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6737,7 +6724,6 @@
 	)
 	(label "DPHY1_D2_P"
 		(at 121.92 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6748,7 +6734,6 @@
 	)
 	(label "USB3-1-D_N"
 		(at 121.92 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6759,7 +6744,6 @@
 	)
 	(label "HDMI0_D2_N"
 		(at 40.64 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6770,7 +6754,6 @@
 	)
 	(label "USB3-1-TX_P"
 		(at 121.92 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6781,7 +6764,6 @@
 	)
 	(label "HDMI0_D2_P"
 		(at 40.64 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6792,7 +6774,6 @@
 	)
 	(label "HDMI1_D1_P"
 		(at 40.64 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6803,7 +6784,6 @@
 	)
 	(label "DPHY1_D3_P"
 		(at 40.64 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6814,7 +6794,6 @@
 	)
 	(label "USB3-1-RX_N"
 		(at 121.92 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6825,7 +6804,6 @@
 	)
 	(label "USB3-0-RX_P"
 		(at 39.37 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6836,7 +6814,6 @@
 	)
 	(label "DPHY1_D0_P"
 		(at 133.985 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6847,7 +6824,6 @@
 	)
 	(label "HDMI1_SDA"
 		(at 121.92 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6858,7 +6834,6 @@
 	)
 	(label "USB3-1-RX_P"
 		(at 121.92 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6869,7 +6844,6 @@
 	)
 	(label "DPHY0_D2_P"
 		(at 121.92 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6880,7 +6854,6 @@
 	)
 	(label "HDMI1_D2_N"
 		(at 40.64 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6891,7 +6864,6 @@
 	)
 	(label "HDMI0_SCL"
 		(at 40.64 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6902,7 +6874,6 @@
 	)
 	(label "HDMI0_CK_P"
 		(at 40.64 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6913,7 +6884,6 @@
 	)
 	(label "DPHY0_D0_N"
 		(at 133.985 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6924,7 +6894,6 @@
 	)
 	(label "HDMI0_D1_N"
 		(at 40.64 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6935,7 +6904,6 @@
 	)
 	(label "HDMI0_D0_N"
 		(at 194.31 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6946,7 +6914,6 @@
 	)
 	(label "HDMI1_D2_P"
 		(at 40.64 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6957,7 +6924,6 @@
 	)
 	(label "DPHY1_D1_P"
 		(at 133.985 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6968,7 +6934,6 @@
 	)
 	(label "DPHY0_D0_P"
 		(at 133.985 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6979,7 +6944,6 @@
 	)
 	(label "HDMI0_HOTPLUG"
 		(at 194.31 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6990,7 +6954,6 @@
 	)
 	(label "HDMI1_HOTPLUG"
 		(at 121.92 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7001,7 +6964,6 @@
 	)
 	(label "HDMI0_D0_P"
 		(at 40.64 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7012,7 +6974,6 @@
 	)
 	(label "USB3-1-TX_N"
 		(at 121.92 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7023,7 +6984,6 @@
 	)
 	(label "HDMI1_D0_N"
 		(at 40.64 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7034,7 +6994,6 @@
 	)
 	(label "DPHY1_D0_N"
 		(at 133.985 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7045,7 +7004,6 @@
 	)
 	(label "HDMI0_D2_P"
 		(at 194.31 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7056,7 +7014,6 @@
 	)
 	(label "USB3-0-TX_N"
 		(at 40.64 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7067,7 +7024,6 @@
 	)
 	(label "DPHY0_D1_P"
 		(at 133.985 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7078,7 +7034,6 @@
 	)
 	(label "USB3-0-TX_P"
 		(at 40.64 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7089,7 +7044,6 @@
 	)
 	(label "HDMI_5v"
 		(at 242.57 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7100,7 +7054,6 @@
 	)
 	(label "HDMI0_SDA"
 		(at 121.92 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7111,7 +7064,6 @@
 	)
 	(label "USB3-0-RX_N"
 		(at 39.37 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7122,7 +7074,6 @@
 	)
 	(label "VBUS_EN"
 		(at 121.92 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7133,7 +7084,6 @@
 	)
 	(label "HDMI0_D1_P"
 		(at 40.64 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7144,7 +7094,6 @@
 	)
 	(label "HDMI1_SCL"
 		(at 121.92 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7155,7 +7104,6 @@
 	)
 	(label "HDMI0_CK_P"
 		(at 194.31 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7166,7 +7114,6 @@
 	)
 	(label "HDMI0_D0_N"
 		(at 40.64 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7177,7 +7124,6 @@
 	)
 	(label "HDMI0_CK_N"
 		(at 40.64 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7188,7 +7134,6 @@
 	)
 	(label "HDMI0_CEC"
 		(at 194.31 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7199,7 +7144,6 @@
 	)
 	(label "HDMI0_SDA"
 		(at 194.31 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7210,7 +7154,6 @@
 	)
 	(label "HDMI0_D1_P"
 		(at 194.31 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7221,7 +7164,6 @@
 	)
 	(label "DPHY0_D1_N"
 		(at 133.985 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7232,7 +7174,6 @@
 	)
 	(label "DPHY1_C_N"
 		(at 121.92 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7243,7 +7184,6 @@
 	)
 	(label "HDMI0_SCL"
 		(at 194.31 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7254,7 +7194,6 @@
 	)
 	(label "DPHY1_D3_N"
 		(at 40.64 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7265,7 +7204,6 @@
 	)
 	(label "DPHY1_D2_N"
 		(at 121.92 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7276,7 +7214,6 @@
 	)
 	(label "HDMI_5v"
 		(at 212.09 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7287,7 +7224,6 @@
 	)
 	(label "HDMI0_CEC"
 		(at 121.92 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7298,7 +7234,6 @@
 	)
 	(label "DPHY0_D2_N"
 		(at 121.92 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7309,7 +7244,6 @@
 	)
 	(label "HDMI1_D0_P"
 		(at 40.64 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7320,7 +7254,6 @@
 	)
 	(label "USB3-1-D_P"
 		(at 121.92 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7331,7 +7264,6 @@
 	)
 	(label "DPHY0_D3_N"
 		(at 133.985 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7342,7 +7274,6 @@
 	)
 	(label "DPHY1_D1_N"
 		(at 133.985 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7353,7 +7284,6 @@
 	)
 	(label "HDMI1_CK_N"
 		(at 40.64 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7364,7 +7294,6 @@
 	)
 	(label "USB3-0-D_P"
 		(at 40.64 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7376,7 +7305,6 @@
 	(hierarchical_label "PCIE_PWR_EN"
 		(shape output)
 		(at 50.8 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7388,7 +7316,6 @@
 	(hierarchical_label "USB3-1-D_N"
 		(shape bidirectional)
 		(at 135.89 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7400,7 +7327,6 @@
 	(hierarchical_label "PCIE_CLK_P"
 		(shape output)
 		(at 50.8 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7412,7 +7338,6 @@
 	(hierarchical_label "USB3-1-RX_P"
 		(shape input)
 		(at 135.89 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7424,7 +7349,6 @@
 	(hierarchical_label "PCIE_TX_P"
 		(shape output)
 		(at 50.8 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7436,7 +7360,6 @@
 	(hierarchical_label "VBUS_EN"
 		(shape output)
 		(at 134.62 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7448,7 +7371,6 @@
 	(hierarchical_label "USB3-0-TX_P"
 		(shape output)
 		(at 40.64 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7460,7 +7382,6 @@
 	(hierarchical_label "USB3-1-RX_N"
 		(shape input)
 		(at 135.89 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7472,7 +7393,6 @@
 	(hierarchical_label "USB2_N"
 		(shape bidirectional)
 		(at 124.46 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7484,7 +7404,6 @@
 	(hierarchical_label "USB3-1-D_P"
 		(shape bidirectional)
 		(at 135.89 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7496,7 +7415,6 @@
 	(hierarchical_label "USB3-1-TX_N"
 		(shape output)
 		(at 135.89 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7508,7 +7426,6 @@
 	(hierarchical_label "PCIE_RX_N"
 		(shape input)
 		(at 50.8 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7520,7 +7437,6 @@
 	(hierarchical_label "PCIE_nCLKREQ"
 		(shape input)
 		(at 50.8 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7532,7 +7448,6 @@
 	(hierarchical_label "USB3-0-TX_N"
 		(shape output)
 		(at 40.64 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7544,7 +7459,6 @@
 	(hierarchical_label "USB3-0-RX_N"
 		(shape input)
 		(at 39.37 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7556,7 +7470,6 @@
 	(hierarchical_label "USB3-0-D_P"
 		(shape bidirectional)
 		(at 40.64 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7568,7 +7481,6 @@
 	(hierarchical_label "USB2_P"
 		(shape bidirectional)
 		(at 124.46 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7580,7 +7492,6 @@
 	(hierarchical_label "USB3-0-RX_P"
 		(shape input)
 		(at 39.37 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7592,7 +7503,6 @@
 	(hierarchical_label "PCIE_RX_P"
 		(shape input)
 		(at 50.8 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7604,7 +7514,6 @@
 	(hierarchical_label "PCIE_CLK_N"
 		(shape output)
 		(at 50.8 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7616,7 +7525,6 @@
 	(hierarchical_label "PCIE_nWAKE"
 		(shape input)
 		(at 50.8 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7628,7 +7536,6 @@
 	(hierarchical_label "USBOTG_ID"
 		(shape input)
 		(at 124.46 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7640,7 +7547,6 @@
 	(hierarchical_label "PCIE_nRST"
 		(shape output)
 		(at 134.62 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7652,7 +7558,6 @@
 	(hierarchical_label "USB3-1-TX_P"
 		(shape output)
 		(at 135.89 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7664,7 +7569,6 @@
 	(hierarchical_label "USB3-0-D_N"
 		(shape bidirectional)
 		(at 40.64 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7676,7 +7580,6 @@
 	(hierarchical_label "PCIE_TX_N"
 		(shape output)
 		(at 50.8 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

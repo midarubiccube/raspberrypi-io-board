@@ -2557,7 +2557,6 @@
 	)
 	(label "M2_3v3"
 		(at 162.56 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2569,7 +2568,6 @@
 	(hierarchical_label "PCIE_nRST"
 		(shape input)
 		(at 104.14 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2581,7 +2579,6 @@
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
 		(at 107.95 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2593,7 +2590,6 @@
 	(hierarchical_label "PCIE_CLK_N"
 		(shape input)
 		(at 100.33 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2605,7 +2601,6 @@
 	(hierarchical_label "PCIE_RX_P"
 		(shape output)
 		(at 104.14 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2617,7 +2612,6 @@
 	(hierarchical_label "PCIE_TX_N"
 		(shape input)
 		(at 104.14 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2629,7 +2623,6 @@
 	(hierarchical_label "PCIE_TX_P"
 		(shape input)
 		(at 104.14 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2641,7 +2634,6 @@
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 107.95 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2653,7 +2645,6 @@
 	(hierarchical_label "PCIE_CLK_P"
 		(shape input)
 		(at 100.33 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2665,7 +2656,6 @@
 	(hierarchical_label "PCIE_nWAKE"
 		(shape output)
 		(at 104.14 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2677,7 +2667,6 @@
 	(hierarchical_label "PCIE_nCLKREQ"
 		(shape output)
 		(at 104.14 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2689,7 +2678,6 @@
 	(hierarchical_label "PCIE_RX_N"
 		(shape output)
 		(at 104.14 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -2139,12 +2139,6 @@
 		(uuid "14e9c955-b90e-4d67-963b-6c530d72a602")
 	)
 	(junction
-		(at 135.89 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ae84f51-f56a-49e3-aa62-012eeb3e4eb3")
-	)
-	(junction
 		(at 121.92 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2205,6 +2199,12 @@
 		(uuid "7c754077-f50b-4d30-9b2e-5c5c7497be94")
 	)
 	(junction
+		(at 132.08 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88fa370d-6721-408b-b1b1-dec90ce39347")
+	)
+	(junction
 		(at 102.87 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2241,7 +2241,7 @@
 		(uuid "b8817110-0e4e-480e-8d9e-2b77f02e0bbe")
 	)
 	(junction
-		(at 152.4 83.82)
+		(at 154.94 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8c34e7a-b4c2-43ab-8dab-6939e0f81c46")
@@ -2490,13 +2490,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 87.63) (xy 135.89 87.63)
+			(xy 121.92 87.63) (xy 132.08 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f5cb4c0-3eb3-4101-ada4-541c0bdf44aa")
+	)
+	(wire
+		(pts
+			(xy 138.43 76.2) (xy 138.43 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5f2f8d-0968-4a34-8704-066973218750")
 	)
 	(wire
 		(pts
@@ -2590,16 +2600,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 82.55) (xy 138.43 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5aaab4e2-075d-4429-b2f6-6778be299ed0")
-	)
-	(wire
-		(pts
 			(xy 138.43 60.96) (xy 138.43 58.42)
 		)
 		(stroke
@@ -2640,7 +2640,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 91.44) (xy 146.05 83.82)
+			(xy 146.05 91.44) (xy 146.05 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2760,7 +2760,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 82.55) (xy 135.89 82.55)
+			(xy 121.92 82.55) (xy 132.08 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2930,6 +2930,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 82.55) (xy 138.43 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d648f8b3-441d-418a-9a29-a91a0a38b327")
+	)
+	(wire
+		(pts
 			(xy 102.87 129.54) (xy 123.19 129.54)
 		)
 		(stroke
@@ -3000,7 +3010,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 74.93) (xy 138.43 60.96)
+			(xy 138.43 68.58) (xy 138.43 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3050,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 83.82) (xy 152.4 83.82)
+			(xy 146.05 82.55) (xy 154.94 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3131,7 +3141,6 @@
 	(hierarchical_label "RXN"
 		(shape input)
 		(at 78.74 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3143,7 +3152,6 @@
 	(hierarchical_label "CRSDV"
 		(shape output)
 		(at 217.17 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3155,7 +3163,6 @@
 	(hierarchical_label "TXP"
 		(shape output)
 		(at 78.74 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3167,7 +3174,6 @@
 	(hierarchical_label "RXP"
 		(shape input)
 		(at 78.74 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3179,7 +3185,6 @@
 	(hierarchical_label "REFCLK"
 		(shape output)
 		(at 217.17 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3191,7 +3196,6 @@
 	(hierarchical_label "TXD0"
 		(shape input)
 		(at 217.17 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3203,7 +3207,6 @@
 	(hierarchical_label "RXD1"
 		(shape output)
 		(at 217.17 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3215,7 +3218,6 @@
 	(hierarchical_label "TXD1"
 		(shape input)
 		(at 217.17 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3227,7 +3229,6 @@
 	(hierarchical_label "MDC"
 		(shape input)
 		(at 217.17 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3239,7 +3240,6 @@
 	(hierarchical_label "~{RESET}"
 		(shape input)
 		(at 217.17 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3251,7 +3251,6 @@
 	(hierarchical_label "RXD0"
 		(shape output)
 		(at 217.17 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3263,7 +3262,6 @@
 	(hierarchical_label "TXEN"
 		(shape input)
 		(at 217.17 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3275,7 +3273,6 @@
 	(hierarchical_label "MDIO"
 		(shape bidirectional)
 		(at 217.17 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3287,7 +3284,6 @@
 	(hierarchical_label "TXN"
 		(shape output)
 		(at 78.74 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3436,7 +3432,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 152.4 86.36 0)
+		(at 154.94 85.09 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3445,7 +3441,7 @@
 		(dnp no)
 		(uuid "25b3c453-d35e-48a0-8a09-2c16d1c0603c")
 		(property "Reference" "C46"
-			(at 150.0632 85.1916 0)
+			(at 152.6032 83.9216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,8 +3449,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 150.0632 87.503 0)
+		(property "Value" "0.1μF"
+			(at 152.6032 86.233 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +3459,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 152.4 86.36 0)
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3468,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 86.36 0)
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3477,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 86.36 0)
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3486,7 @@
 			)
 		)
 		(property "DESCRIPTION" "Capacitor 100n 0603"
-			(at 152.4 86.36 0)
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,7 +3495,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CC0603KRX7R9BB104"
-			(at 152.4 86.36 0)
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +3504,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 152.4 86.36 0)
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3529,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 135.89 85.09 0)
+		(at 132.08 85.09 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3542,7 +3538,7 @@
 		(dnp no)
 		(uuid "333b7d21-b440-4e01-8bdf-593bb20b6135")
 		(property "Reference" "C50"
-			(at 133.5532 83.9216 0)
+			(at 129.7432 83.9216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,8 +3546,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 133.5532 86.233 0)
+		(property "Value" "0.1μF"
+			(at 129.7432 86.233 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3556,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 135.89 85.09 0)
+			(at 132.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 85.09 0)
+			(at 132.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3574,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 85.09 0)
+			(at 132.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3583,7 @@
 			)
 		)
 		(property "DESCRIPTION" "Capacitor 100n 0603"
-			(at 135.89 85.09 0)
+			(at 132.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +3592,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CC0603KRX7R9BB104"
-			(at 135.89 85.09 0)
+			(at 132.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3601,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 135.89 85.09 0)
+			(at 132.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +4999,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1μF"
 			(at 159.8168 68.453 0)
 			(effects
 				(font
@@ -5248,7 +5244,7 @@
 	)
 	(symbol
 		(lib_id "h730duino-rescue:GND-power")
-		(at 152.4 88.9 0)
+		(at 154.94 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5256,7 +5252,7 @@
 		(dnp no)
 		(uuid "af964c58-ca53-4057-a55f-6bb2a986b7ab")
 		(property "Reference" "#PWR01204"
-			(at 152.4 95.25 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,7 +5261,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.527 93.2942 0)
+			(at 155.067 92.0242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +5269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 88.9 0)
+			(at 154.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,7 +5278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 88.9 0)
+			(at 154.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,7 +5287,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 88.9 0)
+			(at 154.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5484,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 138.43 78.74 0)
+		(at 138.43 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5496,7 +5492,7 @@
 		(dnp no)
 		(uuid "bebb3681-2b8a-40ff-bb49-9ffe3c9ee3a1")
 		(property "Reference" "FB3"
-			(at 124.206 74.422 0)
+			(at 124.206 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,7 +5501,7 @@
 			)
 		)
 		(property "Value" "FerriteBead"
-			(at 124.206 76.962 0)
+			(at 124.206 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5510,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 136.652 78.74 90)
+			(at 136.652 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,7 +5519,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 78.74 0)
+			(at 138.43 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5532,7 +5528,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 138.43 78.74 0)
+			(at 138.43 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6157,7 @@
 		(dnp no)
 		(uuid "e95ad9b7-1293-4922-845f-74da9d65ded7")
 		(property "Reference" "C45"
-			(at 119.5832 83.9216 0)
+			(at 119.634 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,8 +6165,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 119.5832 86.233 0)
+		(property "Value" "0.1μF"
+			(at 119.634 86.3854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6249,7 +6245,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 152.4 83.82 0)
+		(at 154.94 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6258,7 +6254,7 @@
 		(fields_autoplaced yes)
 		(uuid "f00a907a-99e8-492d-bb9d-57412db31877")
 		(property "Reference" "#PWR01203"
-			(at 152.4 87.63 0)
+			(at 154.94 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6267,7 +6263,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 152.4 78.74 0)
+			(at 154.94 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +6271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 83.82 0)
+			(at 154.94 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6284,7 +6280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 83.82 0)
+			(at 154.94 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6293,7 +6289,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 152.4 83.82 0)
+			(at 154.94 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

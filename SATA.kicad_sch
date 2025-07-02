@@ -5137,7 +5137,6 @@
 	)
 	(label "CS"
 		(at 107.95 137.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5148,7 +5147,6 @@
 	)
 	(label "SATA_RXP"
 		(at 175.26 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5159,7 +5157,6 @@
 	)
 	(label "SATA_RXP"
 		(at 110.49 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5170,7 +5167,6 @@
 	)
 	(label "SCLK"
 		(at 120.65 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5181,7 +5177,6 @@
 	)
 	(label "AV3V3"
 		(at 15.24 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5192,7 +5187,6 @@
 	)
 	(label "SATA_RXN"
 		(at 107.95 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5203,7 +5197,6 @@
 	)
 	(label "AV1V2"
 		(at 148.59 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5214,7 +5207,6 @@
 	)
 	(label "AV3V3"
 		(at 87.63 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5225,7 +5217,6 @@
 	)
 	(label "SI"
 		(at 119.38 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5236,7 +5227,6 @@
 	)
 	(label "SI"
 		(at 105.41 137.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5247,7 +5237,6 @@
 	)
 	(label "SATA_TXN"
 		(at 102.87 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5258,7 +5247,6 @@
 	)
 	(label "AV3V3"
 		(at 73.66 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5269,7 +5257,6 @@
 	)
 	(label "SCLK"
 		(at 100.33 137.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5280,7 +5267,6 @@
 	)
 	(label "SATA_TXN"
 		(at 175.26 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5291,7 +5277,6 @@
 	)
 	(label "AV1V2"
 		(at 73.66 175.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5302,7 +5287,6 @@
 	)
 	(label "AV1V2"
 		(at 148.59 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5313,7 +5297,6 @@
 	)
 	(label "HDD_LED"
 		(at 113.03 137.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5324,7 +5307,6 @@
 	)
 	(label "AV3V3"
 		(at 60.96 73.66 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5335,7 +5317,6 @@
 	)
 	(label "AV3V3"
 		(at 77.47 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5346,7 +5327,6 @@
 	)
 	(label "AV1V2"
 		(at 113.03 71.12 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5357,7 +5337,6 @@
 	)
 	(label "AV3V3"
 		(at 110.49 137.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5368,7 +5347,6 @@
 	)
 	(label "SATA_RXN"
 		(at 175.26 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5379,7 +5357,6 @@
 	)
 	(label "HDD_LED"
 		(at 31.75 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5390,7 +5367,6 @@
 	)
 	(label "AV1V2"
 		(at 77.47 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5401,7 +5377,6 @@
 	)
 	(label "SO"
 		(at 119.38 158.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5412,7 +5387,6 @@
 	)
 	(label "AV3V3"
 		(at 87.63 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5423,7 +5397,6 @@
 	)
 	(label "AV1V2"
 		(at 105.41 71.12 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5434,7 +5407,6 @@
 	)
 	(label "SATA_TXP"
 		(at 175.26 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5445,7 +5417,6 @@
 	)
 	(label "SATA_TXP"
 		(at 100.33 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5456,7 +5427,6 @@
 	)
 	(label "AV3V3"
 		(at 158.75 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5467,7 +5437,6 @@
 	)
 	(label "AV1V2"
 		(at 102.87 137.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5478,7 +5447,6 @@
 	)
 	(label "AV3V3"
 		(at 105.41 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5489,7 +5457,6 @@
 	)
 	(label "AV1V2"
 		(at 49.53 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5500,7 +5467,6 @@
 	)
 	(label "SO"
 		(at 97.79 137.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5511,7 +5477,6 @@
 	)
 	(label "AV1V2"
 		(at 148.59 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5522,7 +5487,6 @@
 	)
 	(label "CS"
 		(at 91.44 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5533,7 +5497,6 @@
 	)
 	(label "AV1V2"
 		(at 118.11 137.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5545,7 +5508,6 @@
 	(hierarchical_label "SS_RX_P"
 		(shape output)
 		(at 132.08 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5557,7 +5519,6 @@
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
 		(at 132.08 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5569,7 +5530,6 @@
 	(hierarchical_label "SS_RX_N"
 		(shape output)
 		(at 132.08 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5581,7 +5541,6 @@
 	(hierarchical_label "SS_TX_P"
 		(shape input)
 		(at 132.08 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5593,7 +5552,6 @@
 	(hierarchical_label "USB_DN"
 		(shape bidirectional)
 		(at 132.08 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5605,7 +5563,6 @@
 	(hierarchical_label "SS_TX_N"
 		(shape input)
 		(at 132.08 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

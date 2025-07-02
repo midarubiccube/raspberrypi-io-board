@@ -2675,7 +2675,6 @@
 	)
 	(label "1.2V"
 		(at 41.91 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2686,7 +2685,6 @@
 	)
 	(label "1.2V"
 		(at 87.63 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4849,7 +4847,7 @@
 	)
 	(sheet
 		(at 226.06 115.57)
-		(size 25.4 50.8)
+		(size 25.4 49.53)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -4868,7 +4866,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 226.06 166.9546 0)
+			(at 230.886 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
