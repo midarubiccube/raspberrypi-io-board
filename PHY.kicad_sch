@@ -2133,6 +2133,12 @@
 		(uuid "04870390-455a-411f-9064-fbf768059d86")
 	)
 	(junction
+		(at 199.39 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06fe9c44-21f5-40af-8919-6a512a7d7cd4")
+	)
+	(junction
 		(at 157.48 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2191,6 +2197,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ee7cb03-6059-4832-8a93-90108c8192e1")
+	)
+	(junction
+		(at 190.5 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ad0ad73-3f4b-4442-94f8-91565afb6137")
 	)
 	(junction
 		(at 175.26 90.17)
@@ -2470,6 +2482,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 90.17) (xy 199.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "302d47b9-1791-4e3b-baef-be70e54eba7a")
+	)
+	(wire
+		(pts
 			(xy 171.45 157.48) (xy 171.45 160.02)
 		)
 		(stroke
@@ -2680,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 134.62) (xy 161.29 134.62)
+			(xy 207.01 134.62) (xy 199.39 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2757,6 +2779,36 @@
 			(type default)
 		)
 		(uuid "7c688f7d-4779-427d-b679-b00924d92b19")
+	)
+	(wire
+		(pts
+			(xy 199.39 134.62) (xy 161.29 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f746a88-c86e-4f92-abd4-6604a394ade6")
+	)
+	(wire
+		(pts
+			(xy 199.39 96.52) (xy 199.39 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8211056e-f46a-444b-9494-a7ad93ab303c")
+	)
+	(wire
+		(pts
+			(xy 190.5 90.17) (xy 199.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8354eced-7dd2-4ce5-9377-3b6e6d50d721")
 	)
 	(wire
 		(pts
@@ -3458,7 +3510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 154.94 85.09 0)
 			(effects
 				(font
@@ -3555,7 +3607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 132.08 85.09 0)
 			(effects
 				(font
@@ -5088,15 +5140,15 @@
 		(dnp no)
 		(uuid "a726df7b-84ae-447c-b628-6679fa8c935d")
 		(property "Reference" "R47"
-			(at 179.07 92.964 0)
+			(at 179.832 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10K"
-			(at 178.308 94.742 0)
+		(property "Value" "10KΩ"
+			(at 179.07 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,15 +5614,15 @@
 		(dnp no)
 		(uuid "c0d88e55-df5b-4cfb-a3c8-d98a909926d5")
 		(property "Reference" "R44"
-			(at 171.45 92.964 0)
+			(at 172.212 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10K"
-			(at 170.688 94.742 0)
+		(property "Value" "10KΩ"
+			(at 171.45 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5664,7 +5716,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1.5KΩ"
 			(at 193.548 94.742 0)
 			(effects
 				(font
@@ -5904,7 +5956,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "33Ω"
 			(at 204.47 135.89 90)
 			(effects
 				(font
@@ -6062,15 +6114,15 @@
 		(dnp no)
 		(uuid "e41c6e8b-4203-46ab-af63-8445c87c5fee")
 		(property "Reference" "R30"
-			(at 186.69 92.964 0)
+			(at 187.198 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10K"
-			(at 185.928 94.742 0)
+		(property "Value" "10KΩ"
+			(at 186.436 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +6226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 121.92 85.09 0)
 			(effects
 				(font
@@ -6374,6 +6426,101 @@
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/4fc6aed4-b6ec-46a7-b9d1-1f9060000df7"
 					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 199.39 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fea910f0-5033-4839-921a-6469fcc2e566")
+		(property "Reference" "R70"
+			(at 203.2 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10KΩ"
+			(at 202.438 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 199.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Resistor 10K 0603"
+			(at 199.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 199.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RC0603FR-0710KL"
+			(at 199.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06802f7e-d0a5-4fc8-b9e7-d90e90662719")
+		)
+		(pin "2"
+			(uuid "ddac955b-4861-4805-b52a-ffef9c2e60b4")
+		)
+		(instances
+			(project "mainboard4"
+				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/4fc6aed4-b6ec-46a7-b9d1-1f9060000df7"
+					(reference "R70")
 					(unit 1)
 				)
 			)
