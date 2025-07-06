@@ -4632,6 +4632,12 @@
 		(uuid "17a15b7f-1182-44a3-bb53-3bfb06af71d8")
 	)
 	(junction
+		(at 140.97 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d636db9-fc96-4b48-8623-2aece9600ba8")
+	)
+	(junction
 		(at 196.85 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4975,6 +4981,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 171.45) (xy 143.51 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36cb99e-c82a-4b51-9419-755b9cee1080")
+	)
+	(wire
+		(pts
 			(xy 95.25 52.07) (xy 115.57 52.07)
 		)
 		(stroke
@@ -5085,6 +5101,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 146.05) (xy 115.57 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce55f793-7c75-4ed1-9929-6a96b95a1887")
+	)
+	(wire
+		(pts
 			(xy 105.41 36.83) (xy 115.57 36.83)
 		)
 		(stroke
@@ -5163,8 +5189,19 @@
 		)
 		(uuid "f3226e06-4ce6-4c06-96d2-986ef4c65b56")
 	)
+	(wire
+		(pts
+			(xy 110.49 148.59) (xy 115.57 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc761715-aab1-42b0-940c-6c1c183c7544")
+	)
 	(label "VDDA"
 		(at 148.59 29.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5175,6 +5212,7 @@
 	)
 	(label "VDDA"
 		(at 54.61 45.72 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5185,6 +5223,7 @@
 	)
 	(label "LED"
 		(at 52.07 110.49 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5195,6 +5234,7 @@
 	)
 	(label "LED"
 		(at 172.72 57.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5470,6 +5510,7 @@
 	(hierarchical_label "MDIO"
 		(shape bidirectional)
 		(at 166.37 41.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5481,6 +5522,7 @@
 	(hierarchical_label "CRS_DV"
 		(shape bidirectional)
 		(at 166.37 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5492,6 +5534,7 @@
 	(hierarchical_label "ETH_REF_CLK"
 		(shape bidirectional)
 		(at 166.37 39.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5503,6 +5546,7 @@
 	(hierarchical_label "CAN1RX"
 		(shape input)
 		(at 115.57 102.87 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5514,6 +5558,7 @@
 	(hierarchical_label "~{RESET}"
 		(shape output)
 		(at 101.6 36.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5525,6 +5570,7 @@
 	(hierarchical_label "INT"
 		(shape input)
 		(at 115.57 59.69 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5536,6 +5582,7 @@
 	(hierarchical_label "TX_EN"
 		(shape output)
 		(at 166.37 107.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5547,6 +5594,7 @@
 	(hierarchical_label "CS"
 		(shape output)
 		(at 115.57 69.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5558,6 +5606,7 @@
 	(hierarchical_label "CAN2TX"
 		(shape output)
 		(at 166.37 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5569,6 +5618,7 @@
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
 		(at 166.37 67.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5580,6 +5630,7 @@
 	(hierarchical_label "RST"
 		(shape input)
 		(at 115.57 62.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5591,6 +5642,7 @@
 	(hierarchical_label "CAN2RX"
 		(shape input)
 		(at 166.37 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5602,6 +5654,7 @@
 	(hierarchical_label "RXD1"
 		(shape input)
 		(at 166.37 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5613,6 +5666,7 @@
 	(hierarchical_label "MISO"
 		(shape output)
 		(at 115.57 72.39 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5624,6 +5678,7 @@
 	(hierarchical_label "MOSI"
 		(shape output)
 		(at 115.57 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5635,6 +5690,7 @@
 	(hierarchical_label "MDC"
 		(shape bidirectional)
 		(at 166.37 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5646,6 +5702,7 @@
 	(hierarchical_label "USB_DN"
 		(shape bidirectional)
 		(at 166.37 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5657,6 +5714,7 @@
 	(hierarchical_label "TXD1"
 		(shape output)
 		(at 166.37 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5668,6 +5726,7 @@
 	(hierarchical_label "RXD0"
 		(shape input)
 		(at 166.37 133.35 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5679,6 +5738,7 @@
 	(hierarchical_label "SCLK"
 		(shape output)
 		(at 115.57 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5690,6 +5750,7 @@
 	(hierarchical_label "TXD0"
 		(shape output)
 		(at 166.37 110.49 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5701,6 +5762,7 @@
 	(hierarchical_label "CAN1TX"
 		(shape output)
 		(at 115.57 105.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6150,7 +6212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f28fcb1-86e8-4168-9235-73f428e0f4a9")
-		(property "Reference" "C37"
+		(property "Reference" "C45"
 			(at 248.92 29.2099 0)
 			(effects
 				(font
@@ -6204,7 +6266,77 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
-					(reference "C37")
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 96.52 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fbbea26-276a-4003-a959-b816b317a273")
+		(property "Reference" "C55"
+			(at 100.33 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1μF"
+			(at 100.33 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 97.4852 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a386c7f1-dfe6-4e2f-9d41-8ace907b1856")
+		)
+		(pin "2"
+			(uuid "121fd367-9b52-445f-9b97-4b0496b7d86f")
+		)
+		(instances
+			(project "mainboard4"
+				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -6416,7 +6548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26b7c770-25b4-4a99-afb8-795bfc9ebf08")
-		(property "Reference" "C44"
+		(property "Reference" "C52"
 			(at 213.36 29.2099 0)
 			(effects
 				(font
@@ -6470,7 +6602,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
-					(reference "C44")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -6486,7 +6618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37a7a302-5c41-4713-83c1-29a840248062")
-		(property "Reference" "C36"
+		(property "Reference" "C46"
 			(at 200.66 29.2099 0)
 			(effects
 				(font
@@ -6540,7 +6672,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
-					(reference "C36")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -6556,7 +6688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fd83195-8942-4b88-812d-9e75d58a5173")
-		(property "Reference" "R29"
+		(property "Reference" "R30"
 			(at 78.74 52.0699 0)
 			(effects
 				(font
@@ -6610,7 +6742,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
-					(reference "R29")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -6853,6 +6985,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 110.49 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e9054e4-e52b-4b93-a59f-3398ac83dea9")
+		(property "Reference" "#PWR081"
+			(at 110.49 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.617 160.6042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca81e765-25ea-4a44-8662-2625d059ad46")
+		)
+		(instances
+			(project "mainboard4"
+				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 88.9 54.61 0)
 		(unit 1)
@@ -6861,7 +7058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64142ef6-3a41-4ebe-953d-3c9d6648bf1b")
-		(property "Reference" "C40"
+		(property "Reference" "C47"
 			(at 83.312 50.292 0)
 			(effects
 				(font
@@ -6915,7 +7112,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
-					(reference "C40")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -6931,7 +7128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "645fe083-b77a-4a17-b65c-4207d3dc9b9e")
-		(property "Reference" "C39"
+		(property "Reference" "C48"
 			(at 41.91 48.2599 0)
 			(effects
 				(font
@@ -6985,7 +7182,72 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
-					(reference "C39")
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bb3b357-1da7-4678-817a-a1396ab21ea7")
+		(property "Reference" "#PWR074"
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.647 158.0642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7020167c-6f4c-441c-9e52-84ce859d8747")
+		)
+		(instances
+			(project "mainboard4"
+				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -7203,7 +7465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83adb9b7-c0eb-470f-8592-596071826074")
-		(property "Reference" "C43"
+		(property "Reference" "C51"
 			(at 226.06 29.2099 0)
 			(effects
 				(font
@@ -7257,7 +7519,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
-					(reference "C43")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -7273,7 +7535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f09cf02-80b2-40b7-8e99-afb65eba1694")
-		(property "Reference" "C49"
+		(property "Reference" "C58"
 			(at 191.77 29.2099 0)
 			(effects
 				(font
@@ -7327,7 +7589,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
-					(reference "C49")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -7485,7 +7747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a74419b0-eb0f-47d7-a186-e63b16419c9b")
-		(property "Reference" "C12"
+		(property "Reference" "C16"
 			(at 74.93 76.2 0)
 			(effects
 				(font
@@ -7539,7 +7801,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
-					(reference "C12")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7686,7 +7948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2a67aee-9375-40a9-a14e-a6d5ad2d952c")
-		(property "Reference" "C51"
+		(property "Reference" "C62"
 			(at 237.49 29.2099 0)
 			(effects
 				(font
@@ -7740,7 +8002,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
-					(reference "C51")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -7877,6 +8139,76 @@
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
 					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110.49 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef66247b-4650-4d4a-a3c7-6b85acd45a6f")
+		(property "Reference" "C63"
+			(at 114.3 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1μF"
+			(at 114.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 111.4552 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e2c0aea-3b15-4907-bc4d-7899ac75d614")
+		)
+		(pin "2"
+			(uuid "9535f968-0618-482a-a662-eb4292b7437e")
+		)
+		(instances
+			(project "mainboard4"
+				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
+					(reference "C63")
 					(unit 1)
 				)
 			)

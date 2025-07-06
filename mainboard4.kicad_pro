@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|113270000|134280000|06a7b42b-77dd-49e7-8adb-03d242c4dffe|2714f95d-0b3c-4947-9789-66a794fbbaee",
+        "copper_edge_clearance|121910000|134280000|06a7b42b-77dd-49e7-8adb-03d242c4dffe|35c54ac1-146c-4194-938e-35af8d1d4b06",
+        "hole_clearance|114540000|129660000|09e058b9-e305-4fd2-861b-b9c4edfe2293|92d40bd0-f98f-418b-a67e-b777b7a8a0ad",
+        "hole_clearance|114540000|129660000|bdec3bc4-8244-4140-bce4-d23357118b68|92d40bd0-f98f-418b-a67e-b777b7a8a0ad",
+        "hole_clearance|120640000|129660000|02428b75-7532-44b2-adf0-902e1bc8499e|4ab440ee-28cb-4127-bf3d-5fb187921732",
+        "hole_clearance|120640000|129660000|29d82f83-e393-4dcc-91be-43b2848a92ac|4ab440ee-28cb-4127-bf3d-5fb187921732"
+      ],
       "meta": {
         "version": 2
       },
@@ -86,7 +93,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -961,7 +968,7 @@
   "sheets": [
     [
       "dd07ab80-a59c-44f4-ac7d-849e21e1384e",
-      "Root"
+      "ルート"
     ],
     [
       "eab21d37-4422-449e-812a-90afc228ebcf",

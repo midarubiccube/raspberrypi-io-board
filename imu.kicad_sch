@@ -1912,6 +1912,7 @@
 	)
 	(label "CS"
 		(at 105.41 128.27 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1922,6 +1923,7 @@
 	)
 	(label "PS1"
 		(at 101.6 61.595 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1932,6 +1934,7 @@
 	)
 	(label "S_SCL"
 		(at 161.29 110.49 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1942,6 +1945,7 @@
 	)
 	(label "SDA/MISO/TX"
 		(at 105.41 110.49 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1952,6 +1956,7 @@
 	)
 	(label "BOOT"
 		(at 116.84 61.595 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1962,6 +1967,7 @@
 	)
 	(label "PS1"
 		(at 105.41 120.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1972,6 +1978,7 @@
 	)
 	(label "CS"
 		(at 86.36 61.595 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1982,6 +1989,7 @@
 	)
 	(label "MOSI"
 		(at 124.46 48.26 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -1992,6 +2000,7 @@
 	)
 	(label "S_SDA"
 		(at 78.74 61.595 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2002,6 +2011,7 @@
 	)
 	(label "RST"
 		(at 93.98 61.595 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2012,6 +2022,7 @@
 	)
 	(label "PS0{slash}WAKE"
 		(at 105.41 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2022,6 +2033,7 @@
 	)
 	(label "SDA/MISO/TX"
 		(at 63.5 61.595 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2032,6 +2044,7 @@
 	)
 	(label "S_SDA"
 		(at 161.29 107.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2042,6 +2055,7 @@
 	)
 	(label "PS0{slash}WAKE"
 		(at 109.22 61.595 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2052,6 +2066,7 @@
 	)
 	(label "SCL/SCK/RX"
 		(at 105.41 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2062,6 +2077,7 @@
 	)
 	(label "SCL/SCK/RX"
 		(at 55.88 61.595 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2072,6 +2088,7 @@
 	)
 	(label "MOSI"
 		(at 105.41 107.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2082,6 +2099,7 @@
 	)
 	(label "BOOT"
 		(at 105.41 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2092,6 +2110,7 @@
 	)
 	(label "INT"
 		(at 105.41 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2102,6 +2121,7 @@
 	)
 	(label "S_SCL"
 		(at 71.12 61.595 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2113,6 +2133,7 @@
 	(hierarchical_label "CS"
 		(shape input)
 		(at 105.41 128.27 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2124,6 +2145,7 @@
 	(hierarchical_label "MOSI"
 		(shape input)
 		(at 105.41 107.95 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2135,6 +2157,7 @@
 	(hierarchical_label "SCLK"
 		(shape input)
 		(at 105.41 113.03 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2146,6 +2169,7 @@
 	(hierarchical_label "MISO"
 		(shape input)
 		(at 105.41 110.49 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2157,6 +2181,7 @@
 	(hierarchical_label "INT"
 		(shape output)
 		(at 105.41 115.57 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2168,6 +2193,7 @@
 	(hierarchical_label "RST"
 		(shape output)
 		(at 161.29 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2409,7 +2435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f4cad1b-d562-4161-bbbb-4de8429d0877")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 188.976 108.712 0)
 			(effects
 				(font
@@ -2463,7 +2489,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/96c222f9-4b91-4480-a910-25e2ecb9014a"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2756,7 +2782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "297051a8-2fff-4eb5-b878-2c910a16faa5")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 205.74 62.2299 0)
 			(effects
 				(font
@@ -2810,7 +2836,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/96c222f9-4b91-4480-a910-25e2ecb9014a"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2958,7 +2984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31b64c60-3505-4e7b-b59b-2b8a88df7b1d")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 72.898 53.3979 0)
 			(effects
 				(font
@@ -3021,7 +3047,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/96c222f9-4b91-4480-a910-25e2ecb9014a"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3105,7 +3131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57134470-7369-48d6-ab87-37f6e109560a")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 110.998 53.3979 0)
 			(effects
 				(font
@@ -3168,7 +3194,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/96c222f9-4b91-4480-a910-25e2ecb9014a"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3576,7 +3602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8931d9f1-ee65-4ed4-b9e3-6568afbd6f0a")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 167.386 108.966 0)
 			(effects
 				(font
@@ -3630,7 +3656,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/96c222f9-4b91-4480-a910-25e2ecb9014a"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4503,7 +4529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3088e96-8226-4917-826a-240a3323b8de")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 193.04 62.2299 0)
 			(effects
 				(font
@@ -4557,7 +4583,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/96c222f9-4b91-4480-a910-25e2ecb9014a"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4573,7 +4599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f51c22c8-7cdd-455b-8615-db7f9b8b1978")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 165.1 87.63 90)
 			(effects
 				(font
@@ -4625,7 +4651,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/96c222f9-4b91-4480-a910-25e2ecb9014a"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)

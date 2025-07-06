@@ -4115,7 +4115,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0ac31d38-a36b-4d64-b102-f6529d58a3ef")
+		(uuid "0a943224-93c0-49b8-b551-821645c16e92")
 	)
 	(wire
 		(pts
@@ -5259,6 +5259,7 @@
 	)
 	(label "CS"
 		(at 107.95 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5269,6 +5270,7 @@
 	)
 	(label "SATA_RXP"
 		(at 175.26 62.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5279,6 +5281,7 @@
 	)
 	(label "SATA_RXP"
 		(at 110.49 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5289,6 +5292,7 @@
 	)
 	(label "SCLK"
 		(at 120.65 153.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5299,6 +5303,7 @@
 	)
 	(label "AV3V3"
 		(at 15.24 175.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5309,6 +5314,7 @@
 	)
 	(label "SATA_RXN"
 		(at 107.95 68.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5319,6 +5325,7 @@
 	)
 	(label "AV1V2"
 		(at 148.59 97.79 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5329,6 +5336,7 @@
 	)
 	(label "AV3V3"
 		(at 87.63 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5339,6 +5347,7 @@
 	)
 	(label "SI"
 		(at 119.38 156.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5349,6 +5358,7 @@
 	)
 	(label "SI"
 		(at 105.41 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5359,6 +5369,7 @@
 	)
 	(label "SATA_TXN"
 		(at 102.87 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5369,6 +5380,7 @@
 	)
 	(label "AV3V3"
 		(at 73.66 110.49 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5379,6 +5391,7 @@
 	)
 	(label "SCLK"
 		(at 100.33 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5389,6 +5402,7 @@
 	)
 	(label "SATA_TXN"
 		(at 175.26 52.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5399,6 +5413,7 @@
 	)
 	(label "AV1V2"
 		(at 73.66 175.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5409,6 +5424,7 @@
 	)
 	(label "AV1V2"
 		(at 148.59 90.17 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5419,6 +5435,7 @@
 	)
 	(label "HDD_LED"
 		(at 113.03 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5429,6 +5446,7 @@
 	)
 	(label "AV3V3"
 		(at 60.96 73.66 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5439,6 +5457,7 @@
 	)
 	(label "AV3V3"
 		(at 77.47 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5449,6 +5468,7 @@
 	)
 	(label "AV1V2"
 		(at 113.03 71.12 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5459,6 +5479,7 @@
 	)
 	(label "AV3V3"
 		(at 110.49 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5469,6 +5490,7 @@
 	)
 	(label "SATA_RXN"
 		(at 175.26 57.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5479,6 +5501,7 @@
 	)
 	(label "HDD_LED"
 		(at 31.75 148.59 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5489,6 +5512,7 @@
 	)
 	(label "AV1V2"
 		(at 77.47 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5499,6 +5523,7 @@
 	)
 	(label "SO"
 		(at 119.38 158.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5509,6 +5534,7 @@
 	)
 	(label "AV3V3"
 		(at 87.63 156.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5519,6 +5545,7 @@
 	)
 	(label "AV1V2"
 		(at 105.41 71.12 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5529,6 +5556,7 @@
 	)
 	(label "SATA_TXP"
 		(at 175.26 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5539,6 +5567,7 @@
 	)
 	(label "SATA_TXP"
 		(at 100.33 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5549,6 +5578,7 @@
 	)
 	(label "AV3V3"
 		(at 158.75 115.57 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5559,6 +5589,7 @@
 	)
 	(label "AV1V2"
 		(at 102.87 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5569,6 +5600,7 @@
 	)
 	(label "AV3V3"
 		(at 105.41 148.59 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5579,6 +5611,7 @@
 	)
 	(label "AV1V2"
 		(at 49.53 105.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5589,6 +5622,7 @@
 	)
 	(label "SO"
 		(at 97.79 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5599,6 +5633,7 @@
 	)
 	(label "AV1V2"
 		(at 148.59 105.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5609,6 +5644,7 @@
 	)
 	(label "CS"
 		(at 91.44 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5619,6 +5655,7 @@
 	)
 	(label "AV1V2"
 		(at 118.11 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5630,6 +5667,7 @@
 	(hierarchical_label "SS_RX_P"
 		(shape output)
 		(at 132.08 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5641,6 +5679,7 @@
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
 		(at 132.08 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5652,6 +5691,7 @@
 	(hierarchical_label "SS_RX_N"
 		(shape output)
 		(at 132.08 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5663,6 +5703,7 @@
 	(hierarchical_label "SS_TX_P"
 		(shape input)
 		(at 132.08 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5674,6 +5715,7 @@
 	(hierarchical_label "USB_DN"
 		(shape bidirectional)
 		(at 132.08 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5685,6 +5727,7 @@
 	(hierarchical_label "SS_TX_N"
 		(shape input)
 		(at 132.08 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5703,7 +5746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0911b4c4-0c01-4caf-90a4-3281c84acd98")
-		(property "Reference" "C61"
+		(property "Reference" "C71"
 			(at 152.4 118.1099 0)
 			(effects
 				(font
@@ -5757,7 +5800,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C61")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -5772,7 +5815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13f532c1-75c9-4ce2-aa06-ba95811e322c")
-		(property "Reference" "C81"
+		(property "Reference" "C89"
 			(at 88.9 177.8 0)
 			(effects
 				(font
@@ -5826,7 +5869,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C81")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -5842,7 +5885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15b17786-928a-425a-a7aa-921f64fb0588")
-		(property "Reference" "C91"
+		(property "Reference" "C101"
 			(at 39.37 177.7999 0)
 			(effects
 				(font
@@ -5896,7 +5939,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C91")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -6044,7 +6087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20bf8533-b2a9-4542-b7fe-dc8204ae99f5")
-		(property "Reference" "C65"
+		(property "Reference" "C75"
 			(at 139.7 130.8099 0)
 			(effects
 				(font
@@ -6098,7 +6141,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C65")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -6114,7 +6157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25fe0f83-de87-42ec-977f-95035aad2b9f")
-		(property "Reference" "C67"
+		(property "Reference" "C77"
 			(at 125.73 177.7999 0)
 			(effects
 				(font
@@ -6168,7 +6211,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C67")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -6184,7 +6227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26eb15bf-aca7-4a2d-9bbb-4665f7bb523a")
-		(property "Reference" "C80"
+		(property "Reference" "C90"
 			(at 62.23 177.7999 0)
 			(effects
 				(font
@@ -6238,7 +6281,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C80")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -6451,7 +6494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3435a591-5318-49c1-8508-1fe3a9e85a09")
-		(property "Reference" "C68"
+		(property "Reference" "C78"
 			(at 149.86 177.7999 0)
 			(effects
 				(font
@@ -6505,7 +6548,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C68")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -6520,7 +6563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34d0ef9b-3980-41ff-b68a-84911611a80b")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at 188.722 55.372 90)
 			(effects
 				(font
@@ -6572,7 +6615,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C9")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6588,7 +6631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b6231e1-063d-4149-9701-1a7dab6506f4")
-		(property "Reference" "C92"
+		(property "Reference" "C102"
 			(at 53.34 109.2199 0)
 			(effects
 				(font
@@ -6642,7 +6685,7 @@
 		(instances
 			(project ""
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C92")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -6732,7 +6775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a66ece-5a5b-4de2-82c0-354297731eb3")
-		(property "Reference" "C79"
+		(property "Reference" "C91"
 			(at 64.77 92.7099 0)
 			(effects
 				(font
@@ -6786,7 +6829,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C79")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -6802,7 +6845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4afc9737-57da-41e8-93fa-26d0521dc588")
-		(property "Reference" "C58"
+		(property "Reference" "C70"
 			(at 138.43 177.7999 0)
 			(effects
 				(font
@@ -6856,7 +6899,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C58")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -6872,7 +6915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ec03c74-afd3-453d-afc0-de16c539094c")
-		(property "Reference" "C60"
+		(property "Reference" "C68"
 			(at 77.47 177.7999 0)
 			(effects
 				(font
@@ -6926,7 +6969,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C60")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -6942,7 +6985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5405c2c8-2233-40f7-95ea-9a92879d02ed")
-		(property "Reference" "C82"
+		(property "Reference" "C92"
 			(at 50.8 177.7999 0)
 			(effects
 				(font
@@ -6996,7 +7039,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C82")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -7077,7 +7120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "578c2868-622a-4155-a214-0e1940cc20b8")
-		(property "Reference" "C137"
+		(property "Reference" "C1"
 			(at 256.54 27.432 0)
 			(effects
 				(font
@@ -7093,7 +7136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 257.5052 36.83 0)
 			(effects
 				(font
@@ -7129,7 +7172,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C137")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7276,7 +7319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f6bc941-58b9-4bfa-9fe5-34ceedd0504b")
-		(property "Reference" "C62"
+		(property "Reference" "C72"
 			(at 126.746 69.596 0)
 			(effects
 				(font
@@ -7330,7 +7373,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C62")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -7345,7 +7388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "630c0cb2-eb10-454c-8f70-49f2edf4dd6f")
-		(property "Reference" "C59"
+		(property "Reference" "C69"
 			(at 161.29 177.7999 0)
 			(effects
 				(font
@@ -7399,7 +7442,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C59")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -7415,7 +7458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "633ad07b-86cf-435e-816e-9af1e0ed093f")
-		(property "Reference" "#PWR45"
+		(property "Reference" "#PWR045"
 			(at 271.78 43.18 0)
 			(effects
 				(font
@@ -7465,7 +7508,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "#PWR45")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7612,7 +7655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7099ea71-72e3-4a70-addd-dacba5832208")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 246.761 152.5016 0)
 			(effects
 				(font
@@ -7720,7 +7763,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7735,7 +7778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70b6e32e-eb6d-4980-812b-8f15c8057450")
-		(property "Reference" "C136"
+		(property "Reference" "C2"
 			(at 243.078 33.528 0)
 			(effects
 				(font
@@ -7751,7 +7794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 249.8852 36.83 0)
 			(effects
 				(font
@@ -7787,7 +7830,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C136")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7933,7 +7976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bf60108-1190-464e-9fc3-3c69b272c4bc")
-		(property "Reference" "C11"
+		(property "Reference" "C15"
 			(at 188.976 50.546 90)
 			(effects
 				(font
@@ -7985,7 +8028,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C11")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8001,7 +8044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d6d8891-eb44-4ec1-ae29-ae325e7215e4")
-		(property "Reference" "R48"
+		(property "Reference" "R49"
 			(at 39.37 142.24 90)
 			(effects
 				(font
@@ -8053,7 +8096,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "R48")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -8201,7 +8244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87001225-1951-477b-8732-abdb5f5b58e4")
-		(property "Reference" "R57"
+		(property "Reference" "R54"
 			(at 85.09 68.58 90)
 			(effects
 				(font
@@ -8253,7 +8296,7 @@
 		(instances
 			(project ""
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "R57")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -8269,7 +8312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87384645-6081-43b9-bd4c-a958268b83a8")
-		(property "Reference" "C70"
+		(property "Reference" "C80"
 			(at 102.87 177.7999 0)
 			(effects
 				(font
@@ -8323,7 +8366,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C70")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -9205,7 +9248,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c99248fd-74b0-4908-9d79-b617800a04bd")
-		(property "Reference" "C69"
+		(property "Reference" "C79"
 			(at 25.4 177.8 0)
 			(effects
 				(font
@@ -9259,7 +9302,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C69")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -9274,7 +9317,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb9a645e-7f03-4bfe-a38e-c4f95ca9372e")
-		(property "Reference" "C139"
+		(property "Reference" "C9"
 			(at 275.844 29.718 0)
 			(effects
 				(font
@@ -9290,7 +9333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 272.7452 36.83 0)
 			(effects
 				(font
@@ -9326,7 +9369,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C139")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9341,7 +9384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d128c17a-3415-49dc-b49d-d63489d1526f")
-		(property "Reference" "C66"
+		(property "Reference" "C76"
 			(at 150.368 70.358 0)
 			(effects
 				(font
@@ -9395,7 +9438,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C66")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -9476,7 +9519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e193ad24-6b16-4730-9e42-9b694ac21730")
-		(property "Reference" "C13"
+		(property "Reference" "C17"
 			(at 189.484 45.72 90)
 			(effects
 				(font
@@ -9528,7 +9571,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C13")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -9543,7 +9586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7cd8c89-ea04-4898-8b59-a25eeaf252c3")
-		(property "Reference" "C138"
+		(property "Reference" "C10"
 			(at 264.16 23.114 0)
 			(effects
 				(font
@@ -9559,7 +9602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 265.1252 36.83 0)
 			(effects
 				(font
@@ -9595,7 +9638,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C138")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9610,7 +9653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee658d75-0ef2-4c76-a898-f7c9a4daa571")
-		(property "Reference" "C94"
+		(property "Reference" "C103"
 			(at 59.69 114.808 0)
 			(effects
 				(font
@@ -9664,7 +9707,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C94")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -9947,7 +9990,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4942dd5-7cb2-4bdd-9072-8982bfce8970")
-		(property "Reference" "D8"
+		(property "Reference" "D11"
 			(at 46.99 151.765 90)
 			(effects
 				(font
@@ -10001,7 +10044,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "D8")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -10016,7 +10059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4aa488f-ed44-4c51-95c0-29e520778029")
-		(property "Reference" "C8"
+		(property "Reference" "C12"
 			(at 188.976 60.706 90)
 			(effects
 				(font
@@ -10068,7 +10111,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C8")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10084,7 +10127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8da5fca-9f2a-4286-ae02-016b05594784")
-		(property "Reference" "C71"
+		(property "Reference" "C81"
 			(at 114.3 177.7999 0)
 			(effects
 				(font
@@ -10138,7 +10181,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C71")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -10220,7 +10263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff2be168-98ea-4069-a800-b888c9c6d0ea")
-		(property "Reference" "R58"
+		(property "Reference" "R60"
 			(at 63.5 85.0899 0)
 			(effects
 				(font
@@ -10274,7 +10317,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "R58")
+					(reference "R60")
 					(unit 1)
 				)
 			)
