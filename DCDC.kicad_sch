@@ -2981,16 +2981,6 @@
 		)
 		(uuid "13f51636-c62e-4ecf-88db-197bd418c020")
 	)
-	(text "eFuse"
-		(exclude_from_sim no)
-		(at 250.7899 125.73 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "1781fd0f-aaf5-40ec-a0b8-0e6876372f20")
-	)
 	(text "1.2V DCDC\n"
 		(exclude_from_sim no)
 		(at 87.63 174.244 0)
@@ -3903,7 +3893,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 113.3348 48.26 0)
 			(effects
 				(font
@@ -7868,7 +7858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 112.0648 95.25 0)
 			(effects
 				(font

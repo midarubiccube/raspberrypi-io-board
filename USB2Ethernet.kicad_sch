@@ -3835,7 +3835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03aa7a4e-751a-43c9-b8c3-bede1dcc63ad")
-		(property "Reference" "C96"
+		(property "Reference" "C97"
 			(at 130.81 161.2899 0)
 			(effects
 				(font
@@ -3889,7 +3889,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/3546f414-4018-45c7-a00a-bf02d214bf7f"
-					(reference "C96")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -4041,7 +4041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1110799b-a2b5-4658-a913-be69661d9154")
-		(property "Reference" "C95"
+		(property "Reference" "C96"
 			(at 118.11 161.2899 0)
 			(effects
 				(font
@@ -4095,7 +4095,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/3546f414-4018-45c7-a00a-bf02d214bf7f"
-					(reference "C95")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -5043,7 +5043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4651d10f-7e71-4bfd-943d-8a9d29690323")
-		(property "Reference" "C97"
+		(property "Reference" "C98"
 			(at 105.41 161.2899 0)
 			(effects
 				(font
@@ -5097,7 +5097,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/3546f414-4018-45c7-a00a-bf02d214bf7f"
-					(reference "C97")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -6559,7 +6559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e4d0146-7654-4418-9dee-0e415c37b681")
-		(property "Reference" "C98"
+		(property "Reference" "C99"
 			(at 83.82 161.2899 0)
 			(effects
 				(font
@@ -6613,7 +6613,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/3546f414-4018-45c7-a00a-bf02d214bf7f"
-					(reference "C98")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -6763,7 +6763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3b1616f-8118-4823-9633-239d09a7a441")
-		(property "Reference" "C94"
+		(property "Reference" "C95"
 			(at 96.52 161.2899 0)
 			(effects
 				(font
@@ -6817,7 +6817,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/3546f414-4018-45c7-a00a-bf02d214bf7f"
-					(reference "C94")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -7847,7 +7847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9fde505-f2ab-48c2-9cf8-63ef403519df")
-		(property "Reference" "C99"
+		(property "Reference" "C100"
 			(at 133.35 48.2599 0)
 			(effects
 				(font
@@ -7901,7 +7901,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/3546f414-4018-45c7-a00a-bf02d214bf7f"
-					(reference "C99")
+					(reference "C100")
 					(unit 1)
 				)
 			)

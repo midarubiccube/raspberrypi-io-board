@@ -5887,7 +5887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ef1ac9a-336f-41dc-a019-b7f5453a80ea")
-		(property "Reference" "C93"
+		(property "Reference" "C94"
 			(at 242.57 154.9399 0)
 			(effects
 				(font
@@ -5941,7 +5941,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/8b7f7566-5318-467c-baab-209769ce6529"
-					(reference "C93")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -8066,7 +8066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d7fa503-c3f7-4927-a9d7-a1b8c0a39e36")
-		(property "Reference" "C100"
+		(property "Reference" "C102"
 			(at 217.17 154.9399 0)
 			(effects
 				(font
@@ -8120,7 +8120,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/8b7f7566-5318-467c-baab-209769ce6529"
-					(reference "C100")
+					(reference "C102")
 					(unit 1)
 				)
 			)
