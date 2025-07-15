@@ -2675,7 +2675,6 @@
 	)
 	(label "1.2V"
 		(at 41.91 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2686,7 +2685,6 @@
 	)
 	(label "1.2V"
 		(at 87.63 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

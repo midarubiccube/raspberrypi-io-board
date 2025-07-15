@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|113270000|134280000|06a7b42b-77dd-49e7-8adb-03d242c4dffe|2714f95d-0b3c-4947-9789-66a794fbbaee",
+        "copper_edge_clearance|121910000|134280000|06a7b42b-77dd-49e7-8adb-03d242c4dffe|35c54ac1-146c-4194-938e-35af8d1d4b06",
+        "lib_footprint_issues|134526743|88720000|b3770ce3-82f8-4ca9-8160-0fd1f5777a60|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|183460000|75648700|5b290b0e-912a-4a7d-9e56-cbe318f5bd1c|bd862ece-f37c-4c8d-8a74-fadbe2ba2cf9"
+      ],
       "meta": {
         "version": 2
       },
@@ -77,7 +82,7 @@
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -965,7 +970,7 @@
   "sheets": [
     [
       "dd07ab80-a59c-44f4-ac7d-849e21e1384e",
-      "ルート"
+      "Root"
     ],
     [
       "eab21d37-4422-449e-812a-90afc228ebcf",

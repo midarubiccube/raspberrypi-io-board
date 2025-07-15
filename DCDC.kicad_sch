@@ -3013,7 +3013,6 @@
 	)
 	(label "5V"
 		(at 195.58 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3024,7 +3023,6 @@
 	)
 	(label "5V"
 		(at 33.02 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3036,7 +3034,6 @@
 	(hierarchical_label "3.3V"
 		(shape output)
 		(at 201.93 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3048,7 +3045,6 @@
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 24.13 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3060,7 +3056,6 @@
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 226.06 27.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3072,7 +3067,6 @@
 	(hierarchical_label "5V"
 		(shape output)
 		(at 199.39 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3084,7 +3078,6 @@
 	(hierarchical_label "CC2"
 		(shape input)
 		(at 224.79 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3096,7 +3089,6 @@
 	(hierarchical_label "CC1"
 		(shape input)
 		(at 224.79 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3108,7 +3100,6 @@
 	(hierarchical_label "1.2V"
 		(shape output)
 		(at 147.32 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3120,7 +3111,6 @@
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 25.4 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4143,7 +4133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "284e2a91-ecc8-41d5-b0e4-ab45717747ca")
-		(property "Reference" "R67"
+		(property "Reference" "R65"
 			(at 102.108 146.1516 0)
 			(effects
 				(font
@@ -4242,7 +4232,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/eab21d37-4422-449e-812a-90afc228ebcf"
-					(reference "R67")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -4502,7 +4492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33b7c76e-5bc7-46a0-a191-d06da0558c25")
-		(property "Reference" "R13"
+		(property "Reference" "R10"
 			(at 132.08 88.8999 0)
 			(effects
 				(font
@@ -4556,7 +4546,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/eab21d37-4422-449e-812a-90afc228ebcf"
-					(reference "R13")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4572,7 +4562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37c7e2bf-4373-4aa5-8cdb-5149f611619d")
-		(property "Reference" "R25"
+		(property "Reference" "R22"
 			(at 236.22 49.53 0)
 			(effects
 				(font
@@ -4626,7 +4616,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/eab21d37-4422-449e-812a-90afc228ebcf"
-					(reference "R25")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4968,7 +4958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40670282-3fa3-4422-a749-ad845339bb1d")
-		(property "Reference" "R16"
+		(property "Reference" "R13"
 			(at 82.55 96.5199 0)
 			(effects
 				(font
@@ -5022,7 +5012,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/eab21d37-4422-449e-812a-90afc228ebcf"
-					(reference "R16")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5476,7 +5466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "532e4d1c-5784-4662-a23d-734f4f35f2be")
-		(property "Reference" "R22"
+		(property "Reference" "R19"
 			(at 82.55 46.9899 0)
 			(effects
 				(font
@@ -5530,7 +5520,7 @@
 		(instances
 			(project ""
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/eab21d37-4422-449e-812a-90afc228ebcf"
-					(reference "R22")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5545,7 +5535,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54586933-4495-408d-8eb4-6d0c323459be")
-		(property "Reference" "R24"
+		(property "Reference" "R21"
 			(at 232.664 22.352 90)
 			(effects
 				(font
@@ -5597,7 +5587,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/eab21d37-4422-449e-812a-90afc228ebcf"
-					(reference "R24")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5613,7 +5603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5926209d-3cf2-4e88-9a66-c3cea98567f3")
-		(property "Reference" "R21"
+		(property "Reference" "R18"
 			(at 82.55 54.6099 0)
 			(effects
 				(font
@@ -5667,7 +5657,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/eab21d37-4422-449e-812a-90afc228ebcf"
-					(reference "R21")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5885,7 +5875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6951bf10-1120-4fe0-96df-d43cda8e4d93")
-		(property "Reference" "R26"
+		(property "Reference" "R23"
 			(at 246.38 49.53 0)
 			(effects
 				(font
@@ -5939,7 +5929,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/eab21d37-4422-449e-812a-90afc228ebcf"
-					(reference "R26")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6134,7 +6124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7064f09b-3ae9-449f-b81b-fb52e51b3146")
-		(property "Reference" "R71"
+		(property "Reference" "R69"
 			(at 134.62 46.9899 0)
 			(effects
 				(font
@@ -6188,7 +6178,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/eab21d37-4422-449e-812a-90afc228ebcf"
-					(reference "R71")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -6269,7 +6259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c7f6395-676e-47d0-adc2-5b5128af9358")
-		(property "Reference" "R68"
+		(property "Reference" "R66"
 			(at 134.62 39.3699 0)
 			(effects
 				(font
@@ -6323,7 +6313,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/eab21d37-4422-449e-812a-90afc228ebcf"
-					(reference "R68")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -6742,7 +6732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa58170d-f7a4-4360-8ed1-a8efd968c12e")
-		(property "Reference" "R23"
+		(property "Reference" "R20"
 			(at 251.714 20.32 90)
 			(effects
 				(font
@@ -6794,7 +6784,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/eab21d37-4422-449e-812a-90afc228ebcf"
-					(reference "R23")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7473,7 +7463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce84531e-5f38-4be3-94e3-bf9519391765")
-		(property "Reference" "R69"
+		(property "Reference" "R67"
 			(at 102.108 155.0416 0)
 			(effects
 				(font
@@ -7563,7 +7553,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/eab21d37-4422-449e-812a-90afc228ebcf"
-					(reference "R69")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -7579,7 +7569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3bffef0-37ef-448c-8702-6fc01ba59803")
-		(property "Reference" "R20"
+		(property "Reference" "R17"
 			(at 134.62 54.6099 0)
 			(effects
 				(font
@@ -7633,7 +7623,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/eab21d37-4422-449e-812a-90afc228ebcf"
-					(reference "R20")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8172,7 +8162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4263c81-5ef9-4593-b2bf-480e0ac3912b")
-		(property "Reference" "R15"
+		(property "Reference" "R12"
 			(at 82.55 104.1399 0)
 			(effects
 				(font
@@ -8226,7 +8216,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/eab21d37-4422-449e-812a-90afc228ebcf"
-					(reference "R15")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8915,7 +8905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f85ce8d9-6717-4e4a-bddb-3278b0b8dde8")
-		(property "Reference" "R14"
+		(property "Reference" "R11"
 			(at 132.08 100.3299 0)
 			(effects
 				(font
@@ -8969,7 +8959,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/eab21d37-4422-449e-812a-90afc228ebcf"
-					(reference "R14")
+					(reference "R11")
 					(unit 1)
 				)
 			)
