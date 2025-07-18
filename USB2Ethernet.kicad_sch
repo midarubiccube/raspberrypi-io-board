@@ -661,7 +661,7 @@
 				)
 			)
 		)
-		(symbol "Interface_Ethernet:LAN9512"
+		(symbol "Interface_Ethernet:LAN9514"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -673,7 +673,7 @@
 					)
 				)
 			)
-			(property "Value" "LAN9512"
+			(property "Value" "LAN9514"
 				(at 15.24 31.75 0)
 				(effects
 					(font
@@ -690,7 +690,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/00002304A.pdf"
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf"
 				(at 2.54 -7.62 0)
 				(effects
 					(font
@@ -699,7 +699,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two USB 2.0 hub with an integrated 10/100 Ethernet controller (0°C to +70°C), QFN-48"
+			(property "Description" "Four USB 2.0 hub with an integrated 10/100 Ethernet controller (0°C to +70°C), QFN-48"
 				(at 0 0 0)
 				(effects
 					(font
@@ -734,7 +734,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LAN9512_1_1"
+			(symbol "LAN9514_1_1"
 				(rectangle
 					(start -12.7 30.48)
 					(end 12.7 -30.48)
@@ -1521,7 +1521,7 @@
 					)
 				)
 			)
-			(symbol "LAN9512_2_1"
+			(symbol "LAN9514_2_1"
 				(rectangle
 					(start 12.7 -27.94)
 					(end -12.7 27.94)
@@ -1605,10 +1605,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 12.7 0 180)
-					(length 2.54) hide
-					(name "NC"
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "PRTCTL4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1623,10 +1623,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 12.7 -10.16 180)
-					(length 2.54) hide
-					(name "NC"
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "PRTCTL5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1839,10 +1839,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 12.7 2.54 180)
-					(length 2.54) hide
-					(name "NC"
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "USBDM4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1875,10 +1875,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 12.7 5.08 180)
-					(length 2.54) hide
-					(name "NC"
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "USBDP4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1893,10 +1893,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 12.7 -7.62 180)
-					(length 2.54) hide
-					(name "NC"
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "USBDM5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1911,10 +1911,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 12.7 -5.08 180)
-					(length 2.54) hide
-					(name "NC"
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "USBDP5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2421,7 +2421,7 @@
 		(uuid "3a3bf32d-ef38-4350-8906-1984e250a2a7")
 	)
 	(junction
-		(at 215.9 115.57)
+		(at 229.87 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bf08957-8abc-4cea-aab1-c51c843b0147")
@@ -2457,13 +2457,19 @@
 		(uuid "69d8f841-3c8e-46ef-aea2-46985f70311e")
 	)
 	(junction
+		(at 231.14 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ba2515f-7e1f-4db7-9391-5b7c13a7113e")
+	)
+	(junction
 		(at 58.42 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fda57a3-c876-4680-b4a2-4cecba21bee3")
 	)
 	(junction
-		(at 224.79 120.65)
+		(at 238.76 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "786b3cd2-4cbb-48ff-b275-82bcef40d5af")
@@ -2475,7 +2481,7 @@
 		(uuid "7bd29ba8-f142-4eea-bb6f-bdb44510b76a")
 	)
 	(junction
-		(at 224.79 96.52)
+		(at 238.76 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80ad373b-098e-4db9-a72e-78bee8c87b35")
@@ -2493,7 +2499,7 @@
 		(uuid "8b55cdad-d5ba-4682-9db6-92ec5bc9dd9c")
 	)
 	(junction
-		(at 233.68 123.19)
+		(at 247.65 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "905a6f3d-0910-4b32-b95c-1367cfaa2e52")
@@ -2535,7 +2541,7 @@
 		(uuid "b1095a2d-b5ad-434c-a116-2b233443b31f")
 	)
 	(junction
-		(at 215.9 96.52)
+		(at 229.87 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba1cf770-e4c2-4b5b-9465-eb7d5b64f5e5")
@@ -2571,7 +2577,7 @@
 		(uuid "dd885640-46e6-4b93-89f0-1d3f896c3a0b")
 	)
 	(junction
-		(at 205.74 113.03)
+		(at 219.71 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4e01f08-3f10-4e76-ab2e-c09ad1131417")
@@ -2652,16 +2658,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 115.57) (xy 200.66 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0101e99a-da06-4bf0-9608-dd21875ccac9")
-	)
-	(wire
-		(pts
 			(xy 69.85 139.7) (xy 74.93 139.7)
 		)
 		(stroke
@@ -2722,7 +2718,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 111.76) (xy 233.68 123.19)
+			(xy 247.65 111.76) (xy 247.65 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2742,7 +2738,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 123.19) (xy 233.68 123.19)
+			(xy 252.73 123.19) (xy 247.65 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2812,13 +2808,33 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 115.57) (xy 215.9 115.57)
+			(xy 231.14 97.79) (xy 231.14 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e491fc-ac77-4893-9c3f-c03f4ecb48f8")
+	)
+	(wire
+		(pts
+			(xy 252.73 115.57) (xy 229.87 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "34b7811d-ae4f-4a35-99a5-17f9fafa45df")
+	)
+	(wire
+		(pts
+			(xy 200.66 120.65) (xy 238.76 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35166db1-29e0-41b7-b1ab-17c22ed69c5d")
 	)
 	(wire
 		(pts
@@ -2862,13 +2878,13 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 113.03) (xy 200.66 113.03)
+			(xy 200.66 123.19) (xy 247.65 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44a406c7-747b-41d8-a34c-ca59e7e19ea3")
+		(uuid "3f258a69-d20b-416b-8f28-4f8c09eca5d4")
 	)
 	(wire
 		(pts
@@ -2912,7 +2928,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 96.52) (xy 215.9 104.14)
+			(xy 229.87 96.52) (xy 229.87 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2932,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 96.52) (xy 233.68 96.52)
+			(xy 238.76 96.52) (xy 247.65 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3042,7 +3058,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 96.52) (xy 233.68 104.14)
+			(xy 247.65 96.52) (xy 247.65 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3142,7 +3158,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 104.14) (xy 205.74 96.52)
+			(xy 219.71 104.14) (xy 219.71 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3169,6 +3185,16 @@
 			(type default)
 		)
 		(uuid "9cd0b8f7-45c6-4bb4-9c54-e59fc4515efd")
+	)
+	(wire
+		(pts
+			(xy 231.14 96.52) (xy 238.76 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3e57a2-0d33-4791-8603-284a9bda7294")
 	)
 	(wire
 		(pts
@@ -3212,16 +3238,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 123.19) (xy 200.66 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9071483-8c9b-45d1-ac43-efecdea4124a")
-	)
-	(wire
-		(pts
 			(xy 74.93 139.7) (xy 80.01 139.7)
 		)
 		(stroke
@@ -3259,6 +3275,16 @@
 			(type default)
 		)
 		(uuid "b2712e7f-eb52-498c-8064-ab68c3205ffa")
+	)
+	(wire
+		(pts
+			(xy 200.66 113.03) (xy 219.71 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7083a6a-619e-49c2-af07-c7e7a4c1e2ab")
 	)
 	(wire
 		(pts
@@ -3322,6 +3348,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 115.57) (xy 229.87 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f33b3a-bcb4-407c-88ea-ba90adf72255")
+	)
+	(wire
+		(pts
 			(xy 139.7 86.36) (xy 133.35 86.36)
 		)
 		(stroke
@@ -3342,7 +3378,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 96.52) (xy 215.9 96.52)
+			(xy 219.71 96.52) (xy 229.87 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3352,7 +3388,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 111.76) (xy 215.9 115.57)
+			(xy 229.87 111.76) (xy 229.87 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3362,7 +3398,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 120.65) (xy 224.79 120.65)
+			(xy 252.73 120.65) (xy 238.76 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3372,7 +3408,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 96.52) (xy 224.79 96.52)
+			(xy 229.87 96.52) (xy 231.14 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3392,7 +3428,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 96.52) (xy 224.79 104.14)
+			(xy 238.76 96.52) (xy 238.76 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3432,7 +3468,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 113.03) (xy 205.74 113.03)
+			(xy 252.73 113.03) (xy 219.71 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3452,7 +3488,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 111.76) (xy 205.74 113.03)
+			(xy 219.71 111.76) (xy 219.71 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3482,7 +3518,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 111.76) (xy 224.79 120.65)
+			(xy 238.76 111.76) (xy 238.76 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3530,18 +3566,9 @@
 		)
 		(uuid "f5f81982-505d-463c-b337-c4d18362962c")
 	)
-	(wire
-		(pts
-			(xy 224.79 120.65) (xy 200.66 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc489d33-23ea-41b5-9cc9-db1d1bdbc929")
-	)
 	(label "SI"
 		(at 138.43 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3552,6 +3579,7 @@
 	)
 	(label "1.8V"
 		(at 118.11 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3562,6 +3590,7 @@
 	)
 	(label "SO"
 		(at 93.98 39.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3572,6 +3601,7 @@
 	)
 	(label "VDDA"
 		(at 113.03 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3582,6 +3612,7 @@
 	)
 	(label "CS"
 		(at 62.23 39.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3592,6 +3623,7 @@
 	)
 	(label "SCLK"
 		(at 95.25 34.29 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3602,6 +3634,7 @@
 	)
 	(label "CS"
 		(at 138.43 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3612,6 +3645,7 @@
 	)
 	(label "VDDA"
 		(at 127 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3622,6 +3656,7 @@
 	)
 	(label "VDDIO"
 		(at 107.95 63.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3632,6 +3667,7 @@
 	)
 	(label "SCLK"
 		(at 139.7 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3642,6 +3678,7 @@
 	)
 	(label "1.8V"
 		(at 114.3 139.7 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3652,6 +3689,7 @@
 	)
 	(label "SI"
 		(at 93.98 36.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3662,6 +3700,7 @@
 	)
 	(label "SO"
 		(at 138.43 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3671,7 +3710,8 @@
 		(uuid "d85963a6-d25d-4bac-b8f4-b0f94afb0205")
 	)
 	(label "VDDA"
-		(at 205.74 96.52 180)
+		(at 219.71 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3682,6 +3722,7 @@
 	)
 	(label "VDDIO"
 		(at 115.57 181.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3693,6 +3734,7 @@
 	(hierarchical_label "USB1DP"
 		(shape bidirectional)
 		(at 200.66 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3704,6 +3746,7 @@
 	(hierarchical_label "USB2DP"
 		(shape bidirectional)
 		(at 200.66 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3714,7 +3757,8 @@
 	)
 	(hierarchical_label "TXN"
 		(shape output)
-		(at 238.76 115.57 0)
+		(at 252.73 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3725,7 +3769,8 @@
 	)
 	(hierarchical_label "RXN"
 		(shape input)
-		(at 238.76 123.19 0)
+		(at 252.73 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3737,6 +3782,7 @@
 	(hierarchical_label "USB2DM"
 		(shape bidirectional)
 		(at 200.66 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3748,6 +3794,7 @@
 	(hierarchical_label "USB1DM"
 		(shape bidirectional)
 		(at 200.66 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3758,7 +3805,8 @@
 	)
 	(hierarchical_label "RXP"
 		(shape input)
-		(at 238.76 120.65 0)
+		(at 252.73 120.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3769,7 +3817,8 @@
 	)
 	(hierarchical_label "TXP"
 		(shape output)
-		(at 238.76 113.03 0)
+		(at 252.73 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3781,6 +3830,7 @@
 	(hierarchical_label "USBDP"
 		(shape input)
 		(at 170.18 72.39 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3792,6 +3842,7 @@
 	(hierarchical_label "USBDM"
 		(shape input)
 		(at 170.18 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4277,7 +4328,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 233.68 107.95 0)
+		(at 247.65 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4285,7 +4336,7 @@
 		(dnp no)
 		(uuid "1f53be01-c524-4e98-bb4f-2b49c94db98f")
 		(property "Reference" "R53"
-			(at 226.822 107.188 0)
+			(at 240.792 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4345,7 @@
 			)
 		)
 		(property "Value" "49.9Ω"
-			(at 226.822 108.966 0)
+			(at 240.792 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,7 +4354,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 231.902 107.95 90)
+			(at 245.872 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,7 +4363,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 107.95 0)
+			(at 247.65 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +4372,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 233.68 107.95 0)
+			(at 247.65 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,6 +4466,263 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_Ethernet:LAN9514")
+		(at 185.42 97.79 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e879e0d-2d41-4372-bea1-5d6929012e0d")
+		(property "Reference" "U16"
+			(at 185.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LAN9514"
+			(at 185.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.3x7.3mm"
+			(at 217.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf"
+			(at 187.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four USB 2.0 hub with an integrated 10/100 Ethernet controller (0°C to +70°C), QFN-48"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "62"
+			(uuid "032560e4-3b40-4226-9273-35eb30875ee2")
+		)
+		(pin "14"
+			(uuid "405db907-d43c-4666-98db-f0fbb817046b")
+		)
+		(pin "44"
+			(uuid "ab1453b0-6a53-4f74-b6b9-86a8b290ef1a")
+		)
+		(pin "3"
+			(uuid "8bd6b595-9d6b-408d-85f7-28e7b8534ed0")
+		)
+		(pin "40"
+			(uuid "ae43df25-b510-4c0a-a85a-dc3ed7cac3b2")
+		)
+		(pin "24"
+			(uuid "91330b4a-e3a3-441a-a9e5-99cccee6ce39")
+		)
+		(pin "30"
+			(uuid "1457de72-f610-431c-918c-5317db8f89cf")
+		)
+		(pin "38"
+			(uuid "56ac609a-538c-43a3-b776-c6f567a0e340")
+		)
+		(pin "32"
+			(uuid "4926febe-0956-4622-921d-0066b46d1f2e")
+		)
+		(pin "12"
+			(uuid "8e9ca857-bc18-4e96-a800-af8383b40a72")
+		)
+		(pin "28"
+			(uuid "02ed185e-ce4c-4ec9-b376-0c9f5508ff97")
+		)
+		(pin "29"
+			(uuid "a7fd90f5-6c5a-4613-9783-25e6a88a6b7b")
+		)
+		(pin "31"
+			(uuid "e029f260-2181-473c-a70a-9f33f7c3102d")
+		)
+		(pin "18"
+			(uuid "a2b6651c-228a-4d62-9a13-0ac787e65e8b")
+		)
+		(pin "45"
+			(uuid "4ddfe61b-b9fc-47ba-aaab-de8431dab693")
+		)
+		(pin "47"
+			(uuid "3cbe26d1-9423-4823-828b-4960e57f2f0f")
+		)
+		(pin "35"
+			(uuid "25a1fb29-fdd5-456d-bae4-552e2cf4d2fd")
+		)
+		(pin "25"
+			(uuid "af2985a6-a34c-4b0c-822d-b68f8c022a29")
+		)
+		(pin "51"
+			(uuid "fd779091-cb9e-4181-9842-ef64067022ab")
+		)
+		(pin "23"
+			(uuid "b4a95856-5f58-4b65-ac4a-554737f3dd98")
+		)
+		(pin "10"
+			(uuid "3ca2850c-e295-4845-a74f-000f88836ccd")
+		)
+		(pin "13"
+			(uuid "92f2bbd8-2d3e-469c-bc28-13032f701081")
+		)
+		(pin "19"
+			(uuid "f761c64b-2dbe-44b7-bad2-e65c4e4e7ecd")
+		)
+		(pin "20"
+			(uuid "a665fd4e-31d7-416f-a506-f194a038d606")
+		)
+		(pin "21"
+			(uuid "eb245f08-35e3-4625-9701-15689909ddd0")
+		)
+		(pin "27"
+			(uuid "818ef2ea-cc4a-47d9-9978-d92dc803b961")
+		)
+		(pin "33"
+			(uuid "3fcd357b-30b4-4372-bedf-dbf18630467c")
+		)
+		(pin "34"
+			(uuid "d46b502a-15fa-47d8-a5e5-fb3919307ca3")
+		)
+		(pin "36"
+			(uuid "a4bd7539-2e75-482e-bc4f-65f61662b999")
+		)
+		(pin "49"
+			(uuid "9719bf0a-36dd-437d-bf03-5744791f202a")
+		)
+		(pin "54"
+			(uuid "7e84a364-24fa-401e-bcce-cf5ec1814af0")
+		)
+		(pin "22"
+			(uuid "c308a43d-ffbd-46e5-826e-c18f82b6f8f8")
+		)
+		(pin "64"
+			(uuid "cb53995a-bab9-4db9-bc77-122b8df2555e")
+		)
+		(pin "37"
+			(uuid "b56d70ee-9486-4fc7-a702-7dc07cffc041")
+		)
+		(pin "39"
+			(uuid "480a8c37-f74f-489f-904a-078ee81b4c32")
+		)
+		(pin "15"
+			(uuid "acacac0d-0d00-4749-a698-616d64f42c97")
+		)
+		(pin "1"
+			(uuid "d28f3a40-6ab4-4dd1-8459-d55071127585")
+		)
+		(pin "11"
+			(uuid "7bb215e5-121e-4b7e-9cc7-5c18e0f2c8d1")
+		)
+		(pin "16"
+			(uuid "775f3d10-1717-48c6-864f-21076124e97b")
+		)
+		(pin "5"
+			(uuid "2c3e7de1-3d73-41de-bc81-c462243a60b0")
+		)
+		(pin "46"
+			(uuid "44c0a825-088e-4666-98f8-268ec2784576")
+		)
+		(pin "60"
+			(uuid "c23f83ed-1000-4229-83e1-b5bd8deb7cc0")
+		)
+		(pin "43"
+			(uuid "28d38351-f5de-4eb3-8fa1-cbe4f3574981")
+		)
+		(pin "48"
+			(uuid "9220a232-a30f-48e0-8d6d-bc9fc63fe479")
+		)
+		(pin "42"
+			(uuid "12ba06fd-d8f3-4abf-adb2-c06f8e16511f")
+		)
+		(pin "57"
+			(uuid "4ca26045-e9e5-49fd-88dd-0d8d7b2f211a")
+		)
+		(pin "26"
+			(uuid "a1d6ee32-8d09-4210-acdb-8bc86abf4b30")
+		)
+		(pin "61"
+			(uuid "6c236ade-0206-495f-93c9-9e3eea7a9efd")
+		)
+		(pin "65"
+			(uuid "b49e3396-1c34-4ebd-b80e-3c92c433fd73")
+		)
+		(pin "17"
+			(uuid "c53ba931-3ecc-436e-9483-8dedb2799a4e")
+		)
+		(pin "2"
+			(uuid "cdc55829-a57f-46fd-b263-03d6672b38aa")
+		)
+		(pin "4"
+			(uuid "5dd04f7b-1209-43a5-9ed8-15b8c11dae79")
+		)
+		(pin "41"
+			(uuid "fda39ded-ce78-4487-8913-81f392a617c5")
+		)
+		(pin "50"
+			(uuid "c729fe1e-90ef-49a6-9410-5c0014505ad6")
+		)
+		(pin "52"
+			(uuid "ba7eccc6-a504-434a-8434-86367b5736a0")
+		)
+		(pin "53"
+			(uuid "cacccc06-b3f8-499d-a0d2-1fc2b7451e59")
+		)
+		(pin "55"
+			(uuid "859ee767-182a-4efa-8897-78ee0b2184d3")
+		)
+		(pin "59"
+			(uuid "f2abd323-604f-4049-ac06-6bec5384ebc0")
+		)
+		(pin "58"
+			(uuid "8f7d601c-236f-4097-9e1e-4c2034b21bc5")
+		)
+		(pin "6"
+			(uuid "1761bbd5-3b6d-437d-b999-2d2690e0a846")
+		)
+		(pin "56"
+			(uuid "54a78c21-6b68-4d90-842d-1c85fab5778a")
+		)
+		(pin "63"
+			(uuid "ce69f138-e446-47c8-bb2e-729e4341a943")
+		)
+		(pin "7"
+			(uuid "1f843234-fd7e-4d00-8d02-77a9b0ee1001")
+		)
+		(pin "8"
+			(uuid "4c027d3c-02cd-40d0-989d-87b2f4a6d016")
+		)
+		(pin "9"
+			(uuid "9fb6b882-ff4a-47a2-8869-d4b7f2c399f9")
+		)
+		(instances
+			(project ""
+				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/3546f414-4018-45c7-a00a-bf02d214bf7f"
+					(reference "U16")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 59.69 181.61 0)
 		(unit 1)
@@ -4475,265 +4783,6 @@
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/3546f414-4018-45c7-a00a-bf02d214bf7f"
 					(reference "#PWR01108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_Ethernet:LAN9512")
-		(at 118.11 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3023f51b-18a7-4615-be4e-42986a939aae")
-		(property "Reference" "U17"
-			(at 120.3041 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LAN9512"
-			(at 120.3041 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.3x7.3mm"
-			(at 149.86 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/00002304A.pdf"
-			(at 120.65 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Two USB 2.0 hub with an integrated 10/100 Ethernet controller (0°C to +70°C), QFN-48"
-			(at 118.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "21"
-			(uuid "9029ee6e-3c34-427f-a040-fe44eea18758")
-		)
-		(pin "23"
-			(uuid "2f3c38ef-14d5-4a68-9bc4-08007afe6c25")
-		)
-		(pin "32"
-			(uuid "01dfbba6-2a4e-45f3-9783-4d27df666bdf")
-		)
-		(pin "35"
-			(uuid "9c18af9e-8f8c-4942-89d0-a7cfb1d832c1")
-		)
-		(pin "37"
-			(uuid "3f0be9d8-baaf-4f2c-a33a-a9ce2da07892")
-		)
-		(pin "39"
-			(uuid "b234a8bd-181a-4469-bc97-0983c33718d1")
-		)
-		(pin "42"
-			(uuid "87bfd5fe-8d31-4a37-8880-865119355b3a")
-		)
-		(pin "27"
-			(uuid "3691320a-5b16-402d-bf3b-e078f91a6b12")
-		)
-		(pin "47"
-			(uuid "a0660f18-983c-4046-a732-b8c47678f101")
-		)
-		(pin "49"
-			(uuid "6cfef19b-aefe-471f-86ba-3e36fa27c166")
-		)
-		(pin "5"
-			(uuid "2469b905-c8c7-479e-ad3e-2690ae8f00d3")
-		)
-		(pin "51"
-			(uuid "0ae0d3a1-be00-493a-a94b-137d46bcb624")
-		)
-		(pin "24"
-			(uuid "11a30831-8656-4713-adc0-d694c99d8815")
-		)
-		(pin "54"
-			(uuid "63e54d0c-76d2-4fb5-a6b8-472208d462d0")
-		)
-		(pin "10"
-			(uuid "63334d68-c82d-4d8a-b18d-2e00701ef719")
-		)
-		(pin "19"
-			(uuid "629171cd-8942-452c-86ea-11ef90f71386")
-		)
-		(pin "29"
-			(uuid "7a96e717-a561-453c-9e92-4f6ff833c743")
-		)
-		(pin "26"
-			(uuid "0da3f097-48d3-4f87-9655-34ec372bc78d")
-		)
-		(pin "20"
-			(uuid "fb304f8c-282b-4b28-b331-4a1da624c5f8")
-		)
-		(pin "28"
-			(uuid "43bc59b0-6333-4621-88e7-0a7435980594")
-		)
-		(pin "15"
-			(uuid "3624ba71-d061-46a2-92d8-7da3e6683db0")
-		)
-		(pin "30"
-			(uuid "e07ed2e6-f889-4e68-91a5-69df1cfa07a8")
-		)
-		(pin "31"
-			(uuid "3600833d-0eab-4c9b-8c39-c4cac31f812f")
-		)
-		(pin "33"
-			(uuid "448d223c-9124-4391-8473-140af3c62a27")
-		)
-		(pin "12"
-			(uuid "ca602cba-6194-4bff-ab26-a84ca8cf8057")
-		)
-		(pin "13"
-			(uuid "da9be8b7-2349-4127-869d-3a31056cc5a1")
-		)
-		(pin "22"
-			(uuid "3e7d44fb-15be-4bad-a8ba-32b6490e6b54")
-		)
-		(pin "25"
-			(uuid "1c8c831a-fbba-4fa7-9709-9f2fee036f4a")
-		)
-		(pin "34"
-			(uuid "9d0048a1-92cc-4264-8fa8-daa9b372d178")
-		)
-		(pin "36"
-			(uuid "c0617810-2081-4096-8a73-a68dbe5711a0")
-		)
-		(pin "38"
-			(uuid "a4903236-7749-49d6-8020-d35a27b6cf2b")
-		)
-		(pin "40"
-			(uuid "86b13356-568d-491f-b887-11e567515a2c")
-		)
-		(pin "43"
-			(uuid "c3cd1b6d-b695-4336-a10a-89ba75c90591")
-		)
-		(pin "44"
-			(uuid "3875e78e-3e6e-4251-8b29-426b4d6dd376")
-		)
-		(pin "1"
-			(uuid "93bbf265-d1fe-4dbe-b31b-eb0c25fde062")
-		)
-		(pin "45"
-			(uuid "4aca304d-b392-4a63-b6ae-2859e0196583")
-		)
-		(pin "46"
-			(uuid "43ca3b56-9d39-4a60-9b41-1f4a4c6cf36d")
-		)
-		(pin "48"
-			(uuid "5af514d7-02b3-4184-a70f-51f1eb953a9d")
-		)
-		(pin "62"
-			(uuid "a23cac6f-2094-4b1b-9778-a99859b224d8")
-		)
-		(pin "17"
-			(uuid "b6b228ae-30c6-4f67-bb11-ac41e2b84aa9")
-		)
-		(pin "3"
-			(uuid "5f526112-f3fa-4ae6-886f-e34a5d1f2064")
-		)
-		(pin "63"
-			(uuid "e4859324-2562-4c49-80ba-89f9eaee697b")
-		)
-		(pin "11"
-			(uuid "98999f73-276e-43f7-8a01-71020cd7a551")
-		)
-		(pin "6"
-			(uuid "cce87fe4-eb48-4c70-b0a0-c5a8286e0509")
-		)
-		(pin "58"
-			(uuid "4820566d-c61e-4bf1-bd9f-f8a0284a80aa")
-		)
-		(pin "7"
-			(uuid "0cffdc7a-131d-4d8b-8432-adf37d0c08f8")
-		)
-		(pin "9"
-			(uuid "feab7a6e-49fc-496d-b6ec-ad50849c0ec3")
-		)
-		(pin "2"
-			(uuid "336ce2f5-b99f-4edc-9c4d-587594a4ebe5")
-		)
-		(pin "61"
-			(uuid "b907997b-9750-454b-83bb-198cb4b7dddb")
-		)
-		(pin "56"
-			(uuid "80311934-4827-45ac-b0bf-9f65d6d5d670")
-		)
-		(pin "8"
-			(uuid "c118d0ac-6b0e-45a8-a716-5df1acf5652f")
-		)
-		(pin "53"
-			(uuid "65cbc60c-a492-424f-8bc1-2ba10e3c1b21")
-		)
-		(pin "52"
-			(uuid "7bf9ab7e-0f22-424e-8963-ca5245543896")
-		)
-		(pin "14"
-			(uuid "5478a2fd-924f-4bee-bda6-4d54f341d9d4")
-		)
-		(pin "18"
-			(uuid "4a369587-03dc-4150-8073-c952b5255234")
-		)
-		(pin "64"
-			(uuid "e2546268-6b43-431b-b958-91d2239490ef")
-		)
-		(pin "50"
-			(uuid "6887ecdf-7acb-4535-b9bc-f5bf40d9a908")
-		)
-		(pin "60"
-			(uuid "7fb0351f-cb56-4de6-a183-a463d6ebcc79")
-		)
-		(pin "4"
-			(uuid "6a650536-2329-4291-8dd2-effb28edfae5")
-		)
-		(pin "59"
-			(uuid "725ea3ea-c157-4e75-95c3-ff75969f18cb")
-		)
-		(pin "55"
-			(uuid "9ddbf4aa-2c4d-40db-af7e-8754ada374e5")
-		)
-		(pin "16"
-			(uuid "faf9e214-9c4b-4d06-b11f-af1ea8139364")
-		)
-		(pin "57"
-			(uuid "51e11368-cd8d-441f-a3fa-bb2a13f2f829")
-		)
-		(pin "65"
-			(uuid "82d70c44-7219-4ca3-b653-6b52d5c73d07")
-		)
-		(pin "41"
-			(uuid "5acdbdbe-0be7-401d-962f-49f56e0b5723")
-		)
-		(instances
-			(project ""
-				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/3546f414-4018-45c7-a00a-bf02d214bf7f"
-					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -5080,7 +5129,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 215.9 107.95 0)
+		(at 229.87 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5088,7 +5137,7 @@
 		(dnp no)
 		(uuid "4bbfae1c-a6fb-45b6-a558-a2fa3532d8d3")
 		(property "Reference" "R55"
-			(at 208.026 106.172 0)
+			(at 221.996 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5146,7 @@
 			)
 		)
 		(property "Value" "49.9Ω"
-			(at 208.28 108.458 0)
+			(at 222.25 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5155,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 214.122 107.95 90)
+			(at 228.092 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5164,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 107.95 0)
+			(at 229.87 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +5173,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 215.9 107.95 0)
+			(at 229.87 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,7 +5631,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.74 107.95 0)
+		(at 219.71 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5590,7 +5639,7 @@
 		(dnp no)
 		(uuid "64e112b8-4349-4592-b603-46457d87e425")
 		(property "Reference" "R54"
-			(at 198.882 104.902 0)
+			(at 212.852 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,7 +5648,7 @@
 			)
 		)
 		(property "Value" "49.9Ω"
-			(at 198.882 107.442 0)
+			(at 212.852 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5608,7 +5657,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 203.962 107.95 90)
+			(at 217.932 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,7 +5666,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 107.95 0)
+			(at 219.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,7 +5675,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 205.74 107.95 0)
+			(at 219.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +5971,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 224.79 107.95 0)
+		(at 238.76 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5930,7 +5979,7 @@
 		(dnp no)
 		(uuid "713a8f96-a82b-47fb-9dd8-6d49a1d11b79")
 		(property "Reference" "R52"
-			(at 216.408 106.426 0)
+			(at 230.378 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +5988,7 @@
 			)
 		)
 		(property "Value" "49.9Ω"
-			(at 217.678 108.458 0)
+			(at 231.648 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +5997,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 223.012 107.95 90)
+			(at 236.982 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +6006,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 107.95 0)
+			(at 238.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,7 +6015,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 224.79 107.95 0)
+			(at 238.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5985,263 +6034,6 @@
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/3546f414-4018-45c7-a00a-bf02d214bf7f"
 					(reference "R52")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_Ethernet:LAN9512")
-		(at 185.42 97.79 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71cc46b1-c79d-4984-be19-5ae112e204ca")
-		(property "Reference" "U17"
-			(at 185.42 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LAN9512"
-			(at 185.42 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.3x7.3mm"
-			(at 217.17 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/00002304A.pdf"
-			(at 187.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Two USB 2.0 hub with an integrated 10/100 Ethernet controller (0°C to +70°C), QFN-48"
-			(at 185.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "21"
-			(uuid "9029ee6e-3c34-427f-a040-fe44eea18759")
-		)
-		(pin "23"
-			(uuid "2f3c38ef-14d5-4a68-9bc4-08007afe6c26")
-		)
-		(pin "32"
-			(uuid "01dfbba6-2a4e-45f3-9783-4d27df666be0")
-		)
-		(pin "35"
-			(uuid "9c18af9e-8f8c-4942-89d0-a7cfb1d832c2")
-		)
-		(pin "37"
-			(uuid "3f0be9d8-baaf-4f2c-a33a-a9ce2da07893")
-		)
-		(pin "39"
-			(uuid "b234a8bd-181a-4469-bc97-0983c33718d2")
-		)
-		(pin "42"
-			(uuid "87bfd5fe-8d31-4a37-8880-865119355b3b")
-		)
-		(pin "27"
-			(uuid "3691320a-5b16-402d-bf3b-e078f91a6b13")
-		)
-		(pin "47"
-			(uuid "a0660f18-983c-4046-a732-b8c47678f102")
-		)
-		(pin "49"
-			(uuid "6cfef19b-aefe-471f-86ba-3e36fa27c167")
-		)
-		(pin "5"
-			(uuid "2469b905-c8c7-479e-ad3e-2690ae8f00d4")
-		)
-		(pin "51"
-			(uuid "0ae0d3a1-be00-493a-a94b-137d46bcb625")
-		)
-		(pin "24"
-			(uuid "11a30831-8656-4713-adc0-d694c99d8816")
-		)
-		(pin "54"
-			(uuid "63e54d0c-76d2-4fb5-a6b8-472208d462d1")
-		)
-		(pin "10"
-			(uuid "63334d68-c82d-4d8a-b18d-2e00701ef71a")
-		)
-		(pin "19"
-			(uuid "629171cd-8942-452c-86ea-11ef90f71387")
-		)
-		(pin "29"
-			(uuid "7a96e717-a561-453c-9e92-4f6ff833c744")
-		)
-		(pin "26"
-			(uuid "0da3f097-48d3-4f87-9655-34ec372bc78e")
-		)
-		(pin "20"
-			(uuid "fb304f8c-282b-4b28-b331-4a1da624c5f9")
-		)
-		(pin "28"
-			(uuid "43bc59b0-6333-4621-88e7-0a7435980595")
-		)
-		(pin "15"
-			(uuid "3624ba71-d061-46a2-92d8-7da3e6683db1")
-		)
-		(pin "30"
-			(uuid "e07ed2e6-f889-4e68-91a5-69df1cfa07a9")
-		)
-		(pin "31"
-			(uuid "3600833d-0eab-4c9b-8c39-c4cac31f8130")
-		)
-		(pin "33"
-			(uuid "448d223c-9124-4391-8473-140af3c62a28")
-		)
-		(pin "12"
-			(uuid "ca602cba-6194-4bff-ab26-a84ca8cf8058")
-		)
-		(pin "13"
-			(uuid "da9be8b7-2349-4127-869d-3a31056cc5a2")
-		)
-		(pin "22"
-			(uuid "3e7d44fb-15be-4bad-a8ba-32b6490e6b55")
-		)
-		(pin "25"
-			(uuid "1c8c831a-fbba-4fa7-9709-9f2fee036f4b")
-		)
-		(pin "34"
-			(uuid "9d0048a1-92cc-4264-8fa8-daa9b372d179")
-		)
-		(pin "36"
-			(uuid "c0617810-2081-4096-8a73-a68dbe5711a1")
-		)
-		(pin "38"
-			(uuid "a4903236-7749-49d6-8020-d35a27b6cf2c")
-		)
-		(pin "40"
-			(uuid "86b13356-568d-491f-b887-11e567515a2d")
-		)
-		(pin "43"
-			(uuid "c3cd1b6d-b695-4336-a10a-89ba75c90592")
-		)
-		(pin "44"
-			(uuid "3875e78e-3e6e-4251-8b29-426b4d6dd377")
-		)
-		(pin "1"
-			(uuid "93bbf265-d1fe-4dbe-b31b-eb0c25fde063")
-		)
-		(pin "45"
-			(uuid "4aca304d-b392-4a63-b6ae-2859e0196584")
-		)
-		(pin "46"
-			(uuid "43ca3b56-9d39-4a60-9b41-1f4a4c6cf36e")
-		)
-		(pin "48"
-			(uuid "5af514d7-02b3-4184-a70f-51f1eb953a9e")
-		)
-		(pin "62"
-			(uuid "a23cac6f-2094-4b1b-9778-a99859b224d9")
-		)
-		(pin "17"
-			(uuid "b6b228ae-30c6-4f67-bb11-ac41e2b84aaa")
-		)
-		(pin "3"
-			(uuid "5f526112-f3fa-4ae6-886f-e34a5d1f2065")
-		)
-		(pin "63"
-			(uuid "e4859324-2562-4c49-80ba-89f9eaee697c")
-		)
-		(pin "11"
-			(uuid "98999f73-276e-43f7-8a01-71020cd7a552")
-		)
-		(pin "6"
-			(uuid "cce87fe4-eb48-4c70-b0a0-c5a8286e050a")
-		)
-		(pin "58"
-			(uuid "4820566d-c61e-4bf1-bd9f-f8a0284a80ab")
-		)
-		(pin "7"
-			(uuid "0cffdc7a-131d-4d8b-8432-adf37d0c08f9")
-		)
-		(pin "9"
-			(uuid "feab7a6e-49fc-496d-b6ec-ad50849c0ec4")
-		)
-		(pin "2"
-			(uuid "336ce2f5-b99f-4edc-9c4d-587594a4ebe6")
-		)
-		(pin "61"
-			(uuid "b907997b-9750-454b-83bb-198cb4b7dddc")
-		)
-		(pin "56"
-			(uuid "80311934-4827-45ac-b0bf-9f65d6d5d671")
-		)
-		(pin "8"
-			(uuid "c118d0ac-6b0e-45a8-a716-5df1acf56530")
-		)
-		(pin "53"
-			(uuid "65cbc60c-a492-424f-8bc1-2ba10e3c1b22")
-		)
-		(pin "52"
-			(uuid "7bf9ab7e-0f22-424e-8963-ca5245543897")
-		)
-		(pin "14"
-			(uuid "5478a2fd-924f-4bee-bda6-4d54f341d9d5")
-		)
-		(pin "18"
-			(uuid "4a369587-03dc-4150-8073-c952b5255235")
-		)
-		(pin "64"
-			(uuid "e2546268-6b43-431b-b958-91d2239490f0")
-		)
-		(pin "50"
-			(uuid "6887ecdf-7acb-4535-b9bc-f5bf40d9a909")
-		)
-		(pin "60"
-			(uuid "7fb0351f-cb56-4de6-a183-a463d6ebcc7a")
-		)
-		(pin "4"
-			(uuid "6a650536-2329-4291-8dd2-effb28edfae6")
-		)
-		(pin "59"
-			(uuid "725ea3ea-c157-4e75-95c3-ff75969f18cc")
-		)
-		(pin "55"
-			(uuid "9ddbf4aa-2c4d-40db-af7e-8754ada374e6")
-		)
-		(pin "16"
-			(uuid "faf9e214-9c4b-4d06-b11f-af1ea8139365")
-		)
-		(pin "57"
-			(uuid "51e11368-cd8d-441f-a3fa-bb2a13f2f82a")
-		)
-		(pin "65"
-			(uuid "82d70c44-7219-4ca3-b653-6b52d5c73d08")
-		)
-		(pin "41"
-			(uuid "5acdbdbe-0be7-401d-962f-49f56e0b5724")
-		)
-		(instances
-			(project ""
-				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/3546f414-4018-45c7-a00a-bf02d214bf7f"
-					(reference "U17")
-					(unit 2)
 				)
 			)
 		)
@@ -6449,6 +6241,265 @@
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/3546f414-4018-45c7-a00a-bf02d214bf7f"
 					(reference "C133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Ethernet:LAN9514")
+		(at 118.11 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a1b43fa-9eda-4cb6-985b-2c9f9a96ec90")
+		(property "Reference" "U16"
+			(at 120.3041 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LAN9514"
+			(at 120.3041 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.3x7.3mm"
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf"
+			(at 120.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four USB 2.0 hub with an integrated 10/100 Ethernet controller (0°C to +70°C), QFN-48"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "62"
+			(uuid "032560e4-3b40-4226-9273-35eb30875ee2")
+		)
+		(pin "14"
+			(uuid "405db907-d43c-4666-98db-f0fbb817046b")
+		)
+		(pin "44"
+			(uuid "ab1453b0-6a53-4f74-b6b9-86a8b290ef1a")
+		)
+		(pin "3"
+			(uuid "8bd6b595-9d6b-408d-85f7-28e7b8534ed0")
+		)
+		(pin "40"
+			(uuid "ae43df25-b510-4c0a-a85a-dc3ed7cac3b2")
+		)
+		(pin "24"
+			(uuid "91330b4a-e3a3-441a-a9e5-99cccee6ce39")
+		)
+		(pin "30"
+			(uuid "1457de72-f610-431c-918c-5317db8f89cf")
+		)
+		(pin "38"
+			(uuid "56ac609a-538c-43a3-b776-c6f567a0e340")
+		)
+		(pin "32"
+			(uuid "4926febe-0956-4622-921d-0066b46d1f2e")
+		)
+		(pin "12"
+			(uuid "8e9ca857-bc18-4e96-a800-af8383b40a72")
+		)
+		(pin "28"
+			(uuid "02ed185e-ce4c-4ec9-b376-0c9f5508ff97")
+		)
+		(pin "29"
+			(uuid "a7fd90f5-6c5a-4613-9783-25e6a88a6b7b")
+		)
+		(pin "31"
+			(uuid "e029f260-2181-473c-a70a-9f33f7c3102d")
+		)
+		(pin "18"
+			(uuid "a2b6651c-228a-4d62-9a13-0ac787e65e8b")
+		)
+		(pin "45"
+			(uuid "4ddfe61b-b9fc-47ba-aaab-de8431dab693")
+		)
+		(pin "47"
+			(uuid "3cbe26d1-9423-4823-828b-4960e57f2f0f")
+		)
+		(pin "35"
+			(uuid "25a1fb29-fdd5-456d-bae4-552e2cf4d2fd")
+		)
+		(pin "25"
+			(uuid "af2985a6-a34c-4b0c-822d-b68f8c022a29")
+		)
+		(pin "51"
+			(uuid "fd779091-cb9e-4181-9842-ef64067022ab")
+		)
+		(pin "23"
+			(uuid "b4a95856-5f58-4b65-ac4a-554737f3dd98")
+		)
+		(pin "10"
+			(uuid "3ca2850c-e295-4845-a74f-000f88836ccd")
+		)
+		(pin "13"
+			(uuid "92f2bbd8-2d3e-469c-bc28-13032f701081")
+		)
+		(pin "19"
+			(uuid "f761c64b-2dbe-44b7-bad2-e65c4e4e7ecd")
+		)
+		(pin "20"
+			(uuid "a665fd4e-31d7-416f-a506-f194a038d606")
+		)
+		(pin "21"
+			(uuid "eb245f08-35e3-4625-9701-15689909ddd0")
+		)
+		(pin "27"
+			(uuid "818ef2ea-cc4a-47d9-9978-d92dc803b961")
+		)
+		(pin "33"
+			(uuid "3fcd357b-30b4-4372-bedf-dbf18630467c")
+		)
+		(pin "34"
+			(uuid "d46b502a-15fa-47d8-a5e5-fb3919307ca3")
+		)
+		(pin "36"
+			(uuid "a4bd7539-2e75-482e-bc4f-65f61662b999")
+		)
+		(pin "49"
+			(uuid "9719bf0a-36dd-437d-bf03-5744791f202a")
+		)
+		(pin "54"
+			(uuid "7e84a364-24fa-401e-bcce-cf5ec1814af0")
+		)
+		(pin "22"
+			(uuid "c308a43d-ffbd-46e5-826e-c18f82b6f8f8")
+		)
+		(pin "64"
+			(uuid "cb53995a-bab9-4db9-bc77-122b8df2555e")
+		)
+		(pin "37"
+			(uuid "b56d70ee-9486-4fc7-a702-7dc07cffc041")
+		)
+		(pin "39"
+			(uuid "480a8c37-f74f-489f-904a-078ee81b4c32")
+		)
+		(pin "15"
+			(uuid "acacac0d-0d00-4749-a698-616d64f42c97")
+		)
+		(pin "1"
+			(uuid "d28f3a40-6ab4-4dd1-8459-d55071127585")
+		)
+		(pin "11"
+			(uuid "7bb215e5-121e-4b7e-9cc7-5c18e0f2c8d1")
+		)
+		(pin "16"
+			(uuid "775f3d10-1717-48c6-864f-21076124e97b")
+		)
+		(pin "5"
+			(uuid "2c3e7de1-3d73-41de-bc81-c462243a60b0")
+		)
+		(pin "46"
+			(uuid "44c0a825-088e-4666-98f8-268ec2784576")
+		)
+		(pin "60"
+			(uuid "c23f83ed-1000-4229-83e1-b5bd8deb7cc0")
+		)
+		(pin "43"
+			(uuid "28d38351-f5de-4eb3-8fa1-cbe4f3574981")
+		)
+		(pin "48"
+			(uuid "9220a232-a30f-48e0-8d6d-bc9fc63fe479")
+		)
+		(pin "42"
+			(uuid "12ba06fd-d8f3-4abf-adb2-c06f8e16511f")
+		)
+		(pin "57"
+			(uuid "4ca26045-e9e5-49fd-88dd-0d8d7b2f211a")
+		)
+		(pin "26"
+			(uuid "a1d6ee32-8d09-4210-acdb-8bc86abf4b30")
+		)
+		(pin "61"
+			(uuid "6c236ade-0206-495f-93c9-9e3eea7a9efd")
+		)
+		(pin "65"
+			(uuid "b49e3396-1c34-4ebd-b80e-3c92c433fd73")
+		)
+		(pin "17"
+			(uuid "c53ba931-3ecc-436e-9483-8dedb2799a4e")
+		)
+		(pin "2"
+			(uuid "cdc55829-a57f-46fd-b263-03d6672b38aa")
+		)
+		(pin "4"
+			(uuid "5dd04f7b-1209-43a5-9ed8-15b8c11dae79")
+		)
+		(pin "41"
+			(uuid "fda39ded-ce78-4487-8913-81f392a617c5")
+		)
+		(pin "50"
+			(uuid "c729fe1e-90ef-49a6-9410-5c0014505ad6")
+		)
+		(pin "52"
+			(uuid "ba7eccc6-a504-434a-8434-86367b5736a0")
+		)
+		(pin "53"
+			(uuid "cacccc06-b3f8-499d-a0d2-1fc2b7451e59")
+		)
+		(pin "55"
+			(uuid "859ee767-182a-4efa-8897-78ee0b2184d3")
+		)
+		(pin "59"
+			(uuid "f2abd323-604f-4049-ac06-6bec5384ebc0")
+		)
+		(pin "58"
+			(uuid "8f7d601c-236f-4097-9e1e-4c2034b21bc5")
+		)
+		(pin "6"
+			(uuid "1761bbd5-3b6d-437d-b999-2d2690e0a846")
+		)
+		(pin "56"
+			(uuid "54a78c21-6b68-4d90-842d-1c85fab5778a")
+		)
+		(pin "63"
+			(uuid "ce69f138-e446-47c8-bb2e-729e4341a943")
+		)
+		(pin "7"
+			(uuid "1f843234-fd7e-4d00-8d02-77a9b0ee1001")
+		)
+		(pin "8"
+			(uuid "4c027d3c-02cd-40d0-989d-87b2f4a6d016")
+		)
+		(pin "9"
+			(uuid "9fb6b882-ff4a-47a2-8869-d4b7f2c399f9")
+		)
+		(instances
+			(project ""
+				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/3546f414-4018-45c7-a00a-bf02d214bf7f"
+					(reference "U16")
 					(unit 1)
 				)
 			)
