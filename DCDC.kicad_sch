@@ -3046,17 +3046,6 @@
 		)
 		(uuid "07f27821-e026-4798-b8ad-619386e988ff")
 	)
-	(label "VBUS"
-		(at 119.38 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b2362ac5-ba45-475a-a8c5-d65f1f918a34")
-	)
 	(hierarchical_label "VBUS_EN"
 		(shape input)
 		(at 73.66 149.86 180)
@@ -3152,6 +3141,18 @@
 			(justify right)
 		)
 		(uuid "d4f203e6-d048-41d5-9215-d21b815e7ba7")
+	)
+	(hierarchical_label "5V_VBUS"
+		(shape output)
+		(at 119.38 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff51a932-3af6-4967-a66e-421fc7eea12d")
 	)
 	(symbol
 		(lib_name "GND_1")
