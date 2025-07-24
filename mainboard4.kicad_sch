@@ -2390,6 +2390,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 82.55) (xy 95.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f13c672-6a4b-48f3-85da-e8a90b75af8e")
+	)
+	(wire
+		(pts
 			(xy 190.5 130.81) (xy 191.77 130.81)
 		)
 		(stroke
@@ -2587,6 +2597,16 @@
 			(type default)
 		)
 		(uuid "4b40ea19-24ba-4a54-a766-0c4daa17103f")
+	)
+	(wire
+		(pts
+			(xy 69.85 95.25) (xy 95.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bdf216c-0358-4b30-834e-a700083356bb")
 	)
 	(wire
 		(pts
@@ -2960,6 +2980,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 80.01) (xy 95.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b572821c-95e0-4534-bf22-3a94d4f947d5")
+	)
+	(wire
+		(pts
 			(xy 90.17 111.76) (xy 95.25 111.76)
 		)
 		(stroke
@@ -3110,6 +3140,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 97.79) (xy 95.25 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cebf6f95-f25d-4473-b4dd-7c98e36ae787")
+	)
+	(wire
+		(pts
 			(xy 191.77 161.29) (xy 226.06 161.29)
 		)
 		(stroke
@@ -3230,6 +3270,26 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 90.17) (xy 95.25 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec8ee9df-feaa-416d-88c7-005f7b2ca93e")
+	)
+	(wire
+		(pts
+			(xy 69.85 87.63) (xy 95.25 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee039808-216e-41f4-8f0f-c53cff1bb888")
+	)
+	(wire
+		(pts
 			(xy 190.5 143.51) (xy 190.5 146.05)
 		)
 		(stroke
@@ -3280,7 +3340,7 @@
 	)
 	(text "USB 3 Pairs P/N swapped to help routing"
 		(exclude_from_sim no)
-		(at 219.456 13.97 0)
+		(at 219.71 13.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4317,15 +4377,16 @@
 	)
 	(symbol
 		(lib_id "CM5IO:USB3_A")
-		(at 43.18 63.5 0)
+		(at 58.42 67.31 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f73e1c1d-9c31-401f-a6d2-4a6952e612f2")
-		(property "Reference" "J11"
-			(at 55.372 68.2244 0)
+		(property "Reference" "J12"
+			(at 46.228 72.0344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4395,7 @@
 			)
 		)
 		(property "Value" "USB3_A"
-			(at 55.372 70.5358 0)
+			(at 46.228 74.3458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +4404,7 @@
 			)
 		)
 		(property "Footprint" "CM5IO:MTCONN_UBAF30-D2011"
-			(at 46.99 43.18 0)
+			(at 54.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 43.18 0)
+			(at 54.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +4422,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 63.5 0)
+			(at 58.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4431,7 @@
 			)
 		)
 		(property "Field6" "UBAF30-D2011"
-			(at 43.18 63.5 0)
+			(at 58.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +4440,7 @@
 			)
 		)
 		(property "Field7" "Mtconn"
-			(at 43.18 63.5 0)
+			(at 58.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,7 +4449,7 @@
 			)
 		)
 		(property "Field5" "UBAF30-D2011"
-			(at 43.18 63.5 0)
+			(at 58.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +4458,7 @@
 			)
 		)
 		(property "Part Description" "Dual USB 3 connector"
-			(at 43.18 63.5 0)
+			(at 58.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,7 +4526,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
-					(reference "J11")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -5278,7 +5339,7 @@
 			(uuid "b0fc4475-d1db-4206-a9d5-105258158e52")
 		)
 		(pin "USB3-0-D_P" bidirectional
-			(at 95.25 85.09 180)
+			(at 95.25 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,7 +5419,7 @@
 			(uuid "f4046045-2903-4008-9f9c-470b9aa1bea0")
 		)
 		(pin "USB3-0-TX_P" output
-			(at 95.25 72.39 180)
+			(at 95.25 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,7 +5429,7 @@
 			(uuid "cee1b10e-c73e-4c9d-bb51-ef81ab043754")
 		)
 		(pin "USB3-0-TX_N" output
-			(at 95.25 69.85 180)
+			(at 95.25 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5439,7 @@
 			(uuid "fea41d62-2e84-4180-8900-6b5d36357186")
 		)
 		(pin "USB3-0-RX_N" input
-			(at 95.25 96.52 180)
+			(at 95.25 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,7 +5449,7 @@
 			(uuid "4dff02d4-9f4a-482c-982a-4d3795e1d899")
 		)
 		(pin "USB3-0-RX_P" input
-			(at 95.25 99.06 180)
+			(at 95.25 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
