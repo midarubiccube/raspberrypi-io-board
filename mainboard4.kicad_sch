@@ -2211,6 +2211,12 @@
 		)
 	)
 	(junction
+		(at 72.39 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28c773e0-2705-47bf-8b88-c6b3e49577d3")
+	)
+	(junction
 		(at 25.4 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2223,10 +2229,32 @@
 		(uuid "6c40f789-46d6-476e-bc75-dd2baed749fd")
 	)
 	(junction
+		(at 72.39 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "948a447b-cd50-4080-b96d-7387cec51269")
+	)
+	(junction
 		(at 30.48 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd28c54b-c4ad-48e2-b757-96043b64f598")
+	)
+	(junction
+		(at 72.39 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d21ac39b-5e5c-48b4-b350-7e73dcfe1e4c")
+	)
+	(wire
+		(pts
+			(xy 43.18 128.27) (xy 48.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b7254d-e2af-4cc6-a9dd-52a9427b3a0f")
 	)
 	(wire
 		(pts
@@ -2297,6 +2325,16 @@
 			(type default)
 		)
 		(uuid "0f5ac204-3cf0-46c8-b8b4-3ffe6f8f7dbf")
+	)
+	(wire
+		(pts
+			(xy 72.39 104.14) (xy 69.85 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13377350-efd0-496c-bf72-bd2e81fb7c3a")
 	)
 	(wire
 		(pts
@@ -2497,6 +2535,16 @@
 			(type default)
 		)
 		(uuid "317bc28b-750f-48da-b7f9-7c6416a76fa8")
+	)
+	(wire
+		(pts
+			(xy 72.39 101.6) (xy 72.39 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338ee181-75bb-4716-906c-57ff556514c0")
 	)
 	(wire
 		(pts
@@ -2830,6 +2878,26 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 101.6) (xy 72.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850838e7-59ee-4deb-a9f1-270963eca030")
+	)
+	(wire
+		(pts
+			(xy 72.39 67.31) (xy 72.39 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856078fe-0618-47da-a184-c4f0731f2d00")
+	)
+	(wire
+		(pts
 			(xy 154.94 110.49) (xy 154.94 143.51)
 		)
 		(stroke
@@ -2837,6 +2905,16 @@
 			(type default)
 		)
 		(uuid "8630326a-3b15-4a41-b59c-10be0939aae5")
+	)
+	(wire
+		(pts
+			(xy 77.47 40.64) (xy 69.85 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89eae896-7780-49e4-9094-22d386b77901")
 	)
 	(wire
 		(pts
@@ -2900,13 +2978,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 127) (xy 90.17 111.76)
+			(xy 90.17 132.08) (xy 90.17 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a0ee2e25-4e73-4b09-b0c0-2aa26dadd452")
+	)
+	(wire
+		(pts
+			(xy 72.39 69.85) (xy 69.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29bb8e8-b148-4d5a-bd7b-c0c9afd47ede")
 	)
 	(wire
 		(pts
@@ -3060,13 +3148,23 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 128.27) (xy 48.26 128.27)
+			(xy 88.9 156.21) (xy 81.28 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3e9c876-15b2-4c48-8b30-f53e006cc932")
+		(uuid "c3353b05-9609-4628-9fb5-bdbc08f21994")
+	)
+	(wire
+		(pts
+			(xy 153.67 153.67) (xy 161.29 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bcde25-9547-4bc3-9d3e-752f272f3471")
 	)
 	(wire
 		(pts
@@ -3077,6 +3175,16 @@
 			(type default)
 		)
 		(uuid "c544e9f2-bb9a-4f8e-a8d8-ca8752650a0f")
+	)
+	(wire
+		(pts
+			(xy 76.2 74.93) (xy 69.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f1d603-8e5b-4cc3-b949-fde4faa09ecd")
 	)
 	(wire
 		(pts
@@ -3107,6 +3215,16 @@
 			(type default)
 		)
 		(uuid "caa7a3c4-0cdc-4f74-b209-bacb7923ff22")
+	)
+	(wire
+		(pts
+			(xy 69.85 67.31) (xy 72.39 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb271e00-0558-4bf1-be14-204ad12fc040")
 	)
 	(wire
 		(pts
@@ -3290,6 +3408,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 101.6) (xy 72.39 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef88f7e7-bc11-4453-88c0-170605cbfeb3")
+	)
+	(wire
+		(pts
 			(xy 190.5 143.51) (xy 190.5 146.05)
 		)
 		(stroke
@@ -3310,7 +3438,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 127) (xy 90.17 127)
+			(xy 81.28 132.08) (xy 90.17 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3348,6 +3476,46 @@
 			(justify left bottom)
 		)
 		(uuid "e37526c1-6c47-4ab5-9f28-28736aa21624")
+	)
+	(label "VBUS"
+		(at 88.9 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0efad721-7a42-4ca7-9ccf-2db9a6eea5b0")
+	)
+	(label "VBUS"
+		(at 76.2 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6fbd6a16-606a-4dea-92b5-054dc55736ae")
+	)
+	(label "VBUS"
+		(at 77.47 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b506934-7bd3-4c82-b3b3-bcccac23834d")
+	)
+	(label "VBUS"
+		(at 153.67 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0b57db5-cff1-4514-9128-93cdb74e14bf")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -4242,6 +4410,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 72.39 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6f441aa-99c5-44b8-b427-a6fe1dd0a5cd")
+		(property "Reference" "#PWR80"
+			(at 72.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b17ec206-686c-4752-b0c7-7b62e8fcf354")
+		)
+		(instances
+			(project "mainboard4"
+				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
+					(reference "#PWR80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 195.58 143.51 90)
 		(unit 1)
@@ -4894,6 +5128,16 @@
 				(justify right)
 			)
 			(uuid "e7ca28d7-c8c7-47b0-a874-0da30a865e28")
+		)
+		(pin "VBUS" input
+			(at 161.29 153.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "88b2fa19-08f0-447b-bd0b-274ac74bb389")
 		)
 		(instances
 			(project "mainboard4"
@@ -5820,6 +6064,16 @@
 				(justify left top)
 			)
 		)
+		(pin "RESET" output
+			(at 149.86 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8b22cd17-0d4f-459f-807b-59dde01f98b2")
+		)
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
@@ -5986,16 +6240,6 @@
 			)
 			(uuid "909061b8-4f56-4cfe-9b22-cc5a3973fa3d")
 		)
-		(pin "VBUS" input
-			(at 48.26 128.27 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "65b78c06-e9d8-4a00-983a-5bc822b6e57d")
-		)
 		(pin "5V" output
 			(at 81.28 142.24 0)
 			(effects
@@ -6017,7 +6261,7 @@
 			(uuid "496b23fb-900c-42a2-a8ff-26c51accf119")
 		)
 		(pin "VBUS_EN" input
-			(at 81.28 127 0)
+			(at 81.28 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,6 +6269,26 @@
 				(justify right)
 			)
 			(uuid "4288e82b-6111-48cc-8d37-dbc806d2204a")
+		)
+		(pin "5V_VBUS" output
+			(at 81.28 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e88fa335-7a64-41b4-a2d7-91bfda7164b4")
+		)
+		(pin "12V-VBUS" input
+			(at 48.26 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cd2bf42a-8180-461e-a721-f36d607b3d3b")
 		)
 		(instances
 			(project "mainboard4"

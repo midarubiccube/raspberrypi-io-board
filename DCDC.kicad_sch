@@ -2129,7 +2129,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 39.37) (xy 38.1 39.37)
+			(xy 29.21 39.37) (xy 38.1 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2159,7 +2159,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 88.9) (xy 45.72 88.9)
+			(xy 29.21 88.9) (xy 45.72 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2486,16 +2486,6 @@
 			(type default)
 		)
 		(uuid "92b5763b-08e5-4dd4-9d9d-6eea82500251")
-	)
-	(wire
-		(pts
-			(xy 226.06 27.94) (xy 228.6 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "936b886f-bff7-4ec5-9875-a42827d59cfe")
 	)
 	(wire
 		(pts
@@ -2984,8 +2974,8 @@
 		(uuid 56478e5a-be20-49c8-81be-cc32670b81a4)
 	)
 	(rectangle
-		(start 218.44 13.97)
-		(end 278.13 64.77)
+		(start 215.9 13.97)
+		(end 275.59 64.77)
 		(stroke
 			(width 0)
 			(type default)
@@ -3037,7 +3027,6 @@
 	)
 	(label "5V"
 		(at 195.58 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3049,7 +3038,6 @@
 	(hierarchical_label "VBUS_EN"
 		(shape input)
 		(at 73.66 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3061,7 +3049,6 @@
 	(hierarchical_label "3.3V"
 		(shape output)
 		(at 201.93 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3070,10 +3057,9 @@
 		)
 		(uuid "2795dc43-d13c-4357-8fab-fb9b0d46518b")
 	)
-	(hierarchical_label "VBUS"
+	(hierarchical_label "12V-VBUS"
 		(shape input)
-		(at 24.13 39.37 180)
-		(fields_autoplaced yes)
+		(at 29.21 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3082,10 +3068,9 @@
 		)
 		(uuid "45d82399-78e1-43ee-ae36-90264123b3d2")
 	)
-	(hierarchical_label "VBUS"
+	(hierarchical_label "12V-VBUS"
 		(shape input)
-		(at 226.06 27.94 180)
-		(fields_autoplaced yes)
+		(at 228.6 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3097,7 +3082,6 @@
 	(hierarchical_label "5V"
 		(shape output)
 		(at 199.39 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3109,7 +3093,6 @@
 	(hierarchical_label "CC2"
 		(shape input)
 		(at 224.79 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3121,7 +3104,6 @@
 	(hierarchical_label "CC1"
 		(shape input)
 		(at 224.79 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3130,10 +3112,9 @@
 		)
 		(uuid "a66122f8-cce8-4acb-b999-e32b795b3c94")
 	)
-	(hierarchical_label "VBUS"
+	(hierarchical_label "12V-VBUS"
 		(shape input)
-		(at 25.4 88.9 180)
-		(fields_autoplaced yes)
+		(at 29.21 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3145,7 +3126,6 @@
 	(hierarchical_label "5V_VBUS"
 		(shape output)
 		(at 119.38 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
