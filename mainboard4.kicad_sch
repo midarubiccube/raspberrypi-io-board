@@ -2898,6 +2898,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 160.02) (xy 149.86 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85729ab1-5b9c-4128-b690-abbae0281fbe")
+	)
+	(wire
+		(pts
 			(xy 154.94 110.49) (xy 154.94 143.51)
 		)
 		(stroke
@@ -3158,7 +3168,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 153.67) (xy 161.29 153.67)
+			(xy 153.67 148.59) (xy 161.29 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3265,6 +3275,16 @@
 			(type default)
 		)
 		(uuid "cebf6f95-f25d-4473-b4dd-7c98e36ae787")
+	)
+	(wire
+		(pts
+			(xy 152.4 153.67) (xy 161.29 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8d719a-cf39-47f6-a40d-1fb9c401d427")
 	)
 	(wire
 		(pts
@@ -3487,6 +3507,16 @@
 		)
 		(uuid "0efad721-7a42-4ca7-9ccf-2db9a6eea5b0")
 	)
+	(label "nEXTRST"
+		(at 158.75 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28208871-dddb-4218-9b72-fd2ba7c46a62")
+	)
 	(label "VBUS"
 		(at 76.2 74.93 180)
 		(effects
@@ -3507,8 +3537,18 @@
 		)
 		(uuid "9b506934-7bd3-4c82-b3b3-bcccac23834d")
 	)
+	(label "nEXTRST"
+		(at 152.4 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "deb67113-1301-40b3-b9f9-5aea46c05372")
+	)
 	(label "VBUS"
-		(at 153.67 153.67 0)
+		(at 153.67 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5130,7 +5170,7 @@
 			(uuid "e7ca28d7-c8c7-47b0-a874-0da30a865e28")
 		)
 		(pin "VBUS" input
-			(at 161.29 153.67 180)
+			(at 161.29 148.59 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,6 +5178,16 @@
 				(justify left)
 			)
 			(uuid "88b2fa19-08f0-447b-bd0b-274ac74bb389")
+		)
+		(pin "RESET" input
+			(at 161.29 153.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c283cf62-b310-42af-8a5d-fb30e137eef2")
 		)
 		(instances
 			(project "mainboard4"

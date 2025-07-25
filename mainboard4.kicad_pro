@@ -676,6 +676,10 @@
       {
         "netclass": "90R",
         "pattern": "/MCU/USB_*"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/USB2Ethernet/USB*"
       }
     ]
   },
