@@ -680,6 +680,10 @@
       {
         "netclass": "90R",
         "pattern": "/USB2Ethernet/USB*"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/VBUS"
       }
     ]
   },
@@ -969,7 +973,7 @@
   "sheets": [
     [
       "dd07ab80-a59c-44f4-ac7d-849e21e1384e",
-      "Root"
+      "ルート"
     ],
     [
       "eab21d37-4422-449e-812a-90afc228ebcf",

@@ -3572,126 +3572,6 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -3800,12 +3680,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ffe9b62-d7e5-4a27-8b69-505d14c0cf9a")
-	)
-	(junction
-		(at 135.89 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26267154-a58a-4555-a7e0-05959318c933")
 	)
 	(junction
 		(at 80.01 128.27)
@@ -5259,6 +5133,7 @@
 	)
 	(label "CS"
 		(at 107.95 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5269,6 +5144,7 @@
 	)
 	(label "SATA_RXP"
 		(at 175.26 62.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5279,6 +5155,7 @@
 	)
 	(label "SATA_RXP"
 		(at 110.49 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5289,6 +5166,7 @@
 	)
 	(label "SCLK"
 		(at 120.65 153.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5299,6 +5177,7 @@
 	)
 	(label "AV3V3"
 		(at 15.24 175.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5309,6 +5188,7 @@
 	)
 	(label "SATA_RXN"
 		(at 107.95 68.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5319,6 +5199,7 @@
 	)
 	(label "AV1V2"
 		(at 148.59 97.79 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5329,6 +5210,7 @@
 	)
 	(label "AV3V3"
 		(at 87.63 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5339,6 +5221,7 @@
 	)
 	(label "SI"
 		(at 119.38 156.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5349,6 +5232,7 @@
 	)
 	(label "SI"
 		(at 105.41 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5359,6 +5243,7 @@
 	)
 	(label "SATA_TXN"
 		(at 102.87 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5369,6 +5254,7 @@
 	)
 	(label "AV3V3"
 		(at 73.66 110.49 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5379,6 +5265,7 @@
 	)
 	(label "SCLK"
 		(at 100.33 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5389,6 +5276,7 @@
 	)
 	(label "SATA_TXN"
 		(at 175.26 52.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5399,6 +5287,7 @@
 	)
 	(label "AV1V2"
 		(at 73.66 175.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5409,6 +5298,7 @@
 	)
 	(label "AV1V2"
 		(at 148.59 90.17 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5419,6 +5309,7 @@
 	)
 	(label "HDD_LED"
 		(at 113.03 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5429,6 +5320,7 @@
 	)
 	(label "AV3V3"
 		(at 60.96 73.66 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5439,6 +5331,7 @@
 	)
 	(label "AV3V3"
 		(at 77.47 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5449,6 +5342,7 @@
 	)
 	(label "AV1V2"
 		(at 113.03 71.12 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5459,6 +5353,7 @@
 	)
 	(label "AV3V3"
 		(at 110.49 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5469,6 +5364,7 @@
 	)
 	(label "SATA_RXN"
 		(at 175.26 57.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5479,6 +5375,7 @@
 	)
 	(label "HDD_LED"
 		(at 31.75 148.59 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5489,6 +5386,7 @@
 	)
 	(label "AV1V2"
 		(at 77.47 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5499,6 +5397,7 @@
 	)
 	(label "SO"
 		(at 119.38 158.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5509,6 +5408,7 @@
 	)
 	(label "AV3V3"
 		(at 87.63 156.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5519,6 +5419,7 @@
 	)
 	(label "AV1V2"
 		(at 105.41 71.12 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5529,6 +5430,7 @@
 	)
 	(label "SATA_TXP"
 		(at 175.26 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5539,6 +5441,7 @@
 	)
 	(label "SATA_TXP"
 		(at 100.33 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5549,6 +5452,7 @@
 	)
 	(label "AV3V3"
 		(at 158.75 115.57 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5559,6 +5463,7 @@
 	)
 	(label "AV1V2"
 		(at 102.87 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5569,6 +5474,7 @@
 	)
 	(label "AV3V3"
 		(at 105.41 148.59 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5579,6 +5485,7 @@
 	)
 	(label "AV1V2"
 		(at 49.53 105.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5589,6 +5496,7 @@
 	)
 	(label "SO"
 		(at 97.79 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5599,6 +5507,7 @@
 	)
 	(label "AV1V2"
 		(at 148.59 105.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5609,6 +5518,7 @@
 	)
 	(label "CS"
 		(at 91.44 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5619,6 +5529,7 @@
 	)
 	(label "AV1V2"
 		(at 118.11 137.16 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5630,6 +5541,7 @@
 	(hierarchical_label "SS_RX_P"
 		(shape output)
 		(at 132.08 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5638,9 +5550,22 @@
 		)
 		(uuid "11b40c91-5509-457b-8d17-4eeafa88aaff")
 	)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 67.31 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d257056-6e1b-4995-a411-96255e5f85a8")
+	)
 	(hierarchical_label "USB_DP"
 		(shape bidirectional)
 		(at 132.08 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5652,6 +5577,7 @@
 	(hierarchical_label "SS_RX_N"
 		(shape output)
 		(at 132.08 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5663,6 +5589,7 @@
 	(hierarchical_label "SS_TX_P"
 		(shape input)
 		(at 132.08 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5674,6 +5601,7 @@
 	(hierarchical_label "USB_DN"
 		(shape bidirectional)
 		(at 132.08 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5685,6 +5613,7 @@
 	(hierarchical_label "SS_TX_N"
 		(shape input)
 		(at 132.08 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5692,6 +5621,18 @@
 			(justify left)
 		)
 		(uuid "7b0805b9-1f78-4494-90da-358c6f9ec249")
+	)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 135.89 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "823d56dd-e4ee-4035-a5eb-7ac4ef340e2f")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5963,72 +5904,6 @@
 			(project ""
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 67.31 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a2e9cdf-f881-46ac-a108-af6fedf6fb0e")
-		(property "Reference" "#PWR0804"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 67.31 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 67.31 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74306967-d711-45b2-bffa-cf0fa1ead6c3")
-		)
-		(instances
-			(project "mainboard4"
-				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "#PWR0804")
 					(unit 1)
 				)
 			)
@@ -8389,72 +8264,6 @@
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 135.89 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92974fbe-3c8e-4d84-bd5f-0313df0b1ec7")
-		(property "Reference" "#PWR0805"
-			(at 135.89 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 135.89 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 135.89 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6aa6cbef-f653-436d-944a-d45359387fc7")
-		)
-		(instances
-			(project "mainboard4"
-				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "#PWR0805")
 					(unit 1)
 				)
 			)

@@ -3027,6 +3027,7 @@
 	)
 	(label "5V"
 		(at 195.58 36.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3038,6 +3039,7 @@
 	(hierarchical_label "VBUS_EN"
 		(shape input)
 		(at 73.66 149.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3049,6 +3051,7 @@
 	(hierarchical_label "3.3V"
 		(shape output)
 		(at 201.93 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3060,6 +3063,7 @@
 	(hierarchical_label "12V-VBUS"
 		(shape input)
 		(at 29.21 39.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3071,6 +3075,7 @@
 	(hierarchical_label "12V-VBUS"
 		(shape input)
 		(at 228.6 27.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3082,6 +3087,7 @@
 	(hierarchical_label "5V"
 		(shape output)
 		(at 199.39 36.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3093,6 +3099,7 @@
 	(hierarchical_label "CC2"
 		(shape input)
 		(at 224.79 44.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3104,6 +3111,7 @@
 	(hierarchical_label "CC1"
 		(shape input)
 		(at 224.79 41.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3115,6 +3123,7 @@
 	(hierarchical_label "12V-VBUS"
 		(shape input)
 		(at 29.21 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3126,6 +3135,7 @@
 	(hierarchical_label "5V_VBUS"
 		(shape output)
 		(at 119.38 144.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
