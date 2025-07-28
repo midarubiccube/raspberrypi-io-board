@@ -4978,7 +4978,7 @@
 			)
 			(uuid "bbfc9b45-9fbe-4bc6-b7d2-95803dd196e7")
 		)
-		(pin "PCIE_TX_P" input
+		(pin "PCIE_TX_N" input
 			(at 162.56 76.2 180)
 			(effects
 				(font
@@ -5008,7 +5008,7 @@
 			)
 			(uuid "f9447cc6-dc6a-4d1f-a3aa-a5415fa83f87")
 		)
-		(pin "PCIE_TX_N" input
+		(pin "PCIE_TX_P" input
 			(at 162.56 73.66 180)
 			(effects
 				(font
