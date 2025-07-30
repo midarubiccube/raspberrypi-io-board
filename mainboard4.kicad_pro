@@ -684,6 +684,10 @@
       {
         "netclass": "100R",
         "pattern": "/VBUS"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/USB2D*"
       }
     ]
   },
