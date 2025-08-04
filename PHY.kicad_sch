@@ -5543,7 +5543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bebb3681-2b8a-40ff-bb49-9ffe3c9ee3a1")
-		(property "Reference" "FB3"
+		(property "Reference" "FB2"
 			(at 124.206 68.072 0)
 			(effects
 				(font
@@ -5597,7 +5597,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/4fc6aed4-b6ec-46a7-b9d1-1f9060000df7"
-					(reference "FB3")
+					(reference "FB2")
 					(unit 1)
 				)
 			)

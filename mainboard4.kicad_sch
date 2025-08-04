@@ -3857,7 +3857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37afed3a-912d-4bce-bac5-5942a500009b")
-		(property "Reference" "C110"
+		(property "Reference" "C80"
 			(at 143.51 47.752 0)
 			(effects
 				(font
@@ -3909,7 +3909,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
-					(reference "C110")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -4122,7 +4122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8ac9b83-e5ef-4057-bac5-88cb9097c0cb")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 24.3078 172.085 0)
 			(effects
 				(font
@@ -4222,7 +4222,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -4483,7 +4483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3488b86-44e2-4ddd-a260-8c6068adfdcb")
-		(property "Reference" "C109"
+		(property "Reference" "C79"
 			(at 130.81 52.07 0)
 			(effects
 				(font
@@ -4535,7 +4535,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e"
-					(reference "C109")
+					(reference "C79")
 					(unit 1)
 				)
 			)

@@ -7668,7 +7668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d807cc9")
-		(property "Reference" "J10"
+		(property "Reference" "J11"
 			(at 224.79 58.42 0)
 			(effects
 				(font
@@ -7839,7 +7839,7 @@
 		(instances
 			(project "CM5IO"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5e5501ac-41c8-4cac-b3fc-c2c46c035d54"
-					(reference "J10")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -7860,7 +7860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005da83896")
-		(property "Reference" "C141"
+		(property "Reference" "C110"
 			(at 236.601 137.2616 0)
 			(effects
 				(font
@@ -7968,7 +7968,7 @@
 		(instances
 			(project "CM5IO"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5e5501ac-41c8-4cac-b3fc-c2c46c035d54"
-					(reference "C141")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -7989,7 +7989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005daa0732")
-		(property "Reference" "C136"
+		(property "Reference" "C109"
 			(at 203.581 137.2616 0)
 			(effects
 				(font
@@ -8097,7 +8097,7 @@
 		(instances
 			(project "CM5IO"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5e5501ac-41c8-4cac-b3fc-c2c46c035d54"
-					(reference "C136")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -8118,7 +8118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dad5ba8")
-		(property "Reference" "U20"
+		(property "Reference" "U18"
 			(at 219.71 127.889 0)
 			(effects
 				(font
@@ -8227,7 +8227,7 @@
 		(instances
 			(project "CM5IO"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5e5501ac-41c8-4cac-b3fc-c2c46c035d54"
-					(reference "U20")
+					(reference "U18")
 					(unit 1)
 				)
 			)

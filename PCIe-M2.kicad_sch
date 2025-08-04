@@ -3069,7 +3069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a66cf65-deb2-454e-a0fb-681ae95ee441")
-		(property "Reference" "C27"
+		(property "Reference" "C30"
 			(at 207.264 46.228 0)
 			(effects
 				(font
@@ -3121,7 +3121,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/0c30b420-9464-42a2-80c6-fb3967709830"
-					(reference "C27")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -3136,7 +3136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49cfd4a6-e2a1-4e07-9096-0f3542c131a8")
-		(property "Reference" "C31"
+		(property "Reference" "C27"
 			(at 221.361 151.2316 0)
 			(effects
 				(font
@@ -3244,7 +3244,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/0c30b420-9464-42a2-80c6-fb3967709830"
-					(reference "C31")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -3369,7 +3369,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56836d52-69f2-4a34-a83b-1de4e8d48e6d")
-		(property "Reference" "C29"
+		(property "Reference" "C33"
 			(at 174.498 50.038 0)
 			(effects
 				(font
@@ -3421,7 +3421,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/0c30b420-9464-42a2-80c6-fb3967709830"
-					(reference "C29")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -3502,7 +3502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d377242-4a42-4b9d-a1b4-507b2b301cc6")
-		(property "Reference" "C26"
+		(property "Reference" "C31"
 			(at 195.58 39.624 0)
 			(effects
 				(font
@@ -3554,7 +3554,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/0c30b420-9464-42a2-80c6-fb3967709830"
-					(reference "C26")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -3569,7 +3569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fc5c49e-5d2b-4486-96e9-f2c546bebd34")
-		(property "Reference" "C28"
+		(property "Reference" "C32"
 			(at 187.96 43.942 0)
 			(effects
 				(font
@@ -3621,7 +3621,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/0c30b420-9464-42a2-80c6-fb3967709830"
-					(reference "C28")
+					(reference "C32")
 					(unit 1)
 				)
 			)

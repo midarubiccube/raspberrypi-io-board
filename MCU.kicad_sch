@@ -8264,7 +8264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc63a7ca-7b0a-497a-beb2-0a8014823d25")
-		(property "Reference" "FB2"
+		(property "Reference" "FB1"
 			(at 41.91 40.5891 0)
 			(effects
 				(font
@@ -8318,7 +8318,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/70d148b4-b67b-41b1-be01-2eb00acb8ec3"
-					(reference "FB2")
+					(reference "FB1")
 					(unit 1)
 				)
 			)

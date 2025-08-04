@@ -3778,16 +3778,10 @@
 		(uuid "7ece3c3b-ebb6-4499-ae5e-bde7c8db6c44")
 	)
 	(junction
-		(at 46.99 182.88)
+		(at 35.56 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8063810f-4590-4e0c-992b-710572f09103")
-	)
-	(junction
-		(at 35.56 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b0a3bb0-3364-4082-9a71-380beb891acf")
 	)
 	(junction
 		(at 121.92 175.26)
@@ -3796,13 +3790,7 @@
 		(uuid "93bc7f12-ab39-4437-9b92-109c820cd107")
 	)
 	(junction
-		(at 35.56 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3636e89-c018-426c-aacf-ac76524a858e")
-	)
-	(junction
-		(at 46.99 175.26)
+		(at 35.56 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4a57620-5935-499f-86ff-2cd1446bedd4")
@@ -3886,7 +3874,7 @@
 		(uuid "eda3f111-3ecb-460a-b6ba-e77be648136c")
 	)
 	(junction
-		(at 58.42 182.88)
+		(at 46.99 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f611b00a-b5b1-40d2-8458-04177ed42510")
@@ -4333,7 +4321,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 175.26) (xy 58.42 175.26)
+			(xy 35.56 175.26) (xy 46.99 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4553,16 +4541,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 182.88) (xy 35.56 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a17ba31-d08b-4f3f-be6e-8019a8610d9d")
-	)
-	(wire
-		(pts
 			(xy 264.16 36.83) (xy 271.78 36.83)
 		)
 		(stroke
@@ -4693,7 +4671,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 182.88) (xy 46.99 182.88)
+			(xy 21.59 182.88) (xy 35.56 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4790,16 +4768,6 @@
 			(type default)
 		)
 		(uuid "b41ba810-aefd-4df2-9007-63333932470b")
-	)
-	(wire
-		(pts
-			(xy 35.56 175.26) (xy 46.99 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5628148-97d4-4dfd-bfbe-b0ce4115119b")
 	)
 	(wire
 		(pts
@@ -5123,7 +5091,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 182.88) (xy 58.42 182.88)
+			(xy 35.56 182.88) (xy 46.99 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5599,7 +5567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0911b4c4-0c01-4caf-90a4-3281c84acd98")
-		(property "Reference" "C71"
+		(property "Reference" "C89"
 			(at 152.4 118.1099 0)
 			(effects
 				(font
@@ -5653,7 +5621,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C71")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -5668,7 +5636,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13f532c1-75c9-4ce2-aa06-ba95811e322c")
-		(property "Reference" "C91"
+		(property "Reference" "C77"
 			(at 88.9 177.8 0)
 			(effects
 				(font
@@ -5722,77 +5690,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 35.56 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15b17786-928a-425a-a7aa-921f64fb0588")
-		(property "Reference" "C101"
-			(at 39.37 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 39.37 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 36.5252 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 35.56 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4788cbf0-4838-4aa4-ac5a-849d56faf615")
-		)
-		(pin "2"
-			(uuid "06d7dd1f-1f57-4bef-80ae-bb03844abef2")
-		)
-		(instances
-			(project "mainboard4"
-				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C101")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -5874,7 +5772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20bf8533-b2a9-4542-b7fe-dc8204ae99f5")
-		(property "Reference" "C76"
+		(property "Reference" "C95"
 			(at 139.7 130.8099 0)
 			(effects
 				(font
@@ -5928,7 +5826,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C76")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -5944,7 +5842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25fe0f83-de87-42ec-977f-95035aad2b9f")
-		(property "Reference" "C77"
+		(property "Reference" "C96"
 			(at 125.73 177.7999 0)
 			(effects
 				(font
@@ -5998,7 +5896,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C77")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -6006,7 +5904,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 58.42 179.07 0)
+		(at 46.99 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6014,8 +5912,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26eb15bf-aca7-4a2d-9bbb-4665f7bb523a")
-		(property "Reference" "C92"
-			(at 62.23 177.7999 0)
+		(property "Reference" "C75"
+			(at 50.8 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,7 +5922,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 62.23 180.3399 0)
+			(at 50.8 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,7 +5931,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 59.3852 182.88 0)
+			(at 47.9552 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6042,7 +5940,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 179.07 0)
+			(at 46.99 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,7 +5949,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 58.42 179.07 0)
+			(at 46.99 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +5966,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C92")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -6281,7 +6179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3435a591-5318-49c1-8508-1fe3a9e85a09")
-		(property "Reference" "C78"
+		(property "Reference" "C70"
 			(at 149.86 177.7999 0)
 			(effects
 				(font
@@ -6335,7 +6233,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C78")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -6418,7 +6316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b6231e1-063d-4149-9701-1a7dab6506f4")
-		(property "Reference" "C103"
+		(property "Reference" "C88"
 			(at 53.34 109.2199 0)
 			(effects
 				(font
@@ -6472,7 +6370,7 @@
 		(instances
 			(project ""
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C103")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -6562,7 +6460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a66ece-5a5b-4de2-82c0-354297731eb3")
-		(property "Reference" "C90"
+		(property "Reference" "C72"
 			(at 64.77 92.7099 0)
 			(effects
 				(font
@@ -6616,7 +6514,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C90")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -6632,7 +6530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4afc9737-57da-41e8-93fa-26d0521dc588")
-		(property "Reference" "C70"
+		(property "Reference" "C73"
 			(at 138.43 177.7999 0)
 			(effects
 				(font
@@ -6686,7 +6584,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C70")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -6702,7 +6600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ec03c74-afd3-453d-afc0-de16c539094c")
-		(property "Reference" "C68"
+		(property "Reference" "C81"
 			(at 77.47 177.7999 0)
 			(effects
 				(font
@@ -6756,7 +6654,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C68")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -6764,7 +6662,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 46.99 179.07 0)
+		(at 35.56 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6772,8 +6670,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5405c2c8-2233-40f7-95ea-9a92879d02ed")
-		(property "Reference" "C89"
-			(at 50.8 177.7999 0)
+		(property "Reference" "C91"
+			(at 39.37 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6782,7 +6680,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 50.8 180.3399 0)
+			(at 39.37 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6791,7 +6689,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 47.9552 182.88 0)
+			(at 36.5252 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6800,7 +6698,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 179.07 0)
+			(at 35.56 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6809,7 +6707,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 46.99 179.07 0)
+			(at 35.56 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6826,7 +6724,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C89")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -7106,7 +7004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f6bc941-58b9-4bfa-9fe5-34ceedd0504b")
-		(property "Reference" "C72"
+		(property "Reference" "C71"
 			(at 126.746 69.596 0)
 			(effects
 				(font
@@ -7160,7 +7058,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C72")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -7175,7 +7073,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "630c0cb2-eb10-454c-8f70-49f2edf4dd6f")
-		(property "Reference" "C69"
+		(property "Reference" "C78"
 			(at 161.29 177.7999 0)
 			(effects
 				(font
@@ -7229,7 +7127,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C69")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -7891,7 +7789,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 182.88 0)
+		(at 46.99 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7900,7 +7798,7 @@
 		(fields_autoplaced yes)
 		(uuid "812b7133-56e5-453e-9b57-689947720359")
 		(property "Reference" "#PWR066"
-			(at 58.42 189.23 0)
+			(at 46.99 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7909,7 +7807,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 187.96 0)
+			(at 46.99 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7917,7 +7815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 182.88 0)
+			(at 46.99 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,7 +7824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 182.88 0)
+			(at 46.99 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,7 +7833,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 182.88 0)
+			(at 46.99 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8031,7 +7929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87001225-1951-477b-8732-abdb5f5b58e4")
-		(property "Reference" "R51"
+		(property "Reference" "R50"
 			(at 85.09 68.58 90)
 			(effects
 				(font
@@ -8083,7 +7981,7 @@
 		(instances
 			(project ""
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "R51")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -8099,7 +7997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87384645-6081-43b9-bd4c-a958268b83a8")
-		(property "Reference" "C80"
+		(property "Reference" "C69"
 			(at 102.87 177.7999 0)
 			(effects
 				(font
@@ -8153,7 +8051,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C80")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -8969,7 +8867,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c99248fd-74b0-4908-9d79-b617800a04bd")
-		(property "Reference" "C79"
+		(property "Reference" "C97"
 			(at 25.4 177.8 0)
 			(effects
 				(font
@@ -9023,7 +8921,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C79")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -9105,7 +9003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d128c17a-3415-49dc-b49d-d63489d1526f")
-		(property "Reference" "C75"
+		(property "Reference" "C68"
 			(at 150.368 70.358 0)
 			(effects
 				(font
@@ -9159,7 +9057,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C75")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -9374,7 +9272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee658d75-0ef2-4c76-a898-f7c9a4daa571")
-		(property "Reference" "C93"
+		(property "Reference" "C90"
 			(at 59.69 114.808 0)
 			(effects
 				(font
@@ -9428,7 +9326,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C93")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -9848,7 +9746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8da5fca-9f2a-4286-ae02-016b05594784")
-		(property "Reference" "C81"
+		(property "Reference" "C94"
 			(at 114.3 177.7999 0)
 			(effects
 				(font
@@ -9902,7 +9800,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "C81")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -9984,7 +9882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff2be168-98ea-4069-a800-b888c9c6d0ea")
-		(property "Reference" "R58"
+		(property "Reference" "R51"
 			(at 63.5 85.0899 0)
 			(effects
 				(font
@@ -10038,7 +9936,7 @@
 		(instances
 			(project "mainboard4"
 				(path "/dd07ab80-a59c-44f4-ac7d-849e21e1384e/5db2a135-33ff-4812-ab9d-2394338dfef8"
-					(reference "R58")
+					(reference "R51")
 					(unit 1)
 				)
 			)
