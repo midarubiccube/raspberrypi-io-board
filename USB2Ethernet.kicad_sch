@@ -3112,6 +3112,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 113.03) (xy 271.78 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0322c24b-282c-4fd7-93d8-63f6f4357338")
+	)
+	(wire
+		(pts
 			(xy 44.45 127) (xy 49.53 127)
 		)
 		(stroke
@@ -4102,7 +4112,6 @@
 	)
 	(label "SI"
 		(at 113.03 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4113,7 +4122,6 @@
 	)
 	(label "1.8V"
 		(at 92.71 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4124,7 +4132,6 @@
 	)
 	(label "USB5DN"
 		(at 259.08 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4135,7 +4142,6 @@
 	)
 	(label "USB4DN"
 		(at 259.08 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4146,7 +4152,6 @@
 	)
 	(label "USB4DP"
 		(at 184.15 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4157,7 +4162,6 @@
 	)
 	(label "USB5DP"
 		(at 184.15 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4168,7 +4172,6 @@
 	)
 	(label "SO"
 		(at 68.58 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4179,7 +4182,6 @@
 	)
 	(label "VDDA"
 		(at 87.63 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4190,7 +4192,6 @@
 	)
 	(label "CS"
 		(at 36.83 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4201,7 +4202,6 @@
 	)
 	(label "SCLK"
 		(at 69.85 21.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4212,7 +4212,6 @@
 	)
 	(label "USB5DN"
 		(at 184.15 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4223,7 +4222,6 @@
 	)
 	(label "CS"
 		(at 113.03 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4234,7 +4232,6 @@
 	)
 	(label "USB4DN"
 		(at 184.15 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4245,7 +4242,6 @@
 	)
 	(label "VDDA"
 		(at 101.6 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4256,7 +4252,6 @@
 	)
 	(label "USB4DP"
 		(at 259.08 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4267,7 +4262,6 @@
 	)
 	(label "VDDIO"
 		(at 82.55 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4278,7 +4272,6 @@
 	)
 	(label "SCLK"
 		(at 114.3 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4289,7 +4282,6 @@
 	)
 	(label "1.8V"
 		(at 88.9 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4300,7 +4292,6 @@
 	)
 	(label "SI"
 		(at 68.58 24.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4311,7 +4302,6 @@
 	)
 	(label "SO"
 		(at 113.03 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4322,7 +4312,6 @@
 	)
 	(label "VDDA"
 		(at 193.04 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4333,7 +4322,6 @@
 	)
 	(label "VDDIO"
 		(at 90.17 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4344,7 +4332,6 @@
 	)
 	(label "USB5DP"
 		(at 259.08 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4356,7 +4343,6 @@
 	(hierarchical_label "USB1DP"
 		(shape bidirectional)
 		(at 175.26 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4368,7 +4354,6 @@
 	(hierarchical_label "USB2DP"
 		(shape bidirectional)
 		(at 175.26 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4380,7 +4365,6 @@
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 259.08 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4392,7 +4376,6 @@
 	(hierarchical_label "TXN"
 		(shape output)
 		(at 226.06 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4404,7 +4387,6 @@
 	(hierarchical_label "RXN"
 		(shape input)
 		(at 226.06 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4416,7 +4398,6 @@
 	(hierarchical_label "USB2DM"
 		(shape bidirectional)
 		(at 175.26 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4428,7 +4409,6 @@
 	(hierarchical_label "USB1DM"
 		(shape bidirectional)
 		(at 175.26 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4440,7 +4420,6 @@
 	(hierarchical_label "RXP"
 		(shape input)
 		(at 226.06 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4452,7 +4431,6 @@
 	(hierarchical_label "RESET"
 		(shape input)
 		(at 73.66 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4464,7 +4442,6 @@
 	(hierarchical_label "TXP"
 		(shape output)
 		(at 226.06 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4476,7 +4453,6 @@
 	(hierarchical_label "USBDP"
 		(shape input)
 		(at 144.78 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4488,7 +4464,6 @@
 	(hierarchical_label "USBDM"
 		(shape input)
 		(at 144.78 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

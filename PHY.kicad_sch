@@ -3193,7 +3193,6 @@
 	(hierarchical_label "RXN"
 		(shape input)
 		(at 78.74 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3205,7 +3204,6 @@
 	(hierarchical_label "CRSDV"
 		(shape output)
 		(at 217.17 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3217,7 +3215,6 @@
 	(hierarchical_label "TXP"
 		(shape output)
 		(at 78.74 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3229,7 +3226,6 @@
 	(hierarchical_label "RXP"
 		(shape input)
 		(at 78.74 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3241,7 +3237,6 @@
 	(hierarchical_label "REFCLK"
 		(shape output)
 		(at 217.17 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3253,7 +3248,6 @@
 	(hierarchical_label "TXD0"
 		(shape input)
 		(at 217.17 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3265,7 +3259,6 @@
 	(hierarchical_label "RXD1"
 		(shape output)
 		(at 217.17 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3277,7 +3270,6 @@
 	(hierarchical_label "TXD1"
 		(shape input)
 		(at 217.17 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3289,7 +3281,6 @@
 	(hierarchical_label "MDC"
 		(shape input)
 		(at 217.17 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3301,7 +3292,6 @@
 	(hierarchical_label "~{RESET}"
 		(shape input)
 		(at 217.17 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3313,7 +3303,6 @@
 	(hierarchical_label "RXD0"
 		(shape output)
 		(at 217.17 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3325,7 +3314,6 @@
 	(hierarchical_label "TXEN"
 		(shape input)
 		(at 217.17 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3337,7 +3325,6 @@
 	(hierarchical_label "MDIO"
 		(shape bidirectional)
 		(at 217.17 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3349,7 +3336,6 @@
 	(hierarchical_label "TXN"
 		(shape output)
 		(at 78.74 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
