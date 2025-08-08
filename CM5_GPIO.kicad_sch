@@ -11017,7 +11017,6 @@
 	)
 	(label "TRD0_P"
 		(at 209.55 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11028,7 +11027,6 @@
 	)
 	(label "SD_DAT2"
 		(at 114.3 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11039,7 +11037,6 @@
 	)
 	(label "GPIO5"
 		(at 24.13 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11050,7 +11047,6 @@
 	)
 	(label "TRD3_N"
 		(at 113.03 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11061,7 +11057,6 @@
 	)
 	(label "GPIO2"
 		(at 24.13 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11072,7 +11067,6 @@
 	)
 	(label "GPIO9"
 		(at 24.13 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11083,7 +11077,6 @@
 	)
 	(label "GPIO6"
 		(at 231.14 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11094,7 +11087,6 @@
 	)
 	(label "+3.3v"
 		(at 25.4 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11105,7 +11097,6 @@
 	)
 	(label "ETH_LEDG"
 		(at 104.14 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11116,7 +11107,6 @@
 	)
 	(label "SD_DAT1"
 		(at 114.3 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11127,7 +11117,6 @@
 	)
 	(label "GPIO10"
 		(at 24.13 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11138,7 +11127,6 @@
 	)
 	(label "TRD3_P"
 		(at 113.03 24.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11149,7 +11137,6 @@
 	)
 	(label "GPIO6"
 		(at 24.13 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11160,7 +11147,6 @@
 	)
 	(label "GPIO20"
 		(at 114.3 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11171,7 +11157,6 @@
 	)
 	(label "SD_DAT2"
 		(at 152.4 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11182,7 +11167,6 @@
 	)
 	(label "GPIO25"
 		(at 114.3 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11193,7 +11177,6 @@
 	)
 	(label "GPIO23"
 		(at 259.08 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11204,7 +11187,6 @@
 	)
 	(label "GPIO12"
 		(at 259.08 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11215,7 +11197,6 @@
 	)
 	(label "SD_DAT0"
 		(at 114.3 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11226,7 +11207,6 @@
 	)
 	(label "TRD2_P"
 		(at 209.55 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11237,7 +11217,6 @@
 	)
 	(label "GPIO15"
 		(at 114.3 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11248,7 +11227,6 @@
 	)
 	(label "GPIO13"
 		(at 24.13 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11259,7 +11237,6 @@
 	)
 	(label "GPIO7"
 		(at 114.3 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11270,7 +11247,6 @@
 	)
 	(label "GPIO14"
 		(at 114.3 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11281,7 +11257,6 @@
 	)
 	(label "BT_nDis"
 		(at 113.03 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11292,7 +11267,6 @@
 	)
 	(label "SD_PWR_ON"
 		(at 189.865 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11303,7 +11277,6 @@
 	)
 	(label "GPIO7"
 		(at 257.81 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11314,7 +11287,6 @@
 	)
 	(label "ETH_LEDY"
 		(at 104.14 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11325,7 +11297,6 @@
 	)
 	(label "SD_PWR_ON"
 		(at 114.3 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11336,7 +11307,6 @@
 	)
 	(label "PWM"
 		(at 109.22 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11347,7 +11317,6 @@
 	)
 	(label "GPIO4"
 		(at 24.13 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11358,7 +11327,6 @@
 	)
 	(label "ID_SD"
 		(at 231.14 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11369,7 +11337,6 @@
 	)
 	(label "TRD1_P"
 		(at 24.13 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11380,7 +11347,6 @@
 	)
 	(label "WL_nDis"
 		(at 147.32 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11391,7 +11357,6 @@
 	)
 	(label "CC1"
 		(at 25.4 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11402,7 +11367,6 @@
 	)
 	(label "WL_nDis"
 		(at 113.03 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11413,7 +11377,6 @@
 	)
 	(label "TRD3_P"
 		(at 209.55 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11424,7 +11387,6 @@
 	)
 	(label "GPIO16"
 		(at 259.08 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11435,7 +11397,6 @@
 	)
 	(label "GPIO15"
 		(at 259.08 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11446,7 +11407,6 @@
 	)
 	(label "ETH_LEDY"
 		(at 212.09 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11457,7 +11417,6 @@
 	)
 	(label "SD_DAT3"
 		(at 114.3 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11468,7 +11427,6 @@
 	)
 	(label "GPIO27"
 		(at 24.13 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11479,7 +11437,6 @@
 	)
 	(label "EEPROM_nWP"
 		(at 24.13 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11490,7 +11447,6 @@
 	)
 	(label "GPIO4"
 		(at 231.14 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11501,7 +11457,6 @@
 	)
 	(label "SD_PWR"
 		(at 139.7 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11512,7 +11467,6 @@
 	)
 	(label "GPIO21"
 		(at 259.08 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11523,7 +11477,6 @@
 	)
 	(label "SD_DAT0"
 		(at 152.4 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11534,7 +11487,6 @@
 	)
 	(label "CAM_GPIO1"
 		(at 25.4 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11545,7 +11497,6 @@
 	)
 	(label "GPIO21"
 		(at 114.3 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11556,7 +11507,6 @@
 	)
 	(label "GPIO23"
 		(at 114.3 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11567,7 +11517,6 @@
 	)
 	(label "GPIO26"
 		(at 232.41 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11578,7 +11527,6 @@
 	)
 	(label "ETH_LEDG"
 		(at 212.09 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11589,7 +11537,6 @@
 	)
 	(label "TRD0_N"
 		(at 24.13 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11600,7 +11547,6 @@
 	)
 	(label "ID_SC"
 		(at 257.81 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11611,7 +11557,6 @@
 	)
 	(label "TRD1_N"
 		(at 209.55 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11622,7 +11567,6 @@
 	)
 	(label "TRD2_N"
 		(at 209.55 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11633,7 +11577,6 @@
 	)
 	(label "+1.8v"
 		(at 25.4 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11644,7 +11587,6 @@
 	)
 	(label "PWR_BUT"
 		(at 30.48 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11655,7 +11597,6 @@
 	)
 	(label "SD_DAT3"
 		(at 152.4 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11666,7 +11607,6 @@
 	)
 	(label "GPIO24"
 		(at 259.08 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11677,7 +11617,6 @@
 	)
 	(label "GPIO22"
 		(at 232.41 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11688,7 +11627,6 @@
 	)
 	(label "GPIO10"
 		(at 232.41 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11699,7 +11637,6 @@
 	)
 	(label "SD_CLK"
 		(at 114.3 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11710,7 +11647,6 @@
 	)
 	(label "GPIO16"
 		(at 114.3 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11721,7 +11657,6 @@
 	)
 	(label "GPIO12"
 		(at 114.3 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11732,7 +11667,6 @@
 	)
 	(label "GPIO8"
 		(at 257.81 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11743,7 +11677,6 @@
 	)
 	(label "GPIO5"
 		(at 231.14 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11754,7 +11687,6 @@
 	)
 	(label "+3.3v"
 		(at 25.4 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11765,7 +11697,6 @@
 	)
 	(label "SD_CMD"
 		(at 152.4 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11776,7 +11707,6 @@
 	)
 	(label "TRD0_N"
 		(at 209.55 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11787,7 +11717,6 @@
 	)
 	(label "PWM"
 		(at 79.375 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11798,7 +11727,6 @@
 	)
 	(label "GPIO18"
 		(at 259.08 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11809,7 +11737,6 @@
 	)
 	(label "GPIO8"
 		(at 114.3 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11820,7 +11747,6 @@
 	)
 	(label "GPIO17"
 		(at 24.13 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11831,7 +11757,6 @@
 	)
 	(label "GPIO13"
 		(at 232.41 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11842,7 +11767,6 @@
 	)
 	(label "SYNC_OUT"
 		(at 24.13 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11853,7 +11777,6 @@
 	)
 	(label "nPWR_LED"
 		(at 138.43 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11864,7 +11787,6 @@
 	)
 	(label "SD_PWR"
 		(at 163.83 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11875,7 +11797,6 @@
 	)
 	(label "SD_DAT1"
 		(at 152.4 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11886,7 +11807,6 @@
 	)
 	(label "GPIO18"
 		(at 114.3 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11897,7 +11817,6 @@
 	)
 	(label "TRD2_N"
 		(at 113.03 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11908,7 +11827,6 @@
 	)
 	(label "nPWR_LED"
 		(at 113.03 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11919,7 +11837,6 @@
 	)
 	(label "TRD0_P"
 		(at 24.13 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11930,7 +11847,6 @@
 	)
 	(label "GPIO20"
 		(at 259.08 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11941,7 +11857,6 @@
 	)
 	(label "GPIO11"
 		(at 232.41 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11952,7 +11867,6 @@
 	)
 	(label "GPIO9"
 		(at 231.14 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11963,7 +11877,6 @@
 	)
 	(label "GPIO27"
 		(at 232.41 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11974,7 +11887,6 @@
 	)
 	(label "GPIO26"
 		(at 24.13 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11985,7 +11897,6 @@
 	)
 	(label "TACHO"
 		(at 79.375 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11996,7 +11907,6 @@
 	)
 	(label "GPIO17"
 		(at 232.41 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12007,7 +11917,6 @@
 	)
 	(label "+3.3v"
 		(at 232.41 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12018,7 +11927,6 @@
 	)
 	(label "nRPIBOOT"
 		(at 148.336 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12029,7 +11937,6 @@
 	)
 	(label "GPIO3"
 		(at 231.14 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12040,7 +11947,6 @@
 	)
 	(label "GPIO19"
 		(at 232.41 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12051,7 +11957,6 @@
 	)
 	(label "PWR_BUT"
 		(at 25.4 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12062,7 +11967,6 @@
 	)
 	(label "nRPIBOOT"
 		(at 113.03 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12073,7 +11977,6 @@
 	)
 	(label "GPIO11"
 		(at 24.13 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12084,7 +11987,6 @@
 	)
 	(label "ID_SD"
 		(at 24.13 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12095,7 +11997,6 @@
 	)
 	(label "GPIO2"
 		(at 231.14 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12106,7 +12007,6 @@
 	)
 	(label "TRD1_N"
 		(at 24.13 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12117,7 +12017,6 @@
 	)
 	(label "GPIO24"
 		(at 114.3 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12128,7 +12027,6 @@
 	)
 	(label "BT_nDis"
 		(at 147.32 180.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12139,7 +12037,6 @@
 	)
 	(label "VBAT"
 		(at 25.4 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12150,7 +12047,6 @@
 	)
 	(label "TRD3_N"
 		(at 209.55 130.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12161,7 +12057,6 @@
 	)
 	(label "ID_SC"
 		(at 114.3 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12172,7 +12067,6 @@
 	)
 	(label "CC2"
 		(at 25.4 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12183,7 +12077,6 @@
 	)
 	(label "TACHO"
 		(at 24.13 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12194,7 +12087,6 @@
 	)
 	(label "+5v"
 		(at 114.3 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12205,7 +12097,6 @@
 	)
 	(label "SD_CMD"
 		(at 24.13 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12216,7 +12107,6 @@
 	)
 	(label "TRD1_P"
 		(at 209.55 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12227,7 +12117,6 @@
 	)
 	(label "PMIC_ENABLE"
 		(at 113.03 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12238,7 +12127,6 @@
 	)
 	(label "GPIO25"
 		(at 259.08 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12249,7 +12137,6 @@
 	)
 	(label "TRD2_P"
 		(at 113.03 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12260,7 +12147,6 @@
 	)
 	(label "EEPROM_nWP"
 		(at 151.638 175.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12271,7 +12157,6 @@
 	)
 	(label "+5v"
 		(at 254 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12282,7 +12167,6 @@
 	)
 	(label "VBAT"
 		(at 67.31 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12293,7 +12177,6 @@
 	)
 	(label "GPIO19"
 		(at 24.13 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12304,7 +12187,6 @@
 	)
 	(label "SD_CLK"
 		(at 152.4 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12315,7 +12197,6 @@
 	)
 	(label "GPIO14"
 		(at 259.08 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12326,7 +12207,6 @@
 	)
 	(label "GPIO22"
 		(at 24.13 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12337,7 +12217,6 @@
 	)
 	(label "GPIO3"
 		(at 24.13 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12349,7 +12228,6 @@
 	(hierarchical_label "SDA0"
 		(shape output)
 		(at 25.4 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12361,7 +12239,6 @@
 	(hierarchical_label "SCL0"
 		(shape output)
 		(at 25.4 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12373,7 +12250,6 @@
 	(hierarchical_label "+5v"
 		(shape input)
 		(at 78.74 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12385,7 +12261,6 @@
 	(hierarchical_label "CAM_GPIO0"
 		(shape output)
 		(at 113.03 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12397,7 +12272,6 @@
 	(hierarchical_label "RESET"
 		(shape output)
 		(at 25.4 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
