@@ -1748,6 +1748,7 @@
 	)
 	(label "CANH"
 		(at 190.5 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1758,6 +1759,7 @@
 	)
 	(label "CANH"
 		(at 167.64 127 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1768,6 +1770,7 @@
 	)
 	(label "CANH"
 		(at 119.38 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1778,6 +1781,7 @@
 	)
 	(label "CANL"
 		(at 190.5 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1788,6 +1792,7 @@
 	)
 	(label "CANL"
 		(at 175.26 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1798,6 +1803,7 @@
 	)
 	(label "CANL"
 		(at 119.38 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1809,6 +1815,7 @@
 	(hierarchical_label "CANRX"
 		(shape output)
 		(at 142.24 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1820,6 +1827,7 @@
 	(hierarchical_label "CANTX"
 		(shape input)
 		(at 142.24 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

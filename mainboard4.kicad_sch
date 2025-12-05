@@ -3409,6 +3409,7 @@
 	)
 	(label "VBUS"
 		(at 90.17 25.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3419,6 +3420,7 @@
 	)
 	(label "VBUS"
 		(at 88.9 156.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3429,6 +3431,7 @@
 	)
 	(label "nEXTRST"
 		(at 158.75 160.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3439,6 +3442,7 @@
 	)
 	(label "USB2DP"
 		(at 195.58 158.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3449,6 +3453,7 @@
 	)
 	(label "USB2DN"
 		(at 78.74 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3459,6 +3464,7 @@
 	)
 	(label "USB2DP"
 		(at 78.74 45.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3469,6 +3475,7 @@
 	)
 	(label "VBUS"
 		(at 76.2 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3479,6 +3486,7 @@
 	)
 	(label "USB2DN"
 		(at 195.58 161.29 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3489,6 +3497,7 @@
 	)
 	(label "VBUS"
 		(at 77.47 40.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3499,6 +3508,7 @@
 	)
 	(label "nEXTRST"
 		(at 152.4 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3509,6 +3519,7 @@
 	)
 	(label "VBUS"
 		(at 153.67 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
