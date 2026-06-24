@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 4.699,
-          "width": 4.699
+          "drill": 2.7,
+          "height": 4.0,
+          "width": 4.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -69,7 +69,7 @@
         "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
-        "diff_pair_gap_out_of_range": "ignore",
+        "diff_pair_gap_out_of_range": "warning",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
@@ -118,7 +118,7 @@
         "max_error": 0.005,
         "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
@@ -131,7 +131,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -478,10 +478,10 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.125,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.13,
+        "diff_pair_width": 0.141,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -496,47 +496,13 @@
       {
         "bus_width": 12,
         "clearance": 0.13,
-        "diff_pair_gap": 0.2,
+        "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1232,
+        "diff_pair_width": 0.108,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "100R",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1232,
-        "via_diameter": 0.5,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.13,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.178,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "50R",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1565,
-        "via_diameter": 0.5,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.13,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.13,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "75R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
@@ -547,16 +513,16 @@
       {
         "bus_width": 12,
         "clearance": 0.13,
-        "diff_pair_gap": 0.2,
+        "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1575,
+        "diff_pair_width": 0.141,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "90R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1575,
+        "track_width": 0.14,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -564,16 +530,16 @@
       {
         "bus_width": 12,
         "clearance": 0.13,
-        "diff_pair_gap": 0.253,
+        "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.127,
+        "diff_pair_width": 0.141,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "HDMI",
+        "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.2,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -587,107 +553,83 @@
     "netclass_patterns": [
       {
         "netclass": "90R",
-        "pattern": "/CM5_HighSpeed/USB3*"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM5_HighSpeed/DPHY*"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM5_HighSpeed/HDMI*_D*"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM5_HighSpeed/HDMI*_CK*"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/CM5_GPIO/TR*_TAP"
-      },
-      {
-        "netclass": "100R",
-        "pattern": "/CM5_GPIO/TRD*"
+        "pattern": "*TXP"
       },
       {
         "netclass": "90R",
-        "pattern": "/CM5_HighSpeed/PCIE_*X_*"
+        "pattern": "*TXN"
       },
       {
         "netclass": "90R",
-        "pattern": "/CM5_HighSpeed/PCIE_*CLK_*"
+        "pattern": "*RXP"
       },
       {
         "netclass": "90R",
-        "pattern": "/CM5_HighSpeed/USB2*"
+        "pattern": "*RXN"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/CM5/USB*"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/USB/*D*"
       },
       {
         "netclass": "100R",
-        "pattern": "/USB2SATA/SATA_*"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB HUB/USB*"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/CM5_PCIe/USB_D*"
+        "pattern": "*CLKP"
       },
       {
         "netclass": "100R",
-        "pattern": "/Ethernet PHY/TXP"
+        "pattern": "*CLKN"
       },
       {
         "netclass": "100R",
-        "pattern": "/Ethernet PHY/TXN"
+        "pattern": "*CLKRN"
       },
       {
         "netclass": "100R",
-        "pattern": "/Ethernet PHY/RXP"
+        "pattern": "*CLKRP"
       },
       {
         "netclass": "100R",
-        "pattern": "/Ethernet PHY/RXN"
+        "pattern": "*TRD*"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM5/D*"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM5/CK*"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/NIC/MDI*"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "*CLKO*"
       },
       {
         "netclass": "90R",
-        "pattern": "/USB HUB/SS_*"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB2SATA/SS_*"
+        "pattern": "/MCU/MCU*"
       },
       {
         "netclass": "100R",
-        "pattern": "+3.3V"
+        "pattern": "*DSI*"
       },
       {
-        "netclass": "50R",
-        "pattern": "/Ethernet PHY/TXD*"
-      },
-      {
-        "netclass": "50R",
-        "pattern": "/Ethernet PHY/RXD*"
+        "netclass": "90R",
+        "pattern": "*TXC*"
       },
       {
         "netclass": "100R",
-        "pattern": "/CM5_GPIO/nPWR_LED"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/MCU/USB_*"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB2Ethernet/USB*"
+        "pattern": "*RC*"
       },
       {
         "netclass": "100R",
-        "pattern": "/VBUS"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "/USB2D*"
+        "pattern": "*TC*"
       }
     ]
   },
@@ -954,7 +896,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "meta": {
@@ -980,40 +922,44 @@
       "ルート"
     ],
     [
+      "5e5501ac-41c8-4cac-b3fc-c2c46c035d54",
+      "CM5"
+    ],
+    [
+      "92b565bf-b0e5-4fdf-876c-4b44381d5705",
+      "CM5_INTERFACE"
+    ],
+    [
       "eab21d37-4422-449e-812a-90afc228ebcf",
       "Power"
     ],
     [
-      "5e5501ac-41c8-4cac-b3fc-c2c46c035d54",
-      "CM5_HighSpeed"
+      "e501082d-7245-46f6-b7d6-67f5233c3621",
+      "PCIe_SW"
     ],
     [
-      "92b565bf-b0e5-4fdf-876c-4b44381d5705",
-      "CM5_GPIO"
+      "27ff28d5-affa-4429-933a-5554409aa3e0",
+      "USB"
     ],
     [
       "0c30b420-9464-42a2-80c6-fb3967709830",
-      "CM5_PCIe"
+      "WiFi_PCIe"
     ],
     [
-      "5db2a135-33ff-4812-ab9d-2394338dfef8",
-      "USB2SATA"
+      "ac8cc903-849d-44cf-a78a-99f0c0d8c143",
+      "NVME"
     ],
     [
-      "3546f414-4018-45c7-a00a-bf02d214bf7f",
-      "USB2Ethernet"
+      "775bce4f-4846-4d3b-aa4e-9e1f35678301",
+      "NIC"
     ],
     [
-      "4fc6aed4-b6ec-46a7-b9d1-1f9060000df7",
+      "a2adb579-0b59-479c-997b-c28b5ca0f60c",
       "Ethernet PHY"
     ],
     [
-      "70d148b4-b67b-41b1-be01-2eb00acb8ec3",
+      "4723e047-785e-4062-9f43-621ec6805d5c",
       "MCU"
-    ],
-    [
-      "96c222f9-4b91-4480-a910-25e2ecb9014a",
-      "IMU"
     ],
     [
       "6416bab4-efd4-4cc0-95d7-68f4e661b691",
